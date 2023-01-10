@@ -2,6 +2,7 @@
 #first-section {
     width: 1400px;
     height: 892px;
+    background-color: #FFFFFF;
 }
 .header {
     display: flex;
@@ -79,3 +80,77 @@
 .button-header h5 {
     margin-left: 40px;
 }
+.first-section-content {
+    display: flex;
+}
+.left-content {
+    padding-top: 225px;
+    padding-left: 100px;
+}
+.page-title h1 {
+    font-size: 57px;
+    font-family: Libre Baskerville;
+    font-weight: 400;
+    color: #343D33;
+    margin: 0;
+}
+.page-title h3 {
+    font-family: Roboto;
+    font-weight: 300;
+    color: #414840;
+    width: 390px;
+    padding-top: 15px;
+    margin: 0;
+}
+.buttons {
+    display: flex;
+    padding-top: 32px;
+}
+.button-style.first-button {
+    width: 190px;
+    height: 55px;
+    background-color: #475F45;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-style.first-button h5 {
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin: 0;
+}
+.button-style.second-button {
+    width: 190px;
+    height: 55px;
+    border-color: #475F45;
+    border-width: 2px;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-style.second-button h5 {
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 14px;
+    color: #475F45;
+    margin: 0;
+}
+.right-content {
+    margin-top: 65px;
+    margin-left: 195px;
+}
+.border-and-img {
+    display: flex;
+}
+.img-in-border {
+    position: absolute;
+        padding-top: 10px;
+    padding-left: 10px;
+}
+
+
+
