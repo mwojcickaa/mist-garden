@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
+#first-section {
+    width: 1400px;
+    height: 892px;
+}
+.header {
+    display: flex;
+    width: 1400px;
+}
+.name-logo {
+    display: flex;
+}
+.logo {
+    width: 60px;
+    height: 60px;
+    background-color: #343D33;
+    border-radius: 60px;
+}
+.logo img {
+    width: 130px;
+    height: 95px;
+    transform: scaleX(-1);
+    margin-left: -70px;
+    margin-top: 12px;
+}
+.name-logo {
+    padding-left: 100px;
+    padding-top: 15px;
+    width: 263px;
+    height: 60px;
+    padding-right: 140px;
+}
+.name {
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.name h4 {
+    font-family: roboto;
+    font-weight: 500;
+    font-size: 25px;
+    color: #343D33;
+    margin: 0;
+    letter-spacing: 1.5px;
+    margin-bottom: 1px;
+}
+.name p {
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+    margin: 0;
+    width: 192px;
+    font-style: italic;
+}
+.menu {
+    display: flex;
+    height: 45px;
+    width: 800px;
+    padding-right: 100px;
+    padding-top: 15px;
+    align-items: center
+}
+.menu h5 {
+    font-family: roboto;
+    font-weight: 700;
+    color: #414840;
+    margin: 0;
+    margin-right: 40px;
+}
+.button-header  {
+    width: 170px;
+    height: 45px;
+    border-width: 2px;
+    border-color: #475F45;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+}
+.button-header h5 {
+    margin-left: 40px;
+}
