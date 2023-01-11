@@ -31,14 +31,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+    background: none;
 }
 .third-button h5 {
     font-family: roboto;
     font-weight: 700;
     font-size: 14px;
     letter-spacing: 2px;
-    color: #FFFFFF;
     margin: 0;
+    color: #FFFFFF;
 }
 .top-right-content {
     margin-left: 90px;

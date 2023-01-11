@@ -27,7 +27,8 @@ button.view-posts {
     border: none;
     background: white;
     display: flex;
-    align-items: center
+    align-items: center;
+    cursor: pointer;
 }
 .view-posts h5 {
     font-family: Roboto;
