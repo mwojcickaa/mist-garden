@@ -1,0 +1,114 @@
+#third-section {
+    width: 1400px;
+    height: 892px;
+    background-color: #FFFFFF;
+    display: flex;
+}
+.third-section-heading {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.third-section-title h3 {
+    font-family: Libre Baskerville;
+    font-size: 45px;
+    font-weight: 400;
+    color: #343D33;
+    margin: 0;
+}
+.third-section-subtitle {
+    display: flex;
+}
+.third-section-subtitle img.line {
+    height: 2px;
+    margin-right: 20px;
+    margin-top: 32px;
+}
+button.view-posts {
+    border: none;
+    background: white;
+    display: flex;
+    align-items: center
+}
+.view-posts h5 {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 15%;
+    color: #475F45;
+}
+img.garden {
+    margin-top: 35px;
+}
+.third-section-left-bottom-content {
+    margin-left: 100px;
+}
+.third-section-left-bottom-content h3 {
+    font-family: Libre Baskerville;
+    font-weight: 400;
+    font-size: 23px;
+    color: #475F45;
+    margin: 0;
+    margin-top: 25px;
+}
+.third-section-left-bottom-content p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #414840;
+    width: 471px;
+    line-height: 24px;
+    margin: 0;
+    margin-top: 15px;
+    line-height: 24px;
+}
+.third-section-left-bottom-content h5 {
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 400;
+    color: #343D33;
+    margin: 0;
+    margin-top: 15px;
+}
+.row {
+    display: flex;
+}
+.third-section-right-content {
+    margin-top: 255px;
+    margin-left: 50px;
+}
+.row-text {
+    margin-left: 20px;
+}
+.row-text h3 {
+    font-family: Libre Baskerville;
+    font-weight: 400;
+    font-size: 23px;
+    color: #475F45;
+    margin: 0;
+    margin-top: 15px;
+}
+.row-text p {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    color: #414840;
+    line-height: 24px;
+    width: 354px;
+    margin: 0;
+    margin-top: 12px;
+}
+.row-text h5 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 24px;
+    color: #343D33;
+    margin: 0;
+    margin-top: 12px;
+}
+.long-line img {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
