@@ -29,6 +29,7 @@ button.view-posts {
     display: flex;
     align-items: center;
     cursor: pointer;
+    height: 16px;
 }
 .view-posts h5 {
     font-family: Roboto;
@@ -36,6 +37,11 @@ button.view-posts {
     font-weight: 700;
     letter-spacing: 15%;
     color: #475F45;
+    margin-top: 75px;
+}
+.arrow {
+    margin-top: 50px;
+    margin-left: 12px;
 }
 img.garden {
     margin-top: 35px;

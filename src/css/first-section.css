@@ -6,7 +6,8 @@
 }
 .header {
     display: flex;
-    width: 1400px;
+    width: 85%;
+    margin: auto;
 }
 .name-logo {
     display: flex;
@@ -25,11 +26,9 @@
     margin-top: 12px;
 }
 .name-logo {
-    padding-left: 100px;
     padding-top: 15px;
-    width: 263px;
+    width: 35%;
     height: 60px;
-    padding-right: 140px;
 }
 .name {
     padding-top: 5px;
@@ -56,10 +55,22 @@
 .menu {
     display: flex;
     height: 45px;
-    width: 800px;
-    padding-right: 100px;
+    width: 65%;
     padding-top: 15px;
     align-items: center
+}
+.menu a {
+    font-family: roboto;
+    font-weight: 700;
+    color: #414840;
+    margin: 0;
+    margin-right: 40px;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+}
+.menu.programs-events {
+    width: 180px;
 }
 .menu h5 {
     font-family: roboto;
@@ -67,6 +78,8 @@
     color: #414840;
     margin: 0;
     margin-right: 40px;
+    font-size: 14px;
+    letter-spacing: 1.5px;
 }
 .button-header  {
     width: 170px;
@@ -79,14 +92,19 @@
     cursor: pointer;
 }
 .button-header h5 {
-    margin-left: 40px;
+    margin-left: 35px;
 }
 .first-section-content {
     display: flex;
+    width: 85%;
+    height: 90%;
+    margin-top: 55px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
 }
 .left-content {
-    padding-top: 225px;
-    padding-left: 100px;
+    width: 50%;
 }
 .page-title h1 {
     font-size: 57px;
@@ -143,15 +161,16 @@
     margin: 0;
 }
 .right-content {
-    margin-top: 65px;
-    margin-left: 195px;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
 }
 .border-and-img {
     display: flex;
 }
 .img-in-border {
     position: absolute;
-        padding-top: 10px;
+    padding-top: 10px;
     padding-left: 10px;
 }
 
