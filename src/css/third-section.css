@@ -1,19 +1,12 @@
 #third-section {
-    width: 1400px;
     height: 892px;
     background-color: #FFFFFF;
     display: flex;
 }
 .third-section-content {
-    display: flex;
     align-items: center;
     margin: auto;
-    width: 90%;
-    justify-content: space-between;
-}
-.third-section-heading {
-    /* margin-top: 100px;
-    margin-left: 100px; */
+    width: 65%;
 }
 .third-section-title h3 {
     font-family: Libre Baskerville;
@@ -50,12 +43,6 @@ button.view-posts {
     margin-top: 50px;
     margin-left: 12px;
 }
-img.garden {
-    margin-top: 35px;
-}
-.third-section-left-bottom-content {
-    /* margin-left: 100px; */
-}
 .third-section-left-bottom-content h3 {
     font-family: Libre Baskerville;
     font-weight: 400;
@@ -87,9 +74,10 @@ img.garden {
 .row {
     display: flex;
 }
-.third-section-right-content {
-    /* margin-top: 255px;
-    margin-left: 50px; */
+.third-section-conteiner {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
 }
 .row-text {
     margin-left: 20px;

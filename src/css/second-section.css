@@ -1,5 +1,5 @@
 #second-section {
-    width: 1400px;
+    
     height: 1035px;
     background-color: #343D33;
     display: flex;
@@ -10,14 +10,10 @@
 }
 .top-content {
     display: flex;
-    width: 80%;
+    width: 65%;
     justify-content: space-between;
     margin: auto;
     height: 40%;
-}
-.bottom-content {
-    display: flex;
-    justify-content: center;
 }
 .second-section-title h3 {
     font-family: Libre Baskerville;
@@ -68,14 +64,22 @@
 .top-right-content {
     width: 40%;
 }
+.bottom-content {
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+}
 .second-section-img {
     margin-top: 60px;
-    width: 80%;
+    width: 100%;
 }
 .branch {
     opacity: 0.3;
-    position: relative;
+    position: absolute;
     z-index: 0;
-    bottom: 30px;
-    left: 30px;
+    right: 0;
+    margin-top: 220px;
 }
