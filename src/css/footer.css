@@ -5,9 +5,13 @@
 }
 .top-content-footer {
     display: flex;
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
 }
 .first-column {
-    padding-top: 50px;
+    /* padding-top: 50px; */
+    width: 33%;
 }
 .footer-name-logo {
     display: flex;
@@ -47,7 +51,8 @@
     margin: 0;
 }
 .second-column {
-    margin-left: 270px;
+    margin-left: 190px;
+    width: 33%;
 }
 .footer-title h4 {
     font-family: Libre Baskerville;
@@ -55,7 +60,7 @@
     font-size: 16px;
     color: #FFFFFF;
     margin: 0;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 .text-link {
     margin-bottom: 10px;
@@ -69,7 +74,8 @@
     text-decoration: none;
 }
 .third-column {
-    margin-left: 270px;
+    /* margin-left: 270px; */
+    width: 33%;
 }
 .container-text-link {
     margin-top: 20px;
