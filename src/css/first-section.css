@@ -82,17 +82,27 @@
     letter-spacing: 1.5px;
 }
 .button-header  {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.button-header {
     width: 170px;
     height: 45px;
     border-width: 2px;
     border-color: #475F45;
     border-style: solid;
+    background-color: transparent;
+    cursor: pointer;
     display: flex;
     align-items: center;
-    cursor: pointer;
+    transition-duration: 0.4s;
+}
+.button-header:hover {
+    box-shadow: 0 0 30px 8px #80977d;
 }
 .button-header h5 {
-    margin-left: 35px;
+    margin-left: 30px;
 }
 .first-section-content {
     display: flex;
@@ -125,35 +135,47 @@
     display: flex;
     padding-top: 32px;
 }
-.button-style.first-button {
+.first-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #475F45;
     width: 190px;
     height: 55px;
     background-color: #475F45;
     margin-right: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     cursor: pointer;
+    border: transparent;
+    transition-duration: 0.4s;
 }
-.button-style.first-button h5 {
+.first-button:hover {
+    box-shadow: 0 0 30px 8px #80977d;;
+}
+.first-button h5 {
     font-family: roboto;
     font-weight: 700;
     font-size: 14px;
     color: #FFFFFF;
     margin: 0;
+    letter-spacing: 0.5px;
 }
-.button-style.second-button {
+.second-button {
     width: 188px;
     height: 53px;
-    border-color: #475F45;
-    border-width: 2px;
-    border-style: solid;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-color: #475F45;
+    border-width: 2px;
+    border-style: solid;
+    background-color: transparent;
     cursor: pointer;
+    transition-duration: 0.4s;
 }
-.button-style.second-button h5 {
+.second-button:hover {
+    box-shadow: 0 0 30px 8px #80977d;
+}
+.second-button h5 {
     font-family: roboto;
     font-weight: 700;
     font-size: 14px;
