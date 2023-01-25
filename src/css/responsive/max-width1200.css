@@ -1,0 +1,192 @@
+@media only screen and (max-width: 1200px) {
+    .header {
+        width: 97%;
+    }
+
+    .name-logo {
+        width: 30%;
+    }
+
+    .menu a {
+        margin-right: 25px;
+        letter-spacing: 1px;
+    }
+
+    .logo {
+        width: 55px;
+        height: 55px;
+        background-color: #343D33;
+        border-radius: 60px;
+    }
+
+    .name h4 {
+        font-family: roboto;
+        font-weight: 500;
+        font-size: 23px;
+        color: #343D33;
+        margin: 0;
+        letter-spacing: 1.5px;
+        margin-bottom: 1px;
+    }
+
+    .name p {
+        font-family: roboto;
+        font-weight: 400;
+        font-size: 13px;
+        color: #333333;
+        margin: 0;
+        width: 192px;
+        font-style: italic;
+    }
+
+    .button-header {
+        width: 150px;
+        height: 45px;
+    }
+
+    .button-header h5 {
+        margin: auto;
+    }
+
+    .first-section-content {
+        width: 90%;
+    }
+
+    .page-title h1 {
+        font-size: 50px;
+    }
+
+    .first-button {
+        width: 180px;
+        height: 55px;
+    }
+
+    .second-button {
+        width: 180px;
+        height: 55px;
+    }
+
+    .border {
+        width: 410px;
+    }
+
+    .img-in-border {
+        width: 390px;
+    }
+
+    /* second section */
+
+    .second-container {
+        width: 85%;
+        gap: 25px 25px;
+    }
+
+    .top-right-content {
+        width: 100%;
+    }
+
+    .second-section-img {
+        width: 100%;
+    }
+
+    .branch {
+        opacity: 0.2;
+        position: absolute;
+        z-index: 0;
+        right: 0;
+        margin-top: 175px;
+    }
+
+    .branch img {
+        width: 80%;
+        float: right;
+    }
+
+    /* third section */
+
+    .third-section-subtitle {
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .view-posts h5 {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .third-section-subtitle img.line {
+        margin-top: 0;
+    }
+
+    .arrow {
+        margin-top: 0;
+    }
+
+    .third-section-content {
+        width: 85%;
+
+    }
+
+    .third-section-description {
+        width: 100%;
+    }
+
+    .third-section-left-bottom-content h3 {
+        font-size: 30px;
+    }
+
+    .third-section-left-bottom-content p {
+        font-size: 20px;
+    }
+
+    .photo {
+        width: 85%;
+    }
+
+    .photo img {
+        width: 100%;
+    }
+
+    .long-line img {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    .third-section-left-bottom-content h5 {
+        font-size: 18px;
+    }
+
+    .row-text {
+        margin-left: 10px;
+        width: 100%;
+    }
+
+    .row-text h3 {
+        font-size: 26px;
+    }
+
+    .row-text p {
+        font-size: 15px;
+    }
+
+    .row-text h5 {
+        font-size: 13px;
+        margin-top: 3px;
+    }
+
+    .third-section-left-content {
+        width: 40%;
+    }
+
+    .third-section-right-content {
+        width: 55%;
+    }
+
+    .photo-garden img {
+        width: 100%;
+    }
+
+    .top-content-footer {
+        width: 85%;
+    }
+}

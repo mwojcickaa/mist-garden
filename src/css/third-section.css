@@ -2,12 +2,24 @@
     height: 892px;
     background-color: #FFFFFF;
     display: flex;
+    justify-content: center;
 }
+
+.third-section-conteiner {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    width: 1220px;
+}
+
 .third-section-content {
     align-items: center;
     margin: auto;
-    width: 65%;
+    width: 100%;
+    display: grid;
+    justify-content: center;
 }
+
 .third-section-title h3 {
     font-family: Libre Baskerville;
     font-size: 45px;
@@ -15,14 +27,17 @@
     color: #343D33;
     margin: 0;
 }
+
 .third-section-subtitle {
     display: flex;
 }
+
 .third-section-subtitle img.line {
     height: 2px;
     margin-right: 20px;
     margin-top: 32px;
 }
+
 button.view-posts {
     border: none;
     background: white;
@@ -31,6 +46,7 @@ button.view-posts {
     cursor: pointer;
     height: 16px;
 }
+
 .view-posts h5 {
     font-family: Roboto;
     font-size: 14px;
@@ -39,10 +55,12 @@ button.view-posts {
     color: #475F45;
     margin-top: 75px;
 }
+
 .arrow {
     margin-top: 50px;
     margin-left: 12px;
 }
+
 .third-section-left-bottom-content h3 {
     font-family: Libre Baskerville;
     font-weight: 400;
@@ -51,6 +69,7 @@ button.view-posts {
     margin: 0;
     margin-top: 25px;
 }
+
 .third-section-left-bottom-content p {
     font-family: Roboto;
     font-size: 16px;
@@ -62,6 +81,7 @@ button.view-posts {
     margin-top: 15px;
     line-height: 24px;
 }
+
 .third-section-left-bottom-content h5 {
     font-family: Roboto;
     font-style: italic;
@@ -71,17 +91,15 @@ button.view-posts {
     margin: 0;
     margin-top: 15px;
 }
+
 .row {
     display: flex;
 }
-.third-section-conteiner {
-    display: flex;
-    margin-top: 50px;
-    justify-content: space-between;
-}
+
 .row-text {
     margin-left: 20px;
 }
+
 .row-text h3 {
     font-family: Libre Baskerville;
     font-weight: 400;
@@ -90,6 +108,7 @@ button.view-posts {
     margin: 0;
     margin-top: 15px;
 }
+
 .row-text p {
     font-family: Roboto;
     font-weight: 400;
@@ -100,6 +119,7 @@ button.view-posts {
     margin: 0;
     margin-top: 12px;
 }
+
 .row-text h5 {
     font-family: Roboto;
     font-weight: 400;
@@ -110,6 +130,7 @@ button.view-posts {
     margin: 0;
     margin-top: 12px;
 }
+
 .long-line img {
     margin-top: 15px;
     margin-bottom: 20px;

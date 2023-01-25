@@ -1,22 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
+
 #first-section {
     height: 892px;
     background-color: #FFFFFF;
 }
+
 .header {
     display: flex;
-    width: 60%;
+    max-width: 1220px;
     margin: auto;
 }
+
 .name-logo {
     display: flex;
 }
+
 .logo {
     width: 60px;
     height: 60px;
     background-color: #343D33;
     border-radius: 60px;
 }
+
 .logo img {
     width: 130px;
     height: 95px;
@@ -24,15 +29,18 @@
     margin-left: -70px;
     margin-top: 12px;
 }
+
 .name-logo {
     padding-top: 15px;
     width: 35%;
     height: 60px;
 }
+
 .name {
     padding-top: 5px;
     padding-left: 10px;
 }
+
 .name h4 {
     font-family: roboto;
     font-weight: 500;
@@ -42,6 +50,7 @@
     letter-spacing: 1.5px;
     margin-bottom: 1px;
 }
+
 .name p {
     font-family: roboto;
     font-weight: 400;
@@ -51,6 +60,7 @@
     width: 192px;
     font-style: italic;
 }
+
 .menu {
     display: flex;
     height: 45px;
@@ -59,6 +69,11 @@
     align-items: center;
     justify-content: flex-end;
 }
+
+.menu-ikon {
+    display: none;
+}
+
 .menu a {
     font-family: roboto;
     font-weight: 700;
@@ -69,9 +84,7 @@
     font-size: 14px;
     letter-spacing: 1.5px;
 }
-.menu.programs-events {
-    width: 180px;
-}
+
 .menu h5 {
     font-family: roboto;
     font-weight: 700;
@@ -81,11 +94,13 @@
     font-size: 14px;
     letter-spacing: 1.5px;
 }
-.button-header  {
+
+.button-header {
     display: flex;
     align-items: center;
     cursor: pointer;
 }
+
 .button-header {
     width: 170px;
     height: 45px;
@@ -98,24 +113,29 @@
     align-items: center;
     transition-duration: 0.4s;
 }
+
 .button-header:hover {
     box-shadow: 0 0 30px 8px #80977d;
 }
+
 .button-header h5 {
-    margin-left: 30px;
+    margin-left: 28px;
 }
+
 .first-section-content {
     display: flex;
-    width: 60%;
     height: 90%;
     margin-top: 55px;
     align-items: center;
     justify-content: center;
     margin: auto;
+    max-width: 1220px;
 }
+
 .left-content {
     width: 50%;
 }
+
 .page-title h1 {
     font-size: 57px;
     font-family: Libre Baskerville;
@@ -123,6 +143,7 @@
     color: #343D33;
     margin: 0;
 }
+
 .page-title h3 {
     font-family: Roboto;
     font-weight: 300;
@@ -131,10 +152,12 @@
     padding-top: 15px;
     margin: 0;
 }
+
 .buttons {
     display: flex;
     padding-top: 32px;
 }
+
 .first-button {
     display: flex;
     align-items: center;
@@ -148,9 +171,12 @@
     border: transparent;
     transition-duration: 0.4s;
 }
+
 .first-button:hover {
-    box-shadow: 0 0 30px 8px #80977d;;
+    box-shadow: 0 0 30px 8px #80977d;
+    ;
 }
+
 .first-button h5 {
     font-family: roboto;
     font-weight: 700;
@@ -159,6 +185,7 @@
     margin: 0;
     letter-spacing: 0.5px;
 }
+
 .second-button {
     width: 188px;
     height: 53px;
@@ -172,9 +199,11 @@
     cursor: pointer;
     transition-duration: 0.4s;
 }
+
 .second-button:hover {
     box-shadow: 0 0 30px 8px #80977d;
 }
+
 .second-button h5 {
     font-family: roboto;
     font-weight: 700;
@@ -182,19 +211,19 @@
     color: #475F45;
     margin: 0;
 }
+
 .right-content {
     width: 50%;
     display: flex;
     justify-content: flex-end;
 }
+
 .border-and-img {
     display: flex;
 }
+
 .img-in-border {
     position: absolute;
     padding-top: 10px;
     padding-left: 10px;
 }
-
-
-
