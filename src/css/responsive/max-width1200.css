@@ -15,28 +15,15 @@
     .logo {
         width: 55px;
         height: 55px;
-        background-color: #343D33;
-        border-radius: 60px;
     }
 
-    .name h4 {
-        font-family: roboto;
-        font-weight: 500;
+    .name h1 {
         font-size: 23px;
-        color: #343D33;
-        margin: 0;
-        letter-spacing: 1.5px;
-        margin-bottom: 1px;
     }
 
     .name p {
-        font-family: roboto;
-        font-weight: 400;
         font-size: 13px;
-        color: #333333;
-        margin: 0;
         width: 192px;
-        font-style: italic;
     }
 
     .button-header {
@@ -178,9 +165,6 @@
         width: 40%;
     }
 
-    .third-section-right-content {
-        width: 55%;
-    }
 
     .photo-garden img {
         width: 100%;

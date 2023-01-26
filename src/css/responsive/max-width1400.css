@@ -2,14 +2,7 @@
     /* first section  */
 
     .menu a {
-        font-family: roboto;
-        font-weight: 700;
-        color: #414840;
-        margin: 0;
         margin-right: 20px;
-        text-decoration: none;
-        font-size: 14px;
-        letter-spacing: 1.5px;
     }
 
     .first-section-content {

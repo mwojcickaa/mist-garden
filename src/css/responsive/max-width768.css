@@ -1,7 +1,6 @@
 @media only screen and (max-width: 768px) {
-    #first-section {
-        height: initial;
-    }
+
+    /* first section */
 
     .menu {
         display: none;
@@ -34,6 +33,8 @@
     .img-in-border {
         width: 340px;
     }
+
+    /* second section */
 
     #second-section {
         height: 100%;
@@ -86,6 +87,8 @@
         display: flex;
         justify-content: center;
     }
+
+    /* third section */
 
     #third-section {
         height: initial;

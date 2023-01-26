@@ -19,7 +19,7 @@
         margin-top: 10px;
     }
 
-    .name h4 {
+    .name h1 {
         font-size: 17px;
     }
 
@@ -83,13 +83,13 @@
         grid-template-rows: 25% 25% 50%;
     }
 
-    .top-left-content {
+    /* .top-left-content {
         width: 100%;
         grid-column-start: 1;
         grid-column-end: 1;
         grid-row-start: 1;
         grid-row-end: 2;
-    }
+    } */
 
     .top-right-content {
         position: relative;
@@ -142,23 +142,19 @@
 
     .third-section-conteiner {
         margin: auto;
-        width: 100%;
         padding-top: 20px;
     }
 
     .third-section-subtitle img.line {
-        margin-top: 0;
         width: 20%;
         margin-right: 10px;
     }
 
     .view-posts h5 {
         font-size: 11px;
-        margin: 0;
     }
 
     .arrow {
-        margin-top: 0;
         width: 15%;
         margin-left: 8px;
     }
@@ -173,13 +169,11 @@
 
     .third-section-left-bottom-content p {
         font-size: 14px;
-        text-align: center;
         line-height: 22px;
     }
 
     .third-section-left-bottom-content h5 {
         font-size: 10px;
-        text-align: center;
         margin-top: 10px;
     }
 
