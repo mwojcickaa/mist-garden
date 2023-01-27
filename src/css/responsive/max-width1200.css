@@ -23,7 +23,6 @@
 
     .name p {
         font-size: 13px;
-        width: 192px;
     }
 
     .button-header {
@@ -72,21 +71,16 @@
         width: 100%;
     }
 
-    .second-section-img {
-        width: 100%;
-    }
-
-    .branch {
-        opacity: 0.2;
-        position: absolute;
-        z-index: 0;
-        right: 0;
-        margin-top: 175px;
-    }
-
     .branch img {
         width: 80%;
-        float: right;
+    }
+
+    .arrow-right {
+        right: 15px;
+    }
+
+    .arrow-left {
+        left: 15px;
     }
 
     /* third section */
@@ -122,25 +116,12 @@
         font-size: 30px;
     }
 
-    .third-section-left-bottom-content p {
-        font-size: 20px;
-    }
-
     .photo {
         width: 85%;
     }
 
     .photo img {
         width: 100%;
-    }
-
-    .long-line img {
-        margin-top: 15px;
-        margin-bottom: 20px;
-    }
-
-    .third-section-left-bottom-content h5 {
-        font-size: 18px;
     }
 
     .row-text {

@@ -1,0 +1,15 @@
+@media only screen and (max-width: 550px) {
+
+    .second-container {
+        grid-template-rows: 28% 28% 44%;
+        margin: 25px 0 70px 0;
+    }
+
+    .arrow-right {
+        z-index: 1;
+    }
+
+    .arrow-left {
+        z-index: 1;
+    }
+}

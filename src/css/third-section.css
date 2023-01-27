@@ -38,6 +38,10 @@
     margin-top: 32px;
 }
 
+.long-line-third-section {
+    display: none;
+}
+
 button.view-posts {
     border: none;
     background: white;

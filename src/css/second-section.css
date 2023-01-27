@@ -4,6 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .second-container {
@@ -13,13 +14,20 @@
     grid-template-rows: 50% 50%;
     width: 60%;
     justify-content: space-around;
+    justify-items: center;
     gap: 30px 0;
+    max-width: 1200px;
 }
 
 .second-section-img {
-    width: 100%;
     height: 100%;
     object-fit: cover;
+    max-height: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    object-position: initial;
+    max-width: 100%;
+    width: 100vw;
 }
 
 .bottom-content {
@@ -52,9 +60,14 @@
 }
 
 .top-left-content img {
-    width: 100%;
     height: 100%;
     object-fit: cover;
+    max-height: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    object-position: bottom;
+    max-width: 100%;
+    width: 100vw;
 }
 
 
@@ -120,9 +133,79 @@
 
 
 .branch {
-    opacity: 0.3;
+    opacity: 0.1;
     position: absolute;
     z-index: 0;
     right: 0;
-    margin-top: 220px;
+    bottom: 20px;
+    right: 0;
+}
+
+.dots {
+    position: absolute;
+    display: flex;
+    bottom: 13px;
+}
+
+.dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    border: solid 1px white;
+    margin: 0 10px 0 10px;
+}
+
+.dot.selected-dot {
+    background-color: white;
+}
+
+.arrow-left {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    border: solid 1px white;
+    position: absolute;
+    left: 50px;
+    top: 50%;
+
+
+}
+
+.arrow-lines.right {
+    width: 15px;
+    height: 15px;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    transform: rotate(-45deg);
+    margin-top: 7px;
+    margin-left: 3px;
+}
+
+.arrow-right {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    border: solid 1px white;
+    position: absolute;
+    right: 50px;
+    top: 50%;
+}
+
+.arrow-lines.left {
+    width: 15px;
+    height: 15px;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    transform: rotate(135deg);
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+.second-line-arrow.right {
+    margin-top: 8px;
+    margin-left: 8px;
+    width: 15px;
+    height: 1px;
+    background-color: white;
+    transform: rotate(-40deg);
 }

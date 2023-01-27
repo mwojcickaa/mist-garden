@@ -1,0 +1,77 @@
+@media only screen and (max-width: 270px) {
+
+    /* first section */
+
+    .name h1 {
+        font-size: 12px;
+    }
+
+    .name p {
+        font-size: 7px;
+    }
+
+    .page-title h1 {
+        font-size: 20px;
+    }
+
+    .page-title h2 {
+        font-size: 15px;
+        width: 85%;
+    }
+
+    .first-button {
+        width: 85px;
+        height: 35px;
+    }
+
+    .first-button h5 {
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .second-button {
+        width: 85px;
+        height: 35px;
+    }
+
+    .second-button h5 {
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .border {
+        width: 179px;
+    }
+
+    .img-in-border {
+        width: 170px;
+    }
+
+    /* second section */
+
+    .second-section-title h3 {
+        font-size: 18px;
+        margin: 0 0 15px 0;
+    }
+
+    .second-section-text p {
+        font-size: 11px;
+        line-height: 21px;
+    }
+
+    .third-button button {
+        width: 110px;
+        height: 32px;
+    }
+
+    .third-button h5 {
+        font-size: 10px;
+    }
+
+
+    /* footer */
+
+    .circle-logo img {
+        width: 80%;
+    }
+}

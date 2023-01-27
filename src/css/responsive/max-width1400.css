@@ -20,19 +20,11 @@
         float: right;
     }
 
-    .branch {
-        opacity: 0.2;
-        position: absolute;
-        z-index: 0;
-        right: 0;
-        margin-top: 140px;
-    }
-
     /* third section */
 
     #third-section {
-        height: 100%;
-        background-color: #FFFFFF;
+        height: initial;
+        margin: 50px 0;
     }
 
     .third-section-content {
@@ -51,10 +43,6 @@
 
     .third-section-right-content {
         width: 55%;
-    }
-
-    .third-section-left-bottom-content p {
-        font-size: 20px;
     }
 
     .third-section-left-bottom-content h5 {

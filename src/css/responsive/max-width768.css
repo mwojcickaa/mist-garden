@@ -6,6 +6,10 @@
         display: none;
     }
 
+    .name-logo {
+        width: 70%;
+    }
+
     .page-title h1 {
         font-size: 35px;
     }
@@ -36,56 +40,65 @@
 
     /* second section */
 
-    #second-section {
-        height: 100%;
+    .second-container {
+        grid-template-rows: 33% 33% 33%;
+        margin: 25px 0 75px 0;
     }
 
     .second-section-title h3 {
-        font-size: 34px;
+        font-size: 33px;
         text-align: center;
-        margin: 0 0 20px 0;
+        margin: 0 0 10px 0;
     }
 
     .second-section-text p {
-        font-size: 18px;
+        font-size: 16px;
         text-align: center;
+        margin: 0px 0 15px 0;
     }
 
     .top-right-content {
-        width: 100%;
+        width: 85%;
         justify-self: center;
         height: fit-content;
     }
 
     .third-button button {
-        width: 185px;
-        height: 55px;
+        width: 179px;
+        height: 50px;
         margin: 0;
     }
 
-    .bottom-content {
-        z-index: 1;
-        position: relative;
-    }
-
-    .branch img {
-        width: 100%;
-        float: right;
-    }
-
     .branch {
-        opacity: 0.2;
-        position: absolute;
-        z-index: 0;
-        right: -50px;
-        top: 1705px;
-        width: 50%;
+        display: none;
     }
 
     .third-button {
         z-index: 1;
         display: flex;
         justify-content: center;
+    }
+
+    .arrow-right {
+        right: 3px;
+    }
+
+    .arrow-left {
+        left: 3px;
+    }
+
+    .arrow-lines.right {
+        width: 12px;
+        height: 12px;
+        margin-top: 8px;
+        margin-left: 5px;
+    }
+
+    .arrow-lines.left {
+        margin-left: 11px;
+        width: 12px;
+        height: 12px;
+        margin-top: 8px;
     }
 
     /* third section */
@@ -153,6 +166,16 @@
         font-size: 15px;
     }
 
+    .long-line-third-section {
+        display: flex;
+    }
+
+    .long-line-third-section img {
+        margin-top: -10px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
     /* footer */
 
     #footer {
@@ -169,7 +192,7 @@
 
     .footer-text p {
         font-size: 16px;
-        width: 90%;
+        width: 60%;
         margin: auto;
         margin-bottom: 30px;
     }
