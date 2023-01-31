@@ -8,7 +8,6 @@ function plusSlides(n) {
 function currentSlide(n) {
     showSlides(slideIndex = n);
 }
-console.log("1")
 
 function showSlides(n) {
     let i;
@@ -25,3 +24,5 @@ function showSlides(n) {
     slides[slideIndex - 1].style.display = "grid";
     dots[slideIndex - 1].className += " active";
 }
+
+document.getElementById("year").innerHTML = new Date().getFullYear();
