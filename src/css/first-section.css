@@ -31,14 +31,13 @@
 }
 
 .name-logo {
-    padding-top: 15px;
+    margin-top: 15px;
     width: 35%;
-
 }
 
 .name {
-    padding-top: 5px;
-    padding-left: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
 }
 
 .name h1 {
@@ -49,6 +48,7 @@
     margin: 0;
     letter-spacing: 1.5px;
     margin-bottom: 1px;
+    text-transform: uppercase;
 }
 
 .name p {
@@ -64,7 +64,7 @@
     display: flex;
     height: 45px;
     width: 70%;
-    padding-top: 15px;
+    margin-top: 15px;
     align-items: center;
     justify-content: flex-end;
 }
@@ -82,6 +82,7 @@
     text-decoration: none;
     font-size: 14px;
     letter-spacing: 1.5px;
+    text-transform: uppercase;
 }
 
 .menu h5 {
@@ -89,44 +90,31 @@
     font-weight: 700;
     color: #414840;
     margin: 0;
-    margin-right: 40px;
     font-size: 14px;
     letter-spacing: 1.5px;
-}
-
-.button-header {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
+    text-transform: uppercase;
 }
 
 .button-header {
     width: 170px;
     height: 45px;
-    border-width: 2px;
+}
+
+.button-header.second-button {
     border-color: #475F45;
+    border-width: 2px;
     border-style: solid;
     background-color: transparent;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    transition-duration: 0.4s;
 }
 
 .button-header:hover {
     box-shadow: 0 0 30px 8px #80977d;
 }
 
-.button-header h5 {
-    margin-left: 28px;
-}
-
 .first-section-content {
     display: flex;
     height: 90%;
-    margin-top: 55px;
     align-items: center;
-    justify-content: center;
     margin: auto;
     max-width: 1220px;
 }
@@ -136,7 +124,7 @@
 }
 
 .page-title h1 {
-    font-size: 57px;
+    font-size: 53px;
     font-family: Libre Baskerville;
     font-weight: 400;
     color: #343D33;
@@ -148,67 +136,51 @@
     font-weight: 300;
     color: #414840;
     width: 390px;
-    padding-top: 15px;
     margin: 0;
+    margin-top: 15px;
 }
 
 .buttons {
     display: flex;
-    padding-top: 32px;
+    margin-top: 32px;
 }
 
-.first-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #475F45;
+.button {
     width: 190px;
     height: 55px;
-    background-color: #475F45;
     margin-right: 15px;
     cursor: pointer;
-    border: transparent;
     transition-duration: 0.4s;
 }
 
-.first-button:hover {
-    box-shadow: 0 0 30px 8px #80977d;
-    ;
-}
-
-.first-button h5 {
+.button h5 {
     font-family: roboto;
     font-weight: 700;
     font-size: 14px;
     color: #FFFFFF;
     margin: 0;
     letter-spacing: 0.5px;
+    text-transform: uppercase;
 }
 
-.second-button {
-    width: 188px;
-    height: 53px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.button.second-button h5 {
+    color: #475F45;
+}
+
+.button.first-button {
+    background-color: #475F45;
+    border: transparent;
+}
+
+.button.second-button {
     border-color: #475F45;
     border-width: 2px;
     border-style: solid;
     background-color: transparent;
-    cursor: pointer;
-    transition-duration: 0.4s;
 }
 
-.second-button:hover {
+.button:hover {
     box-shadow: 0 0 30px 8px #80977d;
-}
-
-.second-button h5 {
-    font-family: roboto;
-    font-weight: 700;
-    font-size: 14px;
-    color: #475F45;
-    margin: 0;
 }
 
 .right-content {
@@ -223,6 +195,6 @@
 
 .img-in-border {
     position: absolute;
-    padding-top: 10px;
-    padding-left: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
 }

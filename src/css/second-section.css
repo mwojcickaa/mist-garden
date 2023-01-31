@@ -1,11 +1,18 @@
 #second-section {
-    height: 100%;
+    height: initial;
     background-color: #343D33;
-    display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
 }
+
+.background-color-second-section {
+    padding: 64px 0;
+    animation-name: slide;
+    animation-duration: 1s;
+}
+
+@keyframes slide {}
 
 .second-container {
     height: 85%;
@@ -17,6 +24,13 @@
     justify-items: center;
     gap: 30px 0;
     max-width: 1200px;
+    margin: auto;
+    /* padding-bottom: 30px; */
+}
+
+.second-container img {
+    width: 100%;
+    height: 100%;
 }
 
 .second-section-img {
@@ -117,6 +131,7 @@
     letter-spacing: 2px;
     margin: 0;
     color: #FFFFFF;
+    text-transform: uppercase;
 }
 
 
@@ -137,7 +152,7 @@
     position: absolute;
     z-index: 0;
     right: 0;
-    bottom: 20px;
+    bottom: 35%;
     right: 0;
 }
 
@@ -145,6 +160,7 @@
     position: absolute;
     display: flex;
     bottom: 13px;
+    right: 45%;
 }
 
 .dot {
@@ -153,10 +169,17 @@
     border-radius: 15px;
     border: solid 1px white;
     margin: 0 10px 0 10px;
+    cursor: pointer;
+    background-color: transparent;
+    transition: background-color 0.6s ease;
 }
 
-.dot.selected-dot {
-    background-color: white;
+.dot:hover {
+    background-color: #717171;
+}
+
+.active {
+    background-color: #ffffff;
 }
 
 .arrow-left {
@@ -167,8 +190,12 @@
     position: absolute;
     left: 50px;
     top: 50%;
+    cursor: pointer;
+    transition: background-color 0.6s ease;
+}
 
-
+.arrow-left:hover {
+    background-color: #717171;
 }
 
 .arrow-lines.right {
@@ -189,6 +216,12 @@
     position: absolute;
     right: 50px;
     top: 50%;
+    cursor: pointer;
+    transition: background-color 0.6s ease;
+}
+
+.arrow-right:hover {
+    background-color: #717171;
 }
 
 .arrow-lines.left {
@@ -208,4 +241,54 @@
     height: 1px;
     background-color: white;
     transform: rotate(-40deg);
+}
+
+.background-color-second-section.second-color {
+    background-color: #475F45;
+    height: 100%;
+}
+
+.background-color-second-section.third-color {
+    background-color: #324330;
+    height: 100%;
+}
+
+.top-image-second-section {
+    width: 600px;
+    height: 385px;
+    object-position: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-column-end: 2;
+    display: contents;
+}
+
+.top-image-second-section img {
+    height: 100%;
+    object-fit: cover;
+    max-height: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    object-position: center;
+    max-width: 100%;
+    width: 100vw;
+}
+
+.bottom-image-second-section {
+    width: 1200px;
+    height: 385px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.bottom-content img {
+    height: 100%;
+    object-fit: cover;
+    max-height: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    object-position: bottom;
+    max-width: 100%;
+    width: 100vw;
 }
