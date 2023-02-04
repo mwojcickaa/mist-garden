@@ -8,6 +8,15 @@
         justify-content: space-between;
     }
 
+    .page-title h1 {
+        font-size: 41px;
+    }
+
+    .left-content {
+        width: 80%;
+        margin: auto;
+    }
+
     .page-title h2 {
         width: 75%;
     }
@@ -37,11 +46,17 @@
         width: 100%;
     }
 
+    .page-title h1 {
+        font-size: 47px;
+    }
+
     .title-first-section {
         display: flex;
-        justify-content: center;
         margin-top: 45px;
         text-align: center;
+        width: 75%;
+        margin: auto;
+        margin-top: 40px;
     }
 
     .first-section-paragraph {
@@ -70,8 +85,11 @@
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: 33% 33% 33%;
-        margin: 25px 0 50px 0;
         gap: 25px 0;
+    }
+
+    .branch {
+        bottom: 4%;
     }
 
     .branch img {
@@ -117,13 +135,12 @@
         width: 90%;
     }
 
-
     .third-section-conteiner {
         display: grid;
     }
 
     .photo-garden {
-        width: 55%;
+        width: 52%;
     }
 
     .third-section-left-content {
@@ -136,8 +153,17 @@
     }
 
     .third-section-left-bottom-content h3 {
-        font-size: 30px;
+        font-size: 27px;
         margin: 0;
+    }
+
+    .third-section-left-bottom-content p {
+        font-size: 17px;
+        margin-top: 10px;
+    }
+
+    .bottom-content h5 {
+        font-size: 15px;
     }
 
     .third-section-right-content {
@@ -146,7 +172,7 @@
 
     .third-section-description {
         margin-left: 15px;
-        width: 40%;
+        width: 45%;
     }
 
     .photo {
@@ -158,15 +184,15 @@
     }
 
     .row-text h3 {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .row-text p {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .row-text h5 {
-        font-size: 15px;
+        font-size: 13px;
         margin-top: 10px;
     }
 

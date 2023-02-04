@@ -11,7 +11,7 @@
     }
 
     .page-title h1 {
-        font-size: 35px;
+        font-size: 37px;
     }
 
     .page-title h3 {
@@ -43,18 +43,21 @@
     .second-container {
         grid-template-rows: 33% 33% 33%;
         margin: 25px 0 75px 0;
+        height: 90%;
+        margin: auto;
+        margin-bottom: 50px;
     }
 
     .second-section-title h3 {
-        font-size: 33px;
+        font-size: 37px;
         text-align: center;
-        margin: 0 0 10px 0;
+        margin: 0 0 15px 0;
     }
 
     .second-section-text p {
-        font-size: 16px;
+        font-size: 19px;
         text-align: center;
-        margin: 0px 0 15px 0;
+        margin: 0px 0 12px 0;
     }
 
     .top-right-content {
@@ -101,6 +104,10 @@
         margin-top: 8px;
     }
 
+    .dots {
+        right: 41%;
+    }
+
     /* third section */
 
     #third-section {
@@ -109,6 +116,10 @@
 
     .third-section-content {
         width: 85%;
+    }
+
+    .third-section-conteiner {
+        padding-top: 30px;
     }
 
     .third-section-title h3 {

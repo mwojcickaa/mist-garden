@@ -8,6 +8,14 @@
         width: 85%;
     }
 
+    .menu {
+        width: 74%;
+    }
+
+    .name-logo {
+        width: 24%;
+    }
+
     .menu-ikon {
         display: none;
     }
@@ -15,6 +23,7 @@
     .first-section-content {
         width: 80%;
     }
+
 
     /* second section */
 

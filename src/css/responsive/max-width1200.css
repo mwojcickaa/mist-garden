@@ -10,6 +10,7 @@
     .menu a {
         margin-right: 25px;
         letter-spacing: 1px;
+        font-size: 13px;
     }
 
     .logo {
@@ -32,6 +33,12 @@
 
     .button-header h5 {
         margin: auto;
+        font-size: 13px;
+    }
+
+    .button-header.second-button {
+        width: 150px;
+        height: 47px;
     }
 
     .first-section-content {
@@ -39,7 +46,7 @@
     }
 
     .page-title h1 {
-        font-size: 50px;
+        font-size: 42px;
     }
 
     .first-button {
@@ -65,6 +72,16 @@
     .second-container {
         width: 85%;
         gap: 25px 25px;
+        height: 98%;
+    }
+
+    .second-section-title h3 {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    .second-section-text p {
+        margin-bottom: 20px;
     }
 
     .top-right-content {
@@ -120,6 +137,15 @@
         width: 85%;
     }
 
+    .row-text h3 {
+        font-size: 21px;
+    }
+
+    .row-text p {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
     .photo img {
         width: 100%;
     }
@@ -129,16 +155,8 @@
         width: 100%;
     }
 
-    .row-text h3 {
-        font-size: 26px;
-    }
-
-    .row-text p {
-        font-size: 15px;
-    }
-
     .row-text h5 {
-        font-size: 13px;
+        font-size: 10px;
         margin-top: 3px;
     }
 

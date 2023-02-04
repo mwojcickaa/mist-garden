@@ -1,8 +1,31 @@
 @media only screen and (max-width: 550px) {
 
+
+    .page-title h1 {
+        font-size: 28px;
+    }
+
+    .page-title h2 {
+        width: 75%;
+        font-size: 20px;
+    }
+
     .second-container {
         grid-template-rows: 28% 28% 44%;
-        margin: 25px 0 70px 0;
+    }
+
+    .top-right-content {
+        width: 90%;
+    }
+
+    .second-section-title h3 {
+        font-size: 35px;
+        margin: 0px 0 20px 0;
+    }
+
+    .second-section-text p {
+        font-size: 19px;
+        margin: 0px 0 20px 0;
     }
 
     .arrow-right {
@@ -12,4 +35,5 @@
     .arrow-left {
         z-index: 1;
     }
+
 }
