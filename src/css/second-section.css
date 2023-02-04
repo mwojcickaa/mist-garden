@@ -23,7 +23,6 @@
     gap: 30px 0;
     max-width: 1200px;
     margin: auto;
-    /* padding-bottom: 30px; */
 }
 
 .second-container img {
@@ -134,7 +133,7 @@
 
 
 .top-right-content {
-    width: 80%;
+    width: 85%;
     justify-self: start;
     grid-column-start: 2;
     grid-column-end: 3;
@@ -289,4 +288,31 @@
     object-position: bottom;
     max-width: 100%;
     width: 100vw;
+}
+
+.animate {
+    opacity: 1;
+    animation: slider 1s linear;
+}
+
+@keyframes slider {
+    0% {
+        margin-left: 0;
+        opacity: 1;
+    }
+
+    25% {
+        margin-left: -200px;
+        opacity: 0;
+    }
+
+    50% {
+        margin-left: 200px;
+        opacity: 0;
+    }
+
+    100% {
+        margin-left: 0;
+        opacity: 1;
+    }
 }
