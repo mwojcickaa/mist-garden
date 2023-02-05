@@ -67,11 +67,14 @@
     margin-top: 15px;
     align-items: center;
     justify-content: flex-end;
+    z-index: 100;
+
 }
 
 .menu-ikon {
     display: none;
 }
+
 
 .menu a {
     font-family: roboto;

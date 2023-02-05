@@ -1,5 +1,6 @@
 @media only screen and (max-width: 992px) {
     #first-section {
+        position: relative;
         height: initial;
     }
 
@@ -22,12 +23,242 @@
     }
 
     .menu {
+        position: fixed;
+        width: 40%;
+        height: 100vh;
+        background-color: rgb(250, 250, 250);
+        opacity: 0.95;
+        right: 0;
+        margin: 0;
+        display: block;
+        line-height: 75px;
         display: none;
+    }
+
+    .menu ul {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .menu-ikon {
+        position: absolute;
+        right: 28px;
+        top: 17px;
+        border: transprent;
+        height: 23px;
+        width: 35px;
+    }
+
+    .menu-ikon input {
+        position: absolute;
+        right: 10px;
+        border: transprent;
+        height: 32px;
+        width: 38px;
+        z-index: 100;
+        top: -5px;
+        opacity: 0;
+    }
+
+    .hamburger-menu {
+        margin-top: 60px;
+    }
+
+    .hamburger-menu ul a:hover {
+        color: #475F45;
+        transition: color 0.3s ease-in-out;
+    }
+
+    .menu-ikon .hamburger-lines {
+        display: block;
+        height: 23px;
+        width: 35px;
+        position: fixed;
+        top: 17px;
+        right: 25px;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .menu-ikon .hamburger-lines .line {
+        display: block;
+        height: 2px;
+        width: 100%;
+        border-radius: 10px;
+        background: #333;
+    }
+
+    .navbar-container input[type="checkbox"] {
+        position: absolute;
+        display: block;
+        height: 32px;
+        width: 30px;
+        top: 20px;
+        left: 20px;
+        z-index: 5;
+        opacity: 0;
+    }
+
+    .menu-ikon .hamburger-lines .line1 {
+        transform-origin: 0% 0%;
+        transition: transform 0.4s ease-in-out;
+        width: 104%;
+    }
+
+    .menu-ikon .hamburger-lines .line2 {
+        transition: transform 0.2s ease-in-out;
+    }
+
+    .menu-ikon .hamburger-lines .line3 {
+        transform-origin: 0% 100%;
+        transition: transform 0.4s ease-in-out;
+        width: 104%;
+    }
+
+    .menu-ikon input[type="checkbox"]:checked~.menu-items {
+        transform: translateX(0);
+    }
+
+    .menu-ikon input[type="checkbox"]:checked~.hamburger-lines .line1 {
+        transform: rotate(35deg);
+    }
+
+    .menu-ikon input[type="checkbox"]:checked~.hamburger-lines .line2 {
+        transform: scaleY(0);
+    }
+
+    .menu-ikon input[type="checkbox"]:checked~.hamburger-lines .line3 {
+        transform: rotate(-35deg);
+    }
+
+    .menu-link {
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu a {
+        letter-spacing: 2px;
+        font-size: 15px;
+        margin: 0;
+        cursor: pointer;
+        display: inline;
+    }
+
+    .menu a {
+        background-image: linear-gradient(to right,
+                #475F45,
+                #475F45 50%,
+                #000 50%);
+        background-size: 200% 100%;
+        background-position: -100%;
+        display: inline;
+        padding: 5px 0;
+        position: relative;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .menu a:before {
+        content: '';
+        background: #475F45;
+        display: block;
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+        width: 0;
+        height: 3px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .menu a:hover {
+        background-position: 0;
+    }
+
+    .menu a:hover::before {
+        width: 100%;
+    }
+
+
+    .button-header h5 {
+        background-image: linear-gradient(to right,
+                #475F45,
+                #475F45 50%,
+                #000 50%);
+        background-size: 200% 100%;
+        background-position: -100%;
+        display: inline;
+        padding: 5px 0;
+        position: relative;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .button-header h5:before {
+        content: '';
+        background: #475F45;
+        display: block;
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+        width: 0;
+        height: 3px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .button-header h5:hover {
+        background-position: 0;
+    }
+
+    .button-header:hover {
+        box-shadow: none;
+    }
+
+    .button-header h5:hover::before {
+        width: 100%;
+    }
+
+    .menu-button {
+        display: flex;
+        justify-content: center;
+    }
+
+    .button-header.second-button {
+        border: none;
+    }
+
+
+
+    .button-header h5 {
+        margin: auto;
+        font-size: 14px;
     }
 
     .menu-ikon {
         display: flex;
+        z-index: 101;
     }
+
+    /* .menu-link {
+        --h: 1.2em;
+
+
+        color: #0000;
+        text-shadow:
+            0 calc(-1*var(--_t, 0em)) #000,
+            0 calc(var(--h) - var(--_t, 0em)) #475F45;
+        ;
+        overflow: hidden;
+        transition: 0.3s;
+    }
+
+    .menu-link:hover {
+        --_t: var(--h);
+    } */
 
     .menu-ikon img {
         width: 24px;
