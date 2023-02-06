@@ -75,6 +75,20 @@
     display: none;
 }
 
+.hamburger-menu {
+    display: flex;
+}
+
+.hamburger-menu ul {
+    padding: 0;
+    margin-top: 20px;
+    display: flex;
+}
+
+.hamburger-menu li {
+    list-style: none;
+}
+
 
 .menu a {
     font-family: roboto;
@@ -86,6 +100,10 @@
     font-size: 14px;
     letter-spacing: 1.5px;
     text-transform: uppercase;
+}
+
+.menu-button {
+    margin-top: 5px;
 }
 
 .menu h5 {

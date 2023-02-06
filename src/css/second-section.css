@@ -6,11 +6,25 @@
 
 .background-color-second-section {
     padding: 64px 0;
-    animation-name: slide;
     animation-duration: 1s;
+    /* animation: slide;
+    animation-direction: normal;
+    animation-duration: 1.5s; */
 }
 
-@keyframes slide {}
+@keyframes slide {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.background-color-second-section.show {
+    animation-name: slide;
+}
 
 .second-container {
     height: 85%;
@@ -288,31 +302,4 @@
     object-position: bottom;
     max-width: 100%;
     width: 100vw;
-}
-
-.animate {
-    opacity: 1;
-    animation: slider 1s linear;
-}
-
-@keyframes slider {
-    0% {
-        margin-left: 0;
-        opacity: 1;
-    }
-
-    25% {
-        margin-left: -200px;
-        opacity: 0;
-    }
-
-    50% {
-        margin-left: 200px;
-        opacity: 0;
-    }
-
-    100% {
-        margin-left: 0;
-        opacity: 1;
-    }
 }

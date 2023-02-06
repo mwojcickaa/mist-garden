@@ -24,15 +24,55 @@
 
     .menu {
         position: fixed;
-        width: 40%;
+        width: 100%;
         height: 100vh;
         background-color: rgb(250, 250, 250);
         opacity: 0.95;
         right: 0;
         margin: 0;
         display: block;
-        line-height: 75px;
+        line-height: 90px;
         display: none;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        transform: translateX(0%);
+        transition: transform .3s;
+        will-change: transform;
+        contain: paint;
+    }
+
+    @keyframes moving {
+        from {
+            transform: translateX(100%)
+        }
+
+        to {
+            transform: translateX(0%)
+        }
+    }
+
+    @keyframes movingBack {
+        from {
+            transform: translateX(0%)
+        }
+
+        to {
+            transform: translateX(100%)
+        }
+    }
+
+    .menu.show {
+        visibility: visible;
+        animation-name: moving;
+        animation-duration: 0.3s;
+        display: flex;
+    }
+
+    .menu.hide {
+        visibility: hidden;
+        animation-name: movingBack;
+        animation-duration: 0.3s;
+        transition-property: visibility;
+        display: flex;
     }
 
     .menu ul {
@@ -42,8 +82,8 @@
     }
 
     .menu-ikon {
-        position: absolute;
-        right: 28px;
+        position: relative;
+        right: 7px;
         top: 17px;
         border: transprent;
         height: 23px;
@@ -51,23 +91,33 @@
     }
 
     .menu-ikon input {
-        position: absolute;
-        right: 10px;
+        position: fixed;
+        right: 23px;
         border: transprent;
-        height: 32px;
+        height: 25px;
         width: 38px;
         z-index: 100;
-        top: -5px;
+        top: 16px;
         opacity: 0;
+        margin: 0;
     }
 
     .hamburger-menu {
         margin-top: 60px;
+        display: block;
     }
 
     .hamburger-menu ul a:hover {
         color: #475F45;
         transition: color 0.3s ease-in-out;
+    }
+
+    .hamburger-menu ul {
+        display: block;
+    }
+
+    .hamburger-menu li {
+        list-style: none;
     }
 
     .menu-ikon .hamburger-lines {
@@ -83,12 +133,12 @@
         justify-content: space-between;
     }
 
-    .menu-ikon .hamburger-lines .line {
+    .hamburger-lines .line {
         display: block;
-        height: 2px;
-        width: 100%;
+        height: 4px;
+        width: 82%;
         border-radius: 10px;
-        background: #333;
+        background: #0e2431;
     }
 
     .navbar-container input[type="checkbox"] {
@@ -105,7 +155,7 @@
     .menu-ikon .hamburger-lines .line1 {
         transform-origin: 0% 0%;
         transition: transform 0.4s ease-in-out;
-        width: 104%;
+        width: 82%;
     }
 
     .menu-ikon .hamburger-lines .line2 {
@@ -115,23 +165,23 @@
     .menu-ikon .hamburger-lines .line3 {
         transform-origin: 0% 100%;
         transition: transform 0.4s ease-in-out;
-        width: 104%;
+        width: 82%;
     }
 
     .menu-ikon input[type="checkbox"]:checked~.menu-items {
         transform: translateX(0);
     }
 
-    .menu-ikon input[type="checkbox"]:checked~.hamburger-lines .line1 {
-        transform: rotate(35deg);
-    }
-
     .menu-ikon input[type="checkbox"]:checked~.hamburger-lines .line2 {
         transform: scaleY(0);
     }
 
+    .menu-ikon input[type="checkbox"]:checked~.hamburger-lines .line1 {
+        transform: rotate(45deg);
+    }
+
     .menu-ikon input[type="checkbox"]:checked~.hamburger-lines .line3 {
-        transform: rotate(-35deg);
+        transform: rotate(-45deg);
     }
 
     .menu-link {
@@ -141,7 +191,7 @@
 
     .menu a {
         letter-spacing: 2px;
-        font-size: 15px;
+        font-size: 16px;
         margin: 0;
         cursor: pointer;
         display: inline;
@@ -231,34 +281,15 @@
         border: none;
     }
 
-
-
     .button-header h5 {
         margin: auto;
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .menu-ikon {
         display: flex;
         z-index: 101;
     }
-
-    /* .menu-link {
-        --h: 1.2em;
-
-
-        color: #0000;
-        text-shadow:
-            0 calc(-1*var(--_t, 0em)) #000,
-            0 calc(var(--h) - var(--_t, 0em)) #475F45;
-        ;
-        overflow: hidden;
-        transition: 0.3s;
-    }
-
-    .menu-link:hover {
-        --_t: var(--h);
-    } */
 
     .menu-ikon img {
         width: 24px;

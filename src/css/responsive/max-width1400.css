@@ -1,5 +1,17 @@
 @media only screen and (max-width: 1400px) {
+
     /* first section  */
+    .header {
+        width: 84%;
+    }
+
+    .name-logo {
+        width: 28%;
+    }
+
+    .menu {
+        width: 72%;
+    }
 
     .menu a {
         margin-right: 20px;
