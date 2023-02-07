@@ -51,9 +51,40 @@
         position: relative;
         right: 7px;
         top: 17px;
-        border: transprent;
+        /* border: transprent; */
         height: 23px;
         width: 28px;
+    }
+
+    .sticky-menu-ikon {
+        position: fixed;
+        right: 19px;
+        z-index: 110;
+        height: 23px;
+        width: 28px;
+        top: 17px;
+    }
+
+    .sticky-menu-ikon input {
+        position: fixed;
+        border: transprent;
+        height: 25px;
+        width: 29px;
+        z-index: 100;
+        opacity: 0;
+        margin: 0;
+    }
+
+    .sticky-menu-ikon .hamburger-lines {
+        height: 23px;
+        width: 28px;
+        /* position: fixed; */
+        top: 17px;
+        right: 25px;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
     .menu-ikon input {
@@ -123,7 +154,6 @@
         display: block;
         height: 23px;
         width: 28px;
-        /* position: fixed; */
         top: 17px;
         right: 25px;
         z-index: 2;
@@ -180,6 +210,38 @@
     }
 
     .menu-ikon input[type="checkbox"]:checked~.hamburger-lines .line3 {
+        transform: rotate(-45deg);
+    }
+
+    .sticky-menu-ikon .hamburger-lines .line1 {
+        transform-origin: 0% 0%;
+        transition: transform 0.4s ease-in-out;
+        width: 100%;
+    }
+
+    .sticky-menu-ikon .hamburger-lines .line2 {
+        transition: transform 0.2s ease-in-out;
+    }
+
+    .sticky-menu-ikon .hamburger-lines .line3 {
+        transform-origin: 0% 100%;
+        transition: transform 0.4s ease-in-out;
+        width: 100%;
+    }
+
+    .sticky-menu-ikon input[type="checkbox"]:checked~.menu-items {
+        transform: translateX(0);
+    }
+
+    .sticky-menu-ikon input[type="checkbox"]:checked~.hamburger-lines .line2 {
+        transform: scaleY(0);
+    }
+
+    .sticky-menu-ikon input[type="checkbox"]:checked~.hamburger-lines .line1 {
+        transform: rotate(45deg);
+    }
+
+    .sticky-menu-ikon input[type="checkbox"]:checked~.hamburger-lines .line3 {
         transform: rotate(-45deg);
     }
 
