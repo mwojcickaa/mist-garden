@@ -75,17 +75,17 @@
     display: none;
 }
 
-.hamburger-menu {
+.menu-open {
     display: flex;
 }
 
-.hamburger-menu ul {
+.menu-open ul {
     padding: 0;
     margin-top: 20px;
     display: flex;
 }
 
-.hamburger-menu li {
+.menu-open li {
     list-style: none;
 }
 

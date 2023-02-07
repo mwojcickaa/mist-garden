@@ -1,15 +1,15 @@
 function menu() {
-    let menuLinks = document.getElementsByClassName("menu")
-    Array.from(menuLinks).forEach((menuLinks) => {
-        if (menuLinks.style.display === "block") {
+    let menuLinks = document.getElementById("menu")
+    // let animateMenu = document.getElementById("hamburger-menu")
+    if (menuLinks.style.display === "block") {
+        menuLinks.classList.replace("menu-open", "menu-close")
+        setTimeout(function () {
             menuLinks.style.display = "none";
-        } else {
-            menuLinks.style.display = "block";
-        }
-    })
-}
-document.getElementsByClassName("menu-ikon").addEventListener("click", menu())
+        }, 300)
+    } else {
+        menuLinks.style.display = "block";
+        menuLinks.classList.replace("menu-close", "menu-open")
+    }
 
-function showNavbar() {
-    document.getElementsByClassName("menu").className = "show"
 }
+
