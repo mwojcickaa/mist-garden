@@ -60,6 +60,11 @@
     font-style: italic;
 }
 
+
+#hamburger-menu {
+    display: flex;
+}
+
 .menu {
     display: flex;
     height: 45px;

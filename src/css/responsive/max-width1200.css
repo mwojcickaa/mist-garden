@@ -102,6 +102,10 @@
 
     /* third section */
 
+    .third-section-conteiner {
+        padding-top: 25px;
+    }
+
     .third-section-subtitle {
         align-items: center;
         margin: 20px 0;
