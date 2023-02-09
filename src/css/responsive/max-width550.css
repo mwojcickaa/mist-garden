@@ -1,8 +1,57 @@
 @media only screen and (max-width: 550px) {
 
+    .name-logo {
+        width: 93%;
+    }
+
+    .menu-icon {
+        width: 7%;
+    }
 
     .page-title h1 {
         font-size: 28px;
+    }
+
+    .menu-icon input {
+        position: fixed;
+        border: transprent;
+        height: 21px;
+        width: 24px;
+        z-index: 100;
+        opacity: 0;
+        margin: 0;
+        right: 26px;
+    }
+
+    .menu-icon .hamburger-lines {
+        height: 19px;
+        width: 25px;
+    }
+
+    .sticky-menu-icon input[type="checkbox"]:checked~.hamburger-lines .line1 {
+        transform: rotate(35deg);
+        width: 110%;
+    }
+
+    .sticky-menu-icon input[type="checkbox"]:checked~.hamburger-lines .line3 {
+        transform: rotate(-35deg);
+        width: 110%;
+    }
+
+    .hamburger-lines .line {
+        height: 3px;
+    }
+
+    .menu a {
+        font-size: 13px;
+    }
+
+    .button-header h5 {
+        font-size: 13px;
+    }
+
+    .menu {
+        line-height: 75px;
     }
 
     .page-title h2 {
@@ -15,7 +64,7 @@
     }
 
     .top-right-content {
-        width: 90%;
+        width: 91%;
     }
 
     .second-section-title h3 {
@@ -28,11 +77,11 @@
         margin: 0px 0 20px 0;
     }
 
-    .arrow-right {
+    #arrow-right {
         z-index: 1;
     }
 
-    .arrow-left {
+    #arrow-left {
         z-index: 1;
     }
 

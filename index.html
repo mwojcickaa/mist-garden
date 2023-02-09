@@ -38,7 +38,7 @@
                     <p>Muzeum & Ogród Botaniczny</p>
                 </div>
             </div>
-            <div id="hamburger-ikon" class="menu-ikon" onclick="menu()">
+            <div id="hamburger-icon" class="menu-icon" onclick="menu()">
                 <input class="chekcbox" type="checkbox" name="" id="">
                 <div class="hamburger-lines">
                     <span class="line line1"></span>
@@ -47,7 +47,7 @@
                 </div>
             </div>
 
-            <div id="menu" class="menu menu-open">
+            <div id="menu" class="menu menu-close" style="display: none">
                 <div id="hamburger-menu">
                     <ul>
                         <li><a class="menu-link" href="#">STRONA GŁÓWNA</a></li>
@@ -207,11 +207,11 @@
             <div class="dot" onclick="currentSlide(2)"></div>
             <div class="dot" onclick="currentSlide(3)"></div>
         </div>
-        <div class="arrow-left" onclick="plusSlides(-1)">
+        <div id="arrow-left" onclick="plusSlides(-1)">
             <div class="arrow-lines left">
             </div>
         </div>
-        <div class="arrow-right" onclick="plusSlides(1)">
+        <div id="arrow-right" onclick="plusSlides(1)">
             <div class="arrow-lines right"></div>
         </div>
     </div>

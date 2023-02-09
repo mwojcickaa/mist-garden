@@ -3,12 +3,15 @@
     /* first section */
 
     .name {
-        padding-top: 3px;
         padding-left: 5px;
     }
 
     .name-logo {
-        width: 90%;
+        width: 94%;
+    }
+
+    .menu-icon {
+        width: 6%;
     }
 
     .logo {
@@ -21,6 +24,43 @@
         height: 60px;
         margin-left: -53px;
         margin-top: 7px;
+    }
+
+    .menu-icon .hamburger-lines {
+        width: 17px;
+        height: 14px;
+    }
+
+    .menu-icon input {
+        width: 17px;
+        height: 18px;
+    }
+
+    .hamburger-lines .line {
+        height: 2px;
+    }
+
+    .sticky-menu-icon input[type="checkbox"]:checked~.hamburger-lines .line1 {
+        transform: rotate(45deg);
+        width: 105%;
+    }
+
+    .sticky-menu-icon input[type="checkbox"]:checked~.hamburger-lines .line3 {
+        transform: rotate(-45deg);
+        width: 105%;
+    }
+
+    #hamburger-menu {
+        margin-top: 45px;
+    }
+
+    .menu {
+        width: 55%;
+        line-height: 55px;
+    }
+
+    .menu a {
+        font-size: 10px;
     }
 
     .name h1 {
@@ -66,7 +106,7 @@
 
     .second-button h5 {
         font-size: 10px;
-        font-weight: 500;
+        font-weight: 700;
     }
 
     .button.second-button {
@@ -123,7 +163,7 @@
         height: 10px;
     }
 
-    .arrow-right {
+    #arrow-right {
         width: 25px;
         height: 25px;
     }
@@ -135,7 +175,7 @@
         margin-left: 6px;
     }
 
-    .arrow-left {
+    #arrow-left {
         width: 25px;
         height: 25px;
     }

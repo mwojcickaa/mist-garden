@@ -65,6 +65,11 @@
     display: flex;
 }
 
+
+#menu {
+    display: block;
+}
+
 .menu {
     display: flex;
     height: 45px;
@@ -76,7 +81,7 @@
 
 }
 
-.menu-ikon {
+.menu-icon {
     display: none;
 }
 

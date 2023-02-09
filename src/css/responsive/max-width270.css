@@ -2,6 +2,64 @@
 
     /* first section */
 
+    .menu-icon {
+        width: 8%;
+    }
+
+    .name-logo {
+        width: 92%;
+    }
+
+    .name-log {
+        margin-top: 10px;
+    }
+
+    .name {
+        padding: 0;
+        margin-left: 5px;
+    }
+
+    .menu-icon .hamburger-lines {
+        width: 14px;
+        height: 9px;
+    }
+
+    .menu-icon input {
+        width: 14px;
+        height: 9px;
+    }
+
+    .hamburger-lines .line {
+        height: 1px;
+    }
+
+    .sticky-menu-icon input[type="checkbox"]:checked~.hamburger-lines .line1 {
+        transform: rotate(35deg);
+        width: 103%;
+    }
+
+    .sticky-menu-icon input[type="checkbox"]:checked~.hamburger-lines .line3 {
+        transform: rotate(-35deg);
+        width: 103%;
+    }
+
+    #hamburger-menu {
+        margin-top: 40px;
+    }
+
+    .menu {
+        width: 60%;
+        line-height: 40px;
+    }
+
+    .menu a {
+        font-size: 8px;
+    }
+
+    .second-button h5 {
+        font-size: 8px;
+    }
+
     .name h1 {
         font-size: 12px;
     }
@@ -34,10 +92,10 @@
         height: 30px;
     }
 
-    .second-button h5 {
-        font-size: 9px;
-        font-weight: 400;
-    }
+    /* .second-button h5 {
+        font-size: 10px;
+        font-weight: 700;
+    } */
 
     .border {
         width: 179px;

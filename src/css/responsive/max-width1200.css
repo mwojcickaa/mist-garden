@@ -92,11 +92,11 @@
         width: 80%;
     }
 
-    .arrow-right {
+    #arrow-right {
         right: 15px;
     }
 
-    .arrow-left {
+    #arrow-left {
         left: 15px;
     }
 

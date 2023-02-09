@@ -51,34 +51,46 @@
         text-align: center;
     }
 
-    .menu-ikon {
-        position: relative;
+    .menu-icon {
+        /* position: relative;
         right: 7px;
         top: 17px;
         height: 23px;
-        width: 28px;
+        width: 28px; */
+        display: flex;
+        z-index: 101;
+        width: 3.5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
-    .sticky-menu-ikon {
-        position: fixed;
+    .sticky-menu-icon {
+        /* position: fixed;
         right: 22px;
         z-index: 110;
         height: 23px;
         width: 28px;
-        top: 17px;
+        top: 17px; */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
 
-    .sticky-menu-ikon input {
-        position: fixed;
-        border: transprent;
+    .sticky-menu-icon input {
+        /* position: fixed; */
+        /* border: transprent; */
+        position: abolute;
         height: 25px;
         width: 29px;
         z-index: 100;
         opacity: 0;
         margin: 0;
+        right: 22px;
+
     }
 
-    .sticky-menu-ikon .hamburger-lines {
+    .sticky-menu-icon .hamburger-lines {
         height: 23px;
         width: 28px;
         top: 17px;
@@ -89,7 +101,7 @@
         justify-content: space-between;
     }
 
-    .menu-ikon input {
+    .menu-icon input {
         position: fixed;
         border: transprent;
         height: 25px;
@@ -123,6 +135,9 @@
         animation-name: slide-in;
         display: block;
         text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
 
     @keyframes slide-in {
@@ -152,9 +167,9 @@
         list-style: none;
     }
 
-    .menu-ikon .hamburger-lines {
+    .menu-icon .hamburger-lines {
         display: block;
-        height: 23px;
+        height: 22px;
         width: 28px;
         top: 17px;
         right: 25px;
@@ -183,68 +198,60 @@
         opacity: 0;
     }
 
-    .menu-ikon .hamburger-lines .line1 {
+    .menu-icon .hamburger-lines .line1 {
+        transform-origin: 0% 0%;
+        transition: transform 0.4s ease-in-out;
+    }
+
+    .menu-icon .hamburger-lines .line2 {
+        transition: transform 0.2s ease-in-out;
+    }
+
+    .menu-icon .hamburger-lines .line3 {
+        transform-origin: 0% 100%;
+        transition: transform 0.4s ease-in-out;
+    }
+
+    .menu-icon input[type="checkbox"]:checked~.menu-items {
+        transform: translateX(0);
+    }
+
+    .menu-icon input[type="checkbox"]:checked~.hamburger-lines .line2 {
+        transform: scaleY(0);
+    }
+
+    .sticky-menu-icon .hamburger-lines .line1 {
         transform-origin: 0% 0%;
         transition: transform 0.4s ease-in-out;
         width: 100%;
     }
 
-    .menu-ikon .hamburger-lines .line2 {
+    .sticky-menu-icon .hamburger-lines .line2 {
         transition: transform 0.2s ease-in-out;
     }
 
-    .menu-ikon .hamburger-lines .line3 {
+    .sticky-menu-icon .hamburger-lines .line3 {
         transform-origin: 0% 100%;
         transition: transform 0.4s ease-in-out;
         width: 100%;
     }
 
-    .menu-ikon input[type="checkbox"]:checked~.menu-items {
+    .sticky-menu-icon input[type="checkbox"]:checked~.menu-items {
         transform: translateX(0);
     }
 
-    .menu-ikon input[type="checkbox"]:checked~.hamburger-lines .line2 {
+    .sticky-menu-icon input[type="checkbox"]:checked~.hamburger-lines .line2 {
         transform: scaleY(0);
     }
 
-    .menu-ikon input[type="checkbox"]:checked~.hamburger-lines .line1 {
-        transform: rotate(45deg);
+    .sticky-menu-icon input[type="checkbox"]:checked~.hamburger-lines .line1 {
+        transform: rotate(40deg);
+        width: 105%;
     }
 
-    .menu-ikon input[type="checkbox"]:checked~.hamburger-lines .line3 {
-        transform: rotate(-45deg);
-    }
-
-    .sticky-menu-ikon .hamburger-lines .line1 {
-        transform-origin: 0% 0%;
-        transition: transform 0.4s ease-in-out;
-        width: 100%;
-    }
-
-    .sticky-menu-ikon .hamburger-lines .line2 {
-        transition: transform 0.2s ease-in-out;
-    }
-
-    .sticky-menu-ikon .hamburger-lines .line3 {
-        transform-origin: 0% 100%;
-        transition: transform 0.4s ease-in-out;
-        width: 100%;
-    }
-
-    .sticky-menu-ikon input[type="checkbox"]:checked~.menu-items {
-        transform: translateX(0);
-    }
-
-    .sticky-menu-ikon input[type="checkbox"]:checked~.hamburger-lines .line2 {
-        transform: scaleY(0);
-    }
-
-    .sticky-menu-ikon input[type="checkbox"]:checked~.hamburger-lines .line1 {
-        transform: rotate(45deg);
-    }
-
-    .sticky-menu-ikon input[type="checkbox"]:checked~.hamburger-lines .line3 {
-        transform: rotate(-45deg);
+    .sticky-menu-icon input[type="checkbox"]:checked~.hamburger-lines .line3 {
+        transform: rotate(-40deg);
+        width: 105%;
     }
 
     .menu-link {
@@ -349,17 +356,12 @@
         font-size: 16px;
     }
 
-    .menu-ikon {
-        display: flex;
-        z-index: 101;
-    }
-
-    .menu-ikon img {
+    .menu-icon img {
         width: 24px;
     }
 
     .name-logo {
-        width: 50%;
+        width: 96.5%;
     }
 
     .first-section-content {

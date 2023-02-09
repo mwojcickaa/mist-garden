@@ -7,7 +7,11 @@
     }
 
     .name-logo {
-        width: 70%;
+        width: 95%;
+    }
+
+    .menu-icon {
+        width: 5%
     }
 
     .page-title h1 {
@@ -82,11 +86,11 @@
         justify-content: center;
     }
 
-    .arrow-right {
+    #arrow-right {
         right: 3px;
     }
 
-    .arrow-left {
+    #arrow-left {
         left: 3px;
     }
 
