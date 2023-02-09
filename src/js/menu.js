@@ -1,17 +1,17 @@
 function menu() {
-    let menuLinks = document.getElementById("menu")
-    let stickyIkon = document.getElementById("hamburger-ikon")
-    if (menuLinks.style.display === "block") {
-        menuLinks.classList.replace("menu-open", "menu-close")
-        stickyIkon.classList.replace("sticky-menu-ikon", "menu-ikon")
+    let menu = document.getElementById("menu")
+    let stickyMenuIcon = document.getElementById("hamburger-icon")
+    if (menu.style.display === "block") {
+        menu.classList.replace("menu-open", "menu-close")
+        stickyMenuIcon.classList.remove("sticky-menu-icon")
+        stickyMenuIcon.classList += " menu-close"
         setTimeout(function () {
-            menuLinks.style.display = "none";
+            menu.style.display = "none"
         }, 300)
     } else {
-        menuLinks.style.display = "block";
-        menuLinks.classList.replace("menu-close", "menu-open")
-        stickyIkon.classList.replace("menu-ikon", "sticky-menu-ikon")
+        menu.style.display = "block"
+        menu.classList.replace("menu-close", "menu-open")
+        stickyMenuIcon.classList.remove("menu-close")
+        stickyMenuIcon.classList += " sticky-menu-icon"
     }
-
 }
-
