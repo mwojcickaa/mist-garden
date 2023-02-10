@@ -24,6 +24,12 @@
 
     #hamburger-menu {
         display: block;
+        float: none;
+        margin-top: 60px;
+    }
+
+    #hamburger-menu ul {
+        display: block;
     }
 
     .menu {
@@ -111,8 +117,8 @@
         margin: 0;
     }
 
-    #hamburger-menu {
-        margin-top: 60px;
+    .button {
+        margin: 0 15px 0 15px;
     }
 
     .menu-open {

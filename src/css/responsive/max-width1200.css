@@ -7,6 +7,10 @@
         width: 30%;
     }
 
+    .menu {
+        width: 80%;
+    }
+
     .menu a {
         margin-right: 25px;
         letter-spacing: 1px;

@@ -89,7 +89,7 @@
     }
 
     .first-button {
-        width: 90px;
+        width: 100px;
         height: 35px;
     }
 
@@ -99,9 +99,13 @@
     }
 
     .second-button {
-        width: 90px;
+        width: 100px;
         height: 35px;
         border-width: 1px;
+    }
+
+    .button {
+        margin: 0 10px 0 10px;
     }
 
     .second-button h5 {
