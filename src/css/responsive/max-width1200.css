@@ -30,6 +30,15 @@
         font-size: 13px;
     }
 
+    .btn {
+        width: 170px;
+        height: 58px;
+    }
+
+    .btn-text span {
+        font-size: 16px;
+    }
+
     .button-header {
         width: 150px;
         height: 45px;

@@ -83,6 +83,20 @@
         font-size: 15px;
     }
 
+    .btn {
+        width: 110px;
+        height: 38px;
+    }
+
+    .btn span {
+        font-size: 10px;
+    }
+
+    /* .btn:hover svg {
+        width: 110px;
+        height: 35px;
+    } */
+
     .first-section-content {
         display: block;
         width: 100%;

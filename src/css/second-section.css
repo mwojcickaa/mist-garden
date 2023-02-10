@@ -7,9 +7,6 @@
 .background-color-second-section {
     padding: 64px 0;
     animation-duration: 1s;
-    /* animation: slide;
-    animation-direction: normal;
-    animation-duration: 1.5s; */
 }
 
 @keyframes slide {
@@ -117,34 +114,43 @@
     z-index: 1;
 }
 
-.third-button button {
-    width: 190px;
-    height: 55px;
-    border: 2px solid #FFFFFF;
-    margin-right: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: none;
-    background-color: transparent;
+.button-hover {
+    width: 180px;
+    height: 60px;
     cursor: pointer;
-    transition-duration: 0.4s;
+    background: transparent;
+    border: 1px solid #FFF;
+    outline: none;
+    transition: 1s ease-in-out;
+    position: relative;
 }
 
-.third-button button:hover {
-    box-shadow: 0 0 30px 8px #808d7e;
+.button-hover svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
 }
 
-.third-button h5 {
-    font-family: roboto;
-    font-weight: 700;
-    font-size: 14px;
+.button-hover:hover {
+    transition: 1s ease-in-out;
+    background: transparent;
+}
+
+.button-hover:hover svg {
+    stroke-dashoffset: -480;
+}
+
+.button-hover span {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
     letter-spacing: 2px;
-    margin: 0;
-    color: #FFFFFF;
-    text-transform: uppercase;
 }
-
 
 .top-right-content {
     width: 85%;
