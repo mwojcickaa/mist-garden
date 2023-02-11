@@ -1,31 +1,40 @@
 let slideIndex = 1;
 showSlides(slideIndex);
 
-function plusSlides(n) {
-    showSlides(slideIndex += n)
+function plusSlides(slideNumber) {
+    slideIndex += slideNumber
+    showSlides(slideIndex)
 }
 
-function currentSlide(n) {
-    showSlides(slideIndex = n)
+function currentSlide(slideNumber) {
+    console.log(slideNumber)
+    slideIndex = slideNumber
+    showSlides(slideIndex)
 }
 
-function showSlides(n) {
-    let i;
+function showSlides(slideNumber) {
     let slides = document.getElementsByClassName("background-color-second-section")
     let dots = document.getElementsByClassName("dot")
-    if (n > slides.length) { slideIndex = 1 }
-    if (n < 1) { slideIndex = slides.length; i++ }
-    for (i = 0; i < slides.length; i++) {
+    if (slideNumber > slides.length) { slideIndex = 1 }
+    if (slideNumber < 1) { slideIndex = slides.length }
+    for (let i = 0; i < slides.length; i++) {
         slides[i].style.display = "none"
     }
-    for (i = 0; i < dots.length; i++) {
+    for (let i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace("active", "")
     }
-    slides[slideIndex - 1].style.display = "grid"
+    slides[slideIndex - 1].style.display = "flex"
     dots[slideIndex - 1].className += " active"
 }
 
-setInterval(() => {
-    slideIndex += 1
-    showSlides(slideIndex)
-}, 3000)
+// setInterval(() => {
+//     slideIndex += 1
+//     showSlides(slideIndex)
+// }, 3000)
+
+document.getElementById("dot1").addEventListener("click", () => currentSlide(1))
+document.getElementById("dot2").addEventListener("click", () => currentSlide(2))
+document.getElementById("dot3").addEventListener("click", () => currentSlide(3))
+
+document.getElementById("arrow-right").addEventListener("click", () => plusSlides(1))
+document.getElementById("arrow-left").addEventListener("click", () => plusSlides(-1))

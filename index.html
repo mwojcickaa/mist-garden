@@ -41,9 +41,9 @@
             <div id="hamburger-icon" class="menu-icon">
                 <input id="chekcbox" type="checkbox" name="" id="">
                 <div class="hamburger-lines">
-                    <span class="line line1"></span>
-                    <span class="line line2"></span>
-                    <span class="line line3"></span>
+                    <span class="line line-transform"></span>
+                    <span class="line line-transform"></span>
+                    <span class="line line-transform"></span>
                 </div>
             </div>
 
@@ -111,7 +111,7 @@
         </div>
     </div>
     <div id="second-section">
-        <div class="background-color-second-section">
+        <div id="slide1" class="background-color-second-section">
             <div class="second-container">
                 <div class="branch">
                     <img src="src/img/Group.svg">
@@ -150,7 +150,7 @@
                 </div>
             </div>
         </div>
-        <div class="background-color-second-section second-color">
+        <div id="slide2" class="background-color-second-section second-color">
             <div class="second-container">
                 <div class=" branch">
                     <img src="src/img/Group.svg">
@@ -187,7 +187,7 @@
                 </div>
             </div>
         </div>
-        <div class="background-color-second-section third-color">
+        <div id="slide3" class="background-color-second-section third-color">
             <div class="second-container">
                 <div class="branch">
                     <img src="src/img/Group.svg">
@@ -225,15 +225,15 @@
             </div>
         </div>
         <div class="dots">
-            <div class="dot selected-dot" onclick="currentSlide(1)"></div>
-            <div class="dot" onclick="currentSlide(2)"></div>
-            <div class="dot" onclick="currentSlide(3)"></div>
+            <div id="dot1" class="dot selected-dot"></div>
+            <div id="dot2" class="dot"></div>
+            <div id="dot3" class="dot"></div>
         </div>
-        <div id="arrow-left" onclick="plusSlides(-1)">
+        <div id="arrow-left">
             <div class="arrow-lines left">
             </div>
         </div>
-        <div id="arrow-right" onclick="plusSlides(1)">
+        <div id="arrow-right">
             <div class="arrow-lines right"></div>
         </div>
     </div>
