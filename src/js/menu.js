@@ -15,3 +15,5 @@ function menu() {
         stickyMenuIcon.classList += " sticky-menu-icon"
     }
 }
+
+document.getElementById("hamburger-icon").addEventListener("click", menu)
