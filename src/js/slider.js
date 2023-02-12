@@ -1,25 +1,29 @@
 let slideIndex = 1;
-showSlides(slideIndex);
+showSlides(slideIndex)
 
 function plusSlides(slideNumber) {
     slideIndex += slideNumber
     showSlides(slideIndex)
+    stopInterval()
 }
 
 function currentSlide(slideNumber) {
     slideIndex = slideNumber
     showSlides(slideIndex)
+    stopInterval()
 }
 
 function showSlides(slideNumber) {
     let slides = document.getElementsByClassName("background-color-second-section")
     let dots = document.getElementsByClassName("dot")
-    if (slideNumber > slides.length) { slideIndex = 1 }
-    if (slideNumber < 1) { slideIndex = slides.length }
+    if (slideNumber > slides.length) {
+        slideIndex = 1
+    }
+    else if (slideNumber < 1) {
+        slideIndex = slides.length
+    }
     for (let i = 0; i < slides.length; i++) {
         slides[i].style.display = "none"
-    }
-    for (let i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace("active", "")
     }
     slides[slideIndex - 1].style.display = "flex"
@@ -37,24 +41,9 @@ function stopInterval() {
     clearInterval(myInterval)
 }
 
-document.getElementById("dot1").addEventListener("click", () => {
-    currentSlide(1);
-    stopInterval();
-})
-document.getElementById("dot2").addEventListener("click", () => {
-    currentSlide(2);
-    stopInterval();
-})
-document.getElementById("dot3").addEventListener("click", () => {
-    currentSlide(3);
-    stopInterval();
-})
+document.getElementById("dot1").addEventListener("click", () => currentSlide(1))
+document.getElementById("dot2").addEventListener("click", () => currentSlide(2))
+document.getElementById("dot3").addEventListener("click", () => currentSlide(3))
 
-document.getElementById("arrow-right").addEventListener("click", () => {
-    plusSlides(1);
-    stopInterval();
-})
-document.getElementById("arrow-left").addEventListener("click", () => {
-    plusSlides(-1);
-    stopInterval();
-})
+document.getElementById("arrow-right").addEventListener("click", () => plusSlides(1))
+document.getElementById("arrow-left").addEventListener("click", () => plusSlides(-1))
