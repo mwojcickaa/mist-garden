@@ -7,7 +7,6 @@ function plusSlides(slideNumber) {
 }
 
 function currentSlide(slideNumber) {
-    console.log(slideNumber)
     slideIndex = slideNumber
     showSlides(slideIndex)
 }
@@ -27,14 +26,35 @@ function showSlides(slideNumber) {
     dots[slideIndex - 1].className += " active"
 }
 
-// setInterval(() => {
-//     slideIndex += 1
-//     showSlides(slideIndex)
-// }, 3000)
+function intervalSlide() {
+    slideIndex += 1
+    showSlides(slideIndex)
+}
 
-document.getElementById("dot1").addEventListener("click", () => currentSlide(1))
-document.getElementById("dot2").addEventListener("click", () => currentSlide(2))
-document.getElementById("dot3").addEventListener("click", () => currentSlide(3))
+let myInterval = setInterval(intervalSlide, 3000)
 
-document.getElementById("arrow-right").addEventListener("click", () => plusSlides(1))
-document.getElementById("arrow-left").addEventListener("click", () => plusSlides(-1))
+function stopInterval() {
+    clearInterval(myInterval)
+}
+
+document.getElementById("dot1").addEventListener("click", () => {
+    currentSlide(1);
+    stopInterval();
+})
+document.getElementById("dot2").addEventListener("click", () => {
+    currentSlide(2);
+    stopInterval();
+})
+document.getElementById("dot3").addEventListener("click", () => {
+    currentSlide(3);
+    stopInterval();
+})
+
+document.getElementById("arrow-right").addEventListener("click", () => {
+    plusSlides(1);
+    stopInterval();
+})
+document.getElementById("arrow-left").addEventListener("click", () => {
+    plusSlides(-1);
+    stopInterval();
+})
