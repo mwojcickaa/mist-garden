@@ -473,6 +473,10 @@
         margin: 50px 0;
     }
 
+    .third-section-subtitle img.line {
+        width: 15%;
+    }
+
     .third-section-content {
         width: 90%;
     }

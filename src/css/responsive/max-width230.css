@@ -10,4 +10,12 @@
     .background-color-second-section {
         padding: 30px 0 44px 0;
     }
+
+    #arrow-right {
+        top: 50%;
+    }
+
+    #arrow-left {
+        top: 50%;
+    }
 }

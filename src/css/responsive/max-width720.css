@@ -6,4 +6,15 @@
     .background-color-second-section {
         padding: 70px 0;
     }
+
+    .third-section-subtitle img.line {
+        width: 20%;
+        margin-right: 10px;
+    }
+
+    .arrow {
+        margin-left: 5px;
+        width: 17px;
+        margin-bottom: 2px;
+    }
 }

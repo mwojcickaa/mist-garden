@@ -6,4 +6,30 @@
     .second-section-text p {
         height: 150px;
     }
+
+    #arrow-right {
+        width: 23px;
+        height: 23px;
+        border-radius: 23px;
+    }
+
+    .arrow-lines.right {
+        width: 8px;
+        height: 8px;
+        margin-top: 7px;
+        margin-left: 5px;
+    }
+
+    #arrow-left {
+        width: 23px;
+        height: 23px;
+        border-radius: 23px;
+    }
+
+    .arrow-lines.left {
+        margin-left: 9px;
+        width: 8px;
+        height: 8px;
+        margin-top: 7px;
+    }
 }

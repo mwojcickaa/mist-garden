@@ -14,4 +14,28 @@
     .top-right-content {
         width: 99%;
     }
+
+    #arrow-right {
+        width: 18px;
+        height: 18px;
+    }
+
+    .arrow-lines.right {
+        width: 6px;
+        height: 6px;
+        margin-top: 6px;
+        margin-left: 5px;
+    }
+
+    #arrow-left {
+        width: 18px;
+        height: 18px;
+    }
+
+    .arrow-lines.left {
+        margin-left: 7px;
+        width: 6px;
+        height: 6px;
+        margin-top: 6px;
+    }
 }
