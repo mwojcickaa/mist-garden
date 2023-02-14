@@ -178,7 +178,8 @@
     position: absolute;
     display: flex;
     bottom: 13px;
-    right: 45%;
+    width: 100%;
+    justify-content: center;
 }
 
 .dot {
