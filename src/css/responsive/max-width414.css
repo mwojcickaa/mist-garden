@@ -28,12 +28,12 @@
 
     .menu-icon .hamburger-lines {
         width: 17px;
-        height: 14px;
+        height: 17px;
     }
 
     .menu-icon input {
         width: 17px;
-        height: 18px;
+        height: 17px;
     }
 
     .hamburger-lines .line {
@@ -42,12 +42,12 @@
 
     .sticky-menu-icon input[type="checkbox"]:checked~.hamburger-lines .line1 {
         transform: rotate(45deg);
-        width: 105%;
+        width: 21px;
     }
 
     .sticky-menu-icon input[type="checkbox"]:checked~.hamburger-lines .line3 {
         transform: rotate(-45deg);
-        width: 105%;
+        width: 21px;
     }
 
     #hamburger-menu {
@@ -91,11 +91,6 @@
     .btn span {
         font-size: 10px;
     }
-
-    /* .btn:hover svg {
-        width: 110px;
-        height: 35px;
-    } */
 
     .first-section-content {
         display: block;
@@ -152,8 +147,20 @@
         grid-template-rows: 25% 25% 50%;
     }
 
+    .background-color-second-section {
+        padding: 30px 0 0px 0;
+    }
+
     .top-right-content {
         position: relative;
+    }
+
+    .top-right-content .first-slide {
+        width: 90%;
+    }
+
+    .second-slide {
+        width: 98%;
     }
 
     .second-section-title h3 {
@@ -163,17 +170,24 @@
     .second-section-text p {
         font-size: 15px;
         line-height: 22px;
+        height: 110px;
+    }
+
+    .second-container {
+        margin-bottom: 20px;
     }
 
     .third-button button {
-        width: 135px;
-        height: 40px;
+        width: 120px;
+        height: 41px;
         border: solid white 1px;
     }
 
-    .third-button h5 {
-        font-weight: 400;
-        font-size: 12px;
+    .button-hover span {
+        color: white;
+        font-size: 10px;
+        font-weight: 600;
+        letter-spacing: 2px;
     }
 
     .dot {

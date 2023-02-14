@@ -20,13 +20,14 @@
     }
 
     .menu-icon .hamburger-lines {
-        width: 14px;
-        height: 9px;
+        width: 12px;
+        height: 12px;
     }
 
     .menu-icon input {
-        width: 14px;
-        height: 9px;
+        width: 12px;
+        height: 12px;
+        right: 10px;
     }
 
     .hamburger-lines .line {
@@ -34,13 +35,13 @@
     }
 
     .sticky-menu-icon input[type="checkbox"]:checked~.hamburger-lines .line1 {
-        transform: rotate(35deg);
-        width: 103%;
+        transform: rotate(45deg);
+        width: 16px;
     }
 
     .sticky-menu-icon input[type="checkbox"]:checked~.hamburger-lines .line3 {
-        transform: rotate(-35deg);
-        width: 103%;
+        transform: rotate(-45deg);
+        width: 16px;
     }
 
     #hamburger-menu {
@@ -64,16 +65,9 @@
         margin: 0 5px 0 5px;
     }
 
-    .btn {
-        width: 95px;
-        height: 33px;
-    }
-
     .btn span {
         font-size: 8px;
     }
-
-    /* font-weight: 700; */
 
 
     .name h1 {
@@ -108,11 +102,6 @@
         height: 30px;
     }
 
-    /* .second-button h5 {
-        font-size: 10px;
-        font-weight: 700;
-    } */
-
     .border {
         width: 179px;
     }
@@ -130,16 +119,27 @@
 
     .second-section-text p {
         font-size: 11px;
-        line-height: 21px;
+        line-height: 17px;
+        height: 90px;
+        margin-bottom: 5px;
+    }
+
+    .btn {
+        width: 85px;
+        height: 30px;
     }
 
     .third-button button {
-        width: 110px;
-        height: 32px;
+        width: 105px;
+        height: 36px;
     }
 
-    .third-button h5 {
-        font-size: 10px;
+    .button-hover span {
+        font-size: 8px;
+    }
+
+    .background-color-second-section {
+        padding: 30px 0 0 0;
     }
 
 

@@ -58,34 +58,24 @@
     }
 
     .menu-icon {
-        /* position: relative;
-        right: 7px;
-        top: 17px;
-        height: 23px;
-        width: 28px; */
         display: flex;
         z-index: 101;
-        width: 3.5%;
+        width: 22px;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
 
     .sticky-menu-icon {
-        /* position: fixed;
-        right: 22px;
-        z-index: 110;
-        height: 23px;
-        width: 28px;
-        top: 17px; */
+        animation-name: slide-in;
+        display: block;
+        text-align: center;
         display: flex;
         justify-content: center;
         flex-direction: column;
     }
 
     .sticky-menu-icon input {
-        /* position: fixed; */
-        /* border: transprent; */
         position: abolute;
         height: 25px;
         width: 29px;
@@ -93,7 +83,18 @@
         opacity: 0;
         margin: 0;
         right: 22px;
+        visibility: hidden;
+    }
 
+    .menu-icon input {
+        position: fixed;
+        border: transprent;
+        height: 22px;
+        width: 22px;
+        z-index: 100;
+        opacity: 0;
+        margin: 0;
+        visibility: visible;
     }
 
     .sticky-menu-icon .hamburger-lines {
@@ -107,22 +108,16 @@
         justify-content: space-between;
     }
 
-    .menu-icon input {
-        position: fixed;
-        border: transprent;
-        height: 25px;
-        width: 29px;
-        z-index: 100;
-        opacity: 0;
-        margin: 0;
-    }
-
     .btn span {
         font-size: 13px;
     }
 
     .button {
         margin: 0 15px 0 15px;
+    }
+
+    #menu {
+        display: none;
     }
 
     .menu-open {
@@ -180,7 +175,7 @@
     .menu-icon .hamburger-lines {
         display: block;
         height: 22px;
-        width: 28px;
+        width: 22px;
         top: 17px;
         right: 25px;
         z-index: 2;
@@ -189,7 +184,7 @@
         justify-content: space-between;
     }
 
-    .hamburger-lines .line {
+    .line {
         display: block;
         height: 4px;
         width: 100%;
@@ -208,17 +203,8 @@
         opacity: 0;
     }
 
-    .menu-icon .hamburger-lines .line1 {
+    .menu-icon .hamburger-lines .line {
         transform-origin: 0% 0%;
-        transition: transform 0.4s ease-in-out;
-    }
-
-    .menu-icon .hamburger-lines .line2 {
-        transition: transform 0.2s ease-in-out;
-    }
-
-    .menu-icon .hamburger-lines .line3 {
-        transform-origin: 0% 100%;
         transition: transform 0.4s ease-in-out;
     }
 
@@ -226,43 +212,56 @@
         transform: translateX(0);
     }
 
-    .menu-icon input[type="checkbox"]:checked~.hamburger-lines .line2 {
-        transform: scaleY(0);
-    }
-
     .sticky-menu-icon .hamburger-lines .line1 {
         transform-origin: 0% 0%;
         transition: transform 0.4s ease-in-out;
-        width: 100%;
+        width: 27px;
+        transform: rotate(45deg);
     }
 
-    .sticky-menu-icon .hamburger-lines .line2 {
+    .menu-icon input[type="checkbox"]:checked~.hamburger-lines .line2 {
+        transform: scaleY(0);
         transition: transform 0.2s ease-in-out;
     }
 
     .sticky-menu-icon .hamburger-lines .line3 {
         transform-origin: 0% 100%;
         transition: transform 0.4s ease-in-out;
-        width: 100%;
+        width: 27px;
+        transform: rotate(-45deg);
     }
 
-    .sticky-menu-icon input[type="checkbox"]:checked~.menu-items {
+    /* .sticky-menu-icon .hamburger-lines .line2 {
+        transition: transform 0.2s ease-in-out;
+    } */
+
+    /* .menu-icon .hamburger-lines .line2 {
+        transition: transform 0.2s ease-in-out;
+    }
+
+    .menu-icon .hamburger-lines .line3 {
+        transform-origin: 0% 100%;
+        transition: transform 0.4s ease-in-out;
+    } */
+
+    /* .sticky-menu-icon input[type="checkbox"]:checked~.menu-items {
         transform: translateX(0);
-    }
+    } */
 
-    .sticky-menu-icon input[type="checkbox"]:checked~.hamburger-lines .line2 {
+    /* .sticky-menu-icon input[type="checkbox"]:checked~.hamburger-lines .line2 {
         transform: scaleY(0);
-    }
+    } */
 
-    .sticky-menu-icon input[type="checkbox"]:checked~.hamburger-lines .line1 {
+    /* .sticky-menu-icon input[type="checkbox"]:checked~.hamburger-lines .line1 {
         transform: rotate(40deg);
-        width: 105%;
-    }
+        /* width: 105%; */
 
-    .sticky-menu-icon input[type="checkbox"]:checked~.hamburger-lines .line3 {
+
+    */
+    /* .sticky-menu-icon input[type="checkbox"]:checked~.hamburger-lines .line3 {
         transform: rotate(-40deg);
-        width: 105%;
-    }
+        /* width: 105%; */
+    /* } */
 
     .menu-link {
         display: flex;
@@ -425,6 +424,11 @@
         gap: 25px 0;
     }
 
+    .second-section-text {
+        display: flex;
+        justify-content: center;
+    }
+
     .branch {
         bottom: 4%;
     }
@@ -450,7 +454,7 @@
 
     .third-button button {
         width: 185px;
-        height: 55px;
+        height: 63px;
     }
 
     .second-section-title h3 {
@@ -459,6 +463,7 @@
 
     .second-section-text p {
         font-size: 20px;
+        height: 145px;
     }
 
     /* third section */

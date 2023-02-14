@@ -11,10 +11,6 @@
     margin: auto;
 }
 
-.name-logo {
-    display: flex;
-}
-
 .logo {
     width: 60px;
     height: 60px;
@@ -33,6 +29,7 @@
 .name-logo {
     margin-top: 15px;
     width: 25%;
+    display: flex;
 }
 
 .name {
@@ -62,7 +59,8 @@
 
 #hamburger-menu {
     display: flex;
-    float: right;
+    width: 100%;
+    justify-content: flex-end;
 }
 
 #hamburger-menu ul {
@@ -85,6 +83,14 @@
     justify-content: flex-end;
     z-index: 100;
 
+}
+
+.menu-icon input {
+    position: absolute;
+    height: 22px;
+    width: 28px;
+    margin: 0;
+    opacity: 0;
 }
 
 .menu-icon {
@@ -218,6 +224,7 @@ svg {
 
 .btn-text span {
     font-size: 18px;
+    text-transform: uppercase;
 }
 
 .btn-first-section {

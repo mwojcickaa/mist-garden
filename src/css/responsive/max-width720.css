@@ -1,0 +1,9 @@
+@media only screen and (max-width: 720px) {
+    .second-section-text p {
+        height: 150px;
+    }
+
+    .background-color-second-section {
+        padding: 70px 0;
+    }
+}

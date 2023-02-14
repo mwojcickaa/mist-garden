@@ -42,7 +42,15 @@
         width: 340px;
     }
 
+    .sticky-menu-icon input {
+        right: 21px;
+    }
+
     /* second section */
+
+    .background-color-second-section {
+        padding: 64px 0 10px 0;
+    }
 
     .second-container {
         grid-template-rows: 33% 33% 33%;
@@ -62,6 +70,7 @@
         font-size: 19px;
         text-align: center;
         margin: 0px 0 12px 0;
+        height: 125px;
     }
 
     .top-right-content {
@@ -71,9 +80,13 @@
     }
 
     .third-button button {
-        width: 179px;
-        height: 50px;
+        width: 170px;
+        height: 58px;
         margin: 0;
+    }
+
+    .button-hover span {
+        font-size: 13px;
     }
 
     .branch {

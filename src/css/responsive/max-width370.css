@@ -1,0 +1,9 @@
+@media only screen and (max-width: 370px) {
+    .second-section-text p {
+        height: 125px;
+    }
+
+    .second-container {
+        margin-bottom: 40px;
+    }
+}
