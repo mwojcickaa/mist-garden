@@ -86,7 +86,7 @@
 }
 
 .menu-icon input {
-    position: absolute;
+    /* position: absolute; */
     height: 22px;
     width: 28px;
     margin: 0;
