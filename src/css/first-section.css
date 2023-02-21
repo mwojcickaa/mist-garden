@@ -5,10 +5,14 @@
     background-color: #FFFFFF;
 }
 
-.header {
+header {
     display: flex;
     max-width: 1220px;
     margin: auto;
+}
+
+nav {
+    display: flex;
 }
 
 .logo {
