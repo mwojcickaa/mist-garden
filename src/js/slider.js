@@ -2,7 +2,7 @@ let slideIndex = 1;
 showSlides(slideIndex)
 
 function plusSlides(slideNumber) {
-    slideIndex += slideNumber
+    slideIndex += 1
     showSlides(slideIndex)
     stopInterval()
 }
