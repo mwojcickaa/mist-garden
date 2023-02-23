@@ -1,5 +1,8 @@
 @media only screen and (max-width: 1200px) {
-    .header {
+
+    /* first section */
+
+    header {
         width: 97%;
     }
 

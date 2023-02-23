@@ -1,0 +1,79 @@
+@media only screen and (max-width: 768px) {
+
+    /* content */
+
+    body {
+        margin: 0;
+    }
+
+    .price-list-item h2 {
+        font-size: 23px;
+    }
+
+    .price-list {
+        width: 80%;
+    }
+
+    .price-list-branch img {
+        width: 50%;
+        bottom: 38%;
+    }
+
+    .price-list-image img {
+        width: 330px;
+        height: 495px;
+    }
+
+    .green-rectangle {
+        width: 330px;
+        height: 495px;
+    }
+
+    /* footer */
+
+    footer {
+        height: initial;
+    }
+
+    .top-content-footer {
+        display: block;
+    }
+
+    .footer-name-logo {
+        justify-content: center;
+    }
+
+    .footer-text p {
+        font-size: 16px;
+        width: 60%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .first-column {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .second-column {
+        width: 100%;
+        text-align: center;
+    }
+
+    .third-column {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .social-media {
+        margin: 20px 20px 0 20px;
+    }
+
+    .icons {
+        margin-bottom: 10px;
+    }
+
+}

@@ -1,0 +1,44 @@
+@media only screen and (max-width: 1400px) {
+    /* header */
+
+    header {
+        width: 95%;
+    }
+
+    .name-logo {
+        width: 28%;
+    }
+
+    .menu {
+        width: 72%;
+    }
+
+    .menu a {
+        margin-right: 20px;
+    }
+
+    /* content */
+
+    .price-list-content {
+        width: 90%;
+    }
+
+    .price-list-item h2 {
+        font-size: 27px;
+    }
+
+    .price-list-item p {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .price-list-branch img {
+        width: 40%;
+    }
+
+    /* footer */
+
+    .top-content-footer {
+        width: 90%;
+    }
+}

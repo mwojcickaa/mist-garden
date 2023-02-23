@@ -1,0 +1,33 @@
+@media only screen and (max-width: 1800px) {
+
+    /* header */
+
+    header {
+        width: 85%;
+    }
+
+    .menu {
+        width: 74%;
+    }
+
+    .name-logo {
+        width: 24%;
+    }
+
+    .menu-ikon {
+        display: none;
+    }
+
+    /* content */
+
+    .price-list-content {
+        width: 80%;
+    }
+
+    /* footer */
+
+    .top-content-footer {
+        width: 80%;
+        padding-top: 40px;
+    }
+}

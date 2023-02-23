@@ -1,29 +1,13 @@
 @media only screen and (max-width: 992px) {
-    #first-section {
-        position: relative;
-        height: initial;
-    }
-
-    nav {
-        display: block;
-    }
+    /* header */
 
     header {
         width: 95%;
         justify-content: space-between;
     }
 
-    .page-title h1 {
-        font-size: 41px;
-    }
-
-    .left-content {
-        width: 80%;
-        margin: auto;
-    }
-
-    .page-title h2 {
-        width: 75%;
+    nav {
+        display: block;
     }
 
     #hamburger-menu {
@@ -231,14 +215,6 @@
     }
 
     .menu a {
-        letter-spacing: 2px;
-        font-size: 16px;
-        margin: 0;
-        cursor: pointer;
-        display: inline;
-    }
-
-    .menu a {
         background-image: linear-gradient(to right,
                 #475F45,
                 #475F45 50%,
@@ -251,6 +227,11 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         transition: all 0.3s ease-in-out;
+        letter-spacing: 2px;
+        font-size: 16px;
+        margin: 0;
+        cursor: pointer;
+        display: inline;
     }
 
     .menu a:before {
@@ -318,10 +299,6 @@
         justify-content: center;
     }
 
-    .button-header.second-button {
-        border: none;
-    }
-
     .button-header h5 {
         margin: auto;
         font-size: 16px;
@@ -335,182 +312,46 @@
         width: 96.5%;
     }
 
-    .first-section-content {
-        display: grid;
-        width: 95%;
-    }
-
-    .left-content {
-        width: 100%;
-    }
-
-    .page-title h1 {
-        font-size: 47px;
-    }
-
-    .title-first-section {
-        display: flex;
-        margin-top: 45px;
-        text-align: center;
-        width: 75%;
-        margin: auto;
-        margin-top: 40px;
-    }
-
-    .first-section-paragraph {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .buttons {
-        justify-content: center;
-    }
-
-    .right-content {
-        width: 100%;
-        justify-content: center;
-        margin: 65px 0;
-    }
-
-    /* second section */
-
-    #second-section {
-        height: fit-content;
-    }
-
-    .second-container {
-        display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: 33% 33% 33%;
-        gap: 25px 0;
-    }
-
-    .second-section-text {
-        display: flex;
-        justify-content: center;
-    }
-
-    .branch {
-        bottom: 4%;
-    }
-
-    .branch img {
-        position: relative;
-    }
-
-
-    .top-left-content {
+    /* content */
+    .price-list-content {
         display: block;
-    }
-
-    .top-right-content {
-        width: 60%;
-        grid-column-start: 1;
-        grid-column-end: 1;
-        grid-row-start: 3;
-        grid-row-end: 4;
-        justify-self: flex-start;
-        align-self: auto;
-    }
-
-    .third-button button {
-        width: 185px;
-        height: 63px;
-    }
-
-    .second-section-title h3 {
-        font-size: 44px;
-    }
-
-    .second-section-text p {
-        font-size: 20px;
-        height: 145px;
-    }
-
-    /* third section */
-
-    #third-section {
-        height: initial;
-        margin: 50px 0;
-    }
-
-    .third-section-subtitle img.line {
-        width: 15%;
-    }
-
-    .third-section-content {
         width: 90%;
     }
 
-    .third-section-conteiner {
-        display: grid;
-    }
-
-    .photo-garden {
-        width: 52%;
-    }
-
-    .third-section-left-content {
+    .price-list-image {
         width: 100%;
-    }
-
-    .third-section-left-bottom-content {
         display: flex;
-        margin-bottom: 40px;
+        justify-content: center;
     }
 
-    .third-section-left-bottom-content h3 {
-        font-size: 27px;
-        margin: 0;
+    .price-list {
+        width: 65%;
+        margin-top: 60px;
     }
 
-    .third-section-left-bottom-content p {
-        font-size: 17px;
-        margin-top: 10px;
+    .price-list-item h2 {
+        font-size: 24px;
     }
 
-    .bottom-content h5 {
-        font-size: 15px;
+    .price-list-item p {
+        font-size: 12px;
     }
 
-    .third-section-right-content {
-        width: 100%;
+    .green-rectangle {
+        width: 450px;
+        height: 675px;
     }
 
-    .third-section-description {
-        margin-left: 15px;
+    .price-list-image img {
+        width: 450px;
+        height: 675px;
+        margin-left: 40px;
+    }
+
+    .price-list-branch img {
         width: 45%;
+        bottom: 22%;
     }
 
-    .photo {
-        width: 40%;
-    }
-
-    .row-text {
-        width: 80%;
-    }
-
-    .row-text h3 {
-        font-size: 25px;
-    }
-
-    .row-text p {
-        font-size: 20px;
-    }
-
-    .row-text h5 {
-        font-size: 13px;
-        margin-top: 10px;
-    }
-
-    /* footer  */
-
-    .top-content-footer {
-        width: 95%;
-    }
-
-    .footer-text p {
-        font-size: 15px;
-    }
+    /* footer */
 }
