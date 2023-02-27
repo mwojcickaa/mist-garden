@@ -506,6 +506,10 @@
 
     /* footer  */
 
+    footer {
+        height: initial;
+    }
+
     .top-content-footer {
         width: 95%;
     }

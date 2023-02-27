@@ -1,0 +1,175 @@
+@media only screen and (max-width: 414px) {
+
+    /* header */
+    .name {
+        padding-left: 5px;
+    }
+
+    .name-logo {
+        width: 94%;
+    }
+
+    .menu-icon {
+        width: 6%;
+    }
+
+    .logo {
+        width: 35px;
+        height: 35px;
+    }
+
+    .logo img {
+        width: 100px;
+        height: 60px;
+        margin-left: -53px;
+        margin-top: 7px;
+    }
+
+    .menu-icon .hamburger-lines {
+        width: 17px;
+        height: 17px;
+    }
+
+    .menu-icon input {
+        width: 17px;
+        height: 17px;
+    }
+
+    .hamburger-lines .line {
+        height: 2px;
+    }
+
+    .sticky-menu-icon input[type="checkbox"]:checked~.hamburger-lines .line1 {
+        transform: rotate(45deg);
+        width: 21px;
+    }
+
+    .sticky-menu-icon input[type="checkbox"]:checked~.hamburger-lines .line3 {
+        transform: rotate(-45deg);
+        width: 21px;
+    }
+
+    #hamburger-menu {
+        margin-top: 45px;
+    }
+
+    .menu {
+        width: 55%;
+        line-height: 55px;
+    }
+
+    .menu a {
+        font-size: 10px;
+    }
+
+    .name h1 {
+        font-size: 14px;
+    }
+
+    .name p {
+        font-size: 8px;
+    }
+
+    .menu-ikon img {
+        width: 15px;
+    }
+
+    .btn {
+        width: 110px;
+        height: 38px;
+    }
+
+    .btn span {
+        font-size: 10px;
+    }
+
+    /* content */
+
+    .exhibition-description {
+        width: 80%;
+    }
+
+    .exhibition-description h4 {
+        font-size: 12px;
+    }
+
+    .exhibition-description h3 {
+        font-size: 16px;
+    }
+
+    .exhibition-image img {
+        width: 180px;
+        height: 263px;
+        border-radius: 20px;
+        margin-right: 25px;
+        margin-top: 15px;
+    }
+
+    .green-rectangle {
+        width: 180px;
+        height: 263px;
+        border-radius: 20px;
+    }
+
+    .exhibition-description h3 {
+        margin-bottom: 30px;
+    }
+
+    .exhibition-description {
+        width: 95%;
+    }
+
+    .exhibition-description h4 {
+        margin-bottom: 30px;
+    }
+
+    .exhibition-branch img {
+        bottom: 625px;
+        width: 55%;
+    }
+
+
+    .exhibition-content {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    /* footer */
+
+    .footer-name h4 {
+        font-size: 18px;
+    }
+
+    .footer-name h5 {
+        font-size: 10px;
+    }
+
+    .footer-text p {
+        font-size: 12px;
+    }
+
+    .footer-title h4 {
+        font-size: 15px;
+    }
+
+
+    .text-link {
+        margin-bottom: 7px;
+    }
+
+    .text-link a {
+        font-size: 12px;
+    }
+
+    .social-media {
+        margin: 20px 10px 0 10px;
+    }
+
+    .social-media img {
+        width: 80%;
+    }
+
+    .end-text-footer h5 {
+        font-size: 10px;
+    }
+}

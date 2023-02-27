@@ -1,0 +1,83 @@
+@media only screen and (max-width: 768px) {
+    /* header */
+    /* content */
+
+    .exhibition-content {
+        margin-top: 50px;
+    }
+
+    .exhibition-description {
+        width: 85%;
+    }
+
+    .exhibition-branch img {
+        bottom: 420px;
+        width: 53%;
+    }
+
+    .exhibition-description h3 {
+        font-size: 21px;
+    }
+
+    .exhibition-description h4 {
+        margin-bottom: 60px;
+    }
+
+    .exhibition-image img {
+        width: 300px;
+        height: 438px;
+    }
+
+    .green-rectangle {
+        width: 300px;
+        height: 438px;
+    }
+
+    /* footer */
+
+    footer {
+        height: initial;
+    }
+
+    .top-content-footer {
+        display: block;
+    }
+
+    .footer-name-logo {
+        justify-content: center;
+    }
+
+    .footer-text p {
+        font-size: 16px;
+        width: 60%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .first-column {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .second-column {
+        width: 100%;
+        text-align: center;
+    }
+
+    .third-column {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .social-media {
+        margin: 20px 20px 0 20px;
+    }
+
+    .icons {
+        margin-bottom: 10px;
+    }
+
+}

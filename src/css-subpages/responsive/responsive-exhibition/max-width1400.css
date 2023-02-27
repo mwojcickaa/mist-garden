@@ -1,0 +1,38 @@
+@media only screen and (max-width: 1400px) {
+
+    /* header */
+
+    header {
+        width: 95%;
+    }
+
+    .name-logo {
+        width: 28%;
+    }
+
+    .menu {
+        width: 72%;
+    }
+
+    .menu a {
+        margin-right: 20px;
+    }
+
+    /* content */
+
+    .exhibition-content {
+        width: 85%;
+    }
+
+    .exhibition-branch img {
+        bottom: 334px;
+        right: 537px;
+        width: 33%;
+    }
+
+    /* footer */
+
+    .top-content-footer {
+        width: 90%;
+    }
+}

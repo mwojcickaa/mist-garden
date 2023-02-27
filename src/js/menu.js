@@ -1,5 +1,4 @@
 function menu() {
-    console.log("1")
     let menu = document.getElementById("menu")
     let stickyMenuIcon = document.getElementById("hamburger-icon")
     let hamburger = document.getElementById("hamburger")
@@ -25,6 +24,5 @@ function menu() {
     }
 }
 
-// if (document.getElementById("hamburger-icon") != null) {
 document.getElementById("hamburger-icon").addEventListener("click", menu)
-// }
+

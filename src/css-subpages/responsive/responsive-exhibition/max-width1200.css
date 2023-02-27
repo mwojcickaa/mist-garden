@@ -1,0 +1,87 @@
+@media only screen and (max-width: 1200px) {
+
+    /* header */
+    header {
+        width: 97%;
+    }
+
+    .name-logo {
+        width: 27%;
+    }
+
+    .name h1 {
+        font-size: 24px;
+    }
+
+    .name p {
+        font-size: 13px;
+    }
+
+    .menu {
+        width: 80%;
+    }
+
+    .menu a {
+        margin-right: 22px;
+        letter-spacing: 1px;
+        font-size: 13px;
+    }
+
+    .logo {
+        width: 55px;
+        height: 55px;
+    }
+
+    .btn {
+        width: 170px;
+        height: 58px;
+    }
+
+    .btn-text span {
+        font-size: 16px;
+    }
+
+    .button-header {
+        width: 150px;
+        height: 45px;
+    }
+
+    .button-header h5 {
+        margin: auto;
+        font-size: 13px;
+    }
+
+    /* content */
+
+    .exhibition-description {
+        width: 45%;
+        margin-top: 70px;
+    }
+
+    .exhibition-image {
+        width: 55%;
+    }
+
+    .green-rectangle {
+        width: 400px;
+        height: 584px;
+    }
+
+    .exhibition-image img {
+        width: 400px;
+        height: 584px;
+    }
+
+    .exhibition-branch img {
+        bottom: 447px;
+        right: 508px;
+        width: 29%;
+    }
+
+    /* footer */
+
+
+    .top-content-footer {
+        width: 85%;
+    }
+}
