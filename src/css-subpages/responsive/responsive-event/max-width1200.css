@@ -1,0 +1,117 @@
+@media only screen and (max-width: 1200px) {
+
+    /* header */
+    header {
+        width: 97%;
+    }
+
+    .name-logo {
+        width: 27%;
+    }
+
+    .name h1 {
+        font-size: 24px;
+    }
+
+    .name p {
+        font-size: 13px;
+    }
+
+    .menu {
+        width: 80%;
+    }
+
+    .menu a {
+        margin-right: 22px;
+        letter-spacing: 1px;
+        font-size: 13px;
+    }
+
+    .logo {
+        width: 55px;
+        height: 55px;
+    }
+
+    .btn {
+        width: 170px;
+        height: 58px;
+    }
+
+    .btn-text span {
+        font-size: 16px;
+    }
+
+    .button-header {
+        width: 150px;
+        height: 45px;
+    }
+
+    .button-header h5 {
+        margin: auto;
+        font-size: 13px;
+    }
+
+    /* content */
+    .events-content {
+        width: 100%;
+        max-width: 960px;
+    }
+
+    .first-row img {
+        width: 551px;
+        height: 369px;
+    }
+
+    .description-events h2 {
+        font-size: 33px;
+    }
+
+    .third-row img {
+        width: 551px;
+        height: 369px;
+    }
+
+    .description-events p {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .description-events h5 {
+        font-size: 15px;
+    }
+
+    .second-row img {
+        width: 295px;
+        height: 200px;
+    }
+
+    .border-description {
+        width: 295px;
+        height: 235px;
+    }
+
+    .picture-description p {
+        font-size: 17px;
+        width: 93%;
+    }
+
+    .picture-description h5 {
+        font-size: 14px;
+    }
+
+    .description-events {
+        width: 345px;
+        height: 345px;
+    }
+
+    .green-rectangle {
+        width: 345px;
+        height: 345px;
+    }
+
+    /* footer */
+
+    .top-content-footer {
+        width: 85%;
+    }
+}
