@@ -24,10 +24,12 @@
         width: 85%;
     }
 
-    .exhibition-branch img {
-        bottom: 334px;
-        right: 537px;
-        width: 33%;
+    .exhibition-description {
+        width: 57%;
+    }
+
+    .exhibition-image {
+        width: 43%;
     }
 
     /* footer */

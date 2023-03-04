@@ -313,18 +313,36 @@
     }
 
     /* content */
+
+    #exhibition {
+        position: relative;
+    }
+
     .exhibition-content {
         display: block;
     }
 
     .exhibition-description {
-        width: 70%;
         margin: auto;
         text-align: center;
+        width: 80%;
     }
 
     .exhibition-description h3 {
         margin-bottom: 50px;
+        margin: auto;
+    }
+
+    .exhibition-description h4 {
+        margin: auto;
+        margin-top: 35px;
+    }
+
+    .exhibition-description img {
+        position: absolute;
+        width: 75%;
+        top: 39%;
+        right: unset;
     }
 
     .exhibition-branch img {
@@ -336,6 +354,7 @@
     .exhibition-image {
         width: 100%;
         justify-content: center;
+        margin-top: 50px;
     }
 
     .exhibition-image img {

@@ -16,11 +16,18 @@
     }
 
     .exhibition-description h3 {
-        font-size: 21px;
+        font-size: 18px;
+        width: 90%;
     }
 
     .exhibition-description h4 {
         margin-bottom: 60px;
+        font-size: 15px;
+        width: 80%;
+    }
+
+    .exhibition-description img {
+        width: 69%;
     }
 
     .exhibition-image img {

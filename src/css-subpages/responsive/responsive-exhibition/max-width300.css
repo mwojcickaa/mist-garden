@@ -71,6 +71,21 @@
 
     /* content */
 
+    .exhibition-description {
+        width: 100%;
+    }
+
+    .exhibition-description h3 {
+        font-size: 11px;
+        width: 100%;
+    }
+
+    .exhibition-description h4 {
+        margin: 0;
+        font-size: 9px;
+        width: 100%;
+    }
+
     .exhibition-image img {
         width: 150px;
         height: 219px;
@@ -79,23 +94,6 @@
     .green-rectangle {
         width: 150px;
         height: 219px;
-    }
-
-    .exhibition-description h3 {
-        font-size: 14px;
-    }
-
-    .exhibition-description h4 {
-        font-size: 10px;
-    }
-
-    .exhibition-branch img {
-        bottom: 700px;
-        width: 57%;
-    }
-
-    .exhibition-description {
-        width: 100%;
     }
 
     /* footer */

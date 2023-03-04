@@ -54,12 +54,16 @@
     /* content */
 
     .exhibition-description {
-        width: 45%;
+        width: 58%;
         margin-top: 70px;
     }
 
+    .exhibition-description h3 {
+        margin-bottom: 35px;
+    }
+
     .exhibition-image {
-        width: 55%;
+        width: 42%;
     }
 
     .green-rectangle {

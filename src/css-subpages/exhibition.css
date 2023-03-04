@@ -11,9 +11,10 @@ body {
 }
 
 .exhibition-description {
-    width: 35%;
+    width: 59%;
     margin-top: 100px;
     z-index: 1;
+    position: relative;
 }
 
 .exhibition-description h3 {
@@ -23,6 +24,7 @@ body {
     font-weight: 400;
     color: #414840;
     z-index: 1;
+    width: 80%;
 }
 
 .exhibition-description h4 {
@@ -32,12 +34,21 @@ body {
     font-weight: 400;
     color: #414840;
     z-index: 1;
+    width: 70%;
+}
+
+.exhibition-description img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 60%;
 }
 
 .exhibition-image {
-    width: 65%;
+    width: 41%;
     display: flex;
     justify-content: flex-end;
+    position: relative;
 }
 
 .green-rectangle {
@@ -60,6 +71,8 @@ body {
 .exhibition-branch img {
     z-index: 0;
     position: absolute;
-    bottom: 259px;
-    right: 506px;
+    left: 0;
+    bottom: -70px;
+    width: 42%;
+    z-index: -1;
 }
