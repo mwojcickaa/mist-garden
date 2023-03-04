@@ -86,60 +86,60 @@
     /* content */
 
     .events-content {
-        max-width: 330px;
+        max-width: 260px;
     }
 
     .first-row img {
-        width: 300px;
-        height: 201px;
+        width: 260px;
+        height: 174px;
         border-radius: 25px;
     }
 
     .description-events {
-        width: 270px;
-        height: 270px;
-        left: 15px;
-        /* top: -20px; */
+        width: 240px;
+        height: 240px;
+        left: 10px;
         border-radius: 25px;
     }
 
     .description-events h2 {
-        font-size: 25px;
-        margin-top: 20px;
+        font-size: 23px;
+        margin-top: 15px;
     }
 
     .description-events p {
-        font-size: 17px;
+        font-size: 15px;
         margin-top: 10px;
     }
 
     .description-events h5 {
-        font-size: 18px;
-        bottom: -7px;
+        font-size: 14px;
+        bottom: -8px;
     }
 
     .green-rectangle {
-        width: 270px;
-        height: 270px;
+        width: 240px;
+        height: 240px;
         border-radius: 25px;
-        right: 35px;
-        top: 232px;
+        right: 19px;
+        top: 208px;
     }
 
     .second-row img {
-        width: 300px;
-        height: 201px;
+        width: 260px;
+        height: 174px;
         border-radius: 25px;
     }
 
     .border-description {
-        width: 300px;
-        height: 260px;
+        width: 255px;
+        height: 270px;
         border-radius: 25px;
     }
 
     .picture-description h3 {
         font-size: 25px;
+        width: 73%;
     }
 
     .picture-description p {
@@ -151,18 +151,18 @@
     }
 
     .third-row img {
-        width: 300px;
-        height: 201px;
+        width: 260px;
+        height: 174px;
         border-radius: 25px;
     }
 
     .green-rectangle.second {
-        top: 46px;
-        left: 18px;
+        top: 43px;
+        left: 8px;
     }
 
     .description-events.second {
-        left: 15px;
+        left: 9px;
         top: 20px;
     }
 

@@ -1,5 +1,5 @@
 @media only screen and (max-width: 260px) {
-    /* header */
+
 
     .name {
         margin-top: 1px;
@@ -7,9 +7,11 @@
         padding: 0;
     }
 
-    /* content */
+
     .events-content {
         max-width: 200px;
+        margin-top: 30px;
+        margin-bottom: 40px;
     }
 
     .first-row img {
@@ -20,6 +22,7 @@
     .description-events {
         width: 190px;
         height: 200px;
+        margin-top: 25px;
     }
 
     .description-events h2 {
@@ -41,8 +44,16 @@
     .green-rectangle {
         width: 190px;
         height: 200px;
-        right: 14px;
-        top: 165px;
+        right: 11px;
+        top: 147px;
+    }
+
+    .second-row {
+        margin-top: 30px;
+    }
+
+    .picture-description img {
+        margin-bottom: 8px;
     }
 
     .second-row img {
@@ -65,17 +76,24 @@
         margin-top: 10px;
     }
 
-    .picture-description h5 {
-        font-size: 12px;
+    .description-events h5 {
+        font-size: 11px;
+        bottom: -8px;
     }
 
     .third-row img {
         width: 200px;
         height: 134px;
+        margin-top: 30px;
+    }
+
+    .description-events.second {
+        left: 9px;
+        top: 0;
     }
 
     .green-rectangle.second {
-        top: 46px;
+        top: 18px;
         left: 0px;
     }
 }
