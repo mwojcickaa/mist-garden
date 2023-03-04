@@ -1,0 +1,242 @@
+body {
+    margin: 0;
+}
+
+.shop-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    max-width: 1220px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.green-rectangle {
+    width: 450px;
+    height: 675px;
+    border-radius: 40px;
+    background-color: #324E2F;
+}
+
+.decorative-photo img {
+    width: 450px;
+    height: 675px;
+    border-radius: 40px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.decorative-photo-second {
+    grid-column-start: 1;
+    grid-column-end: 12;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.decorative-photo-second img {
+    border-radius: 40px;
+    margin: 30px 0;
+}
+
+.image-and-rectangle {
+    display: flex;
+    position: relative;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.flower-products {
+    display: contents;
+}
+
+.flower img {
+    width: 230px;
+    height: 230px;
+    align-items: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.flower h3 {
+    font-size: 23px;
+    text-align: center;
+    font-family: Libre Baskerville;
+    font-weight: 400;
+    color: #324E2F;
+}
+
+.flower h5 {
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+    font-family: Roboto;
+    color: #414840;
+    font-weight: 400;
+}
+
+.flower.first {
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.flower.second {
+    grid-column-start: 9;
+    grid-column-end: 11;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.flower.third {
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.flower.fourth {
+    grid-column-start: 9;
+    grid-column-end: 11;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.flowerpot img {
+    width: 250px;
+    height: 250px;
+}
+
+.flowerpot-products {
+    display: contents;
+}
+
+.flowerpot.first {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 4;
+}
+
+.flowerpot.second {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 4;
+}
+
+.flowerpot.third {
+    grid-column-start: 9;
+    grid-column-end: 12;
+    grid-row-start: 5;
+    grid-row-end: 4;
+}
+
+.flowerpot.fourth {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    margin-top: 20px;
+}
+
+.flowerpot.fifth {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    margin-top: 20px;
+}
+
+.flowerpot.sixth {
+    grid-column-start: 9;
+    grid-column-end: 12;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    margin-top: 20px;
+}
+
+.flowerpot h3 {
+    text-align: center;
+    font-family: Libre Baskerville;
+    font-size: 23px;
+    font-weight: 400;
+    color: #324E2F;
+    margin-bottom: 10px;
+}
+
+.flowerpot h5 {
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+    font-family: Roboto;
+    color: #414840;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.flower.fifth {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    margin-top: 35px;
+}
+
+.flower.sixth {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    margin-top: 35px;
+}
+
+.flower.seventh {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 7;
+    grid-row-end: 8;
+}
+
+.flower.eighth {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 7;
+    grid-row-end: 8;
+}
+
+.green-rectangle.second {
+    grid-column-start: 6;
+    grid-column-end: 12;
+    grid-row-start: 6;
+    grid-row-end: 8;
+}
+
+.second-image-and-rectangle {
+    grid-column-start: 6;
+    grid-column-end: 12;
+    grid-row-start: 6;
+    grid-row-end: 8;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 35px;
+}
+
+.second-decorative-photo img {
+    width: 450px;
+    height: 675px;
+    border-radius: 40px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
