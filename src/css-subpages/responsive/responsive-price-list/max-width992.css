@@ -92,6 +92,11 @@
         font-size: 13px;
     }
 
+    .btn {
+        width: 155px;
+        height: 51px;
+    }
+
     .button {
         margin: 0 15px 0 15px;
     }

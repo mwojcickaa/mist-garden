@@ -1,0 +1,64 @@
+@media only screen and (max-width: 1400px) {
+    /* header */
+
+    header {
+        width: 95%;
+    }
+
+    .name-logo {
+        width: 28%;
+    }
+
+    .menu {
+        width: 72%;
+    }
+
+    .menu a {
+        margin-right: 20px;
+    }
+
+    /* content */
+
+    .shop-content {
+        width: 90%;
+    }
+
+    .decorative-photo-second img {
+        width: -webkit-fill-available;
+    }
+
+    .green-rectangle {
+        width: 400px;
+        height: 600px;
+    }
+
+    .decorative-photo img {
+        width: 400px;
+        height: 600px;
+    }
+
+    .second-decorative-photo img {
+        width: 400px;
+        height: 600px;
+    }
+
+    .flower img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .flower h3 {
+        font-size: 22px;
+    }
+
+    .flowerpot img {
+        width: 210px;
+        height: 210px;
+    }
+
+    /* footer */
+
+    .top-content-footer {
+        width: 90%;
+    }
+}

@@ -1,4 +1,20 @@
 @media only screen and (max-width: 768px) {
+
+    /* header */
+
+    .menu a {
+        font-size: 13px;
+    }
+
+    .btn {
+        width: 150px;
+        height: 49px;
+    }
+
+    .btn span {
+        font-size: 12px;
+    }
+
     /* content */
 
     .events-content {
@@ -9,24 +25,12 @@
         display: block;
         max-width: 700px;
         margin: auto;
-        /* height: initial; */
     }
 
     .first-row img {
         width: 400px;
         height: 268px;
     }
-
-    /* .description-events {
-        width: 460px;
-        height: 460px;
-        margin: auto;
-    }
-
-    .green-rectangle {
-        width: 460px;
-        height: 460px;
-    } */
 
     .image {
         display: flex;

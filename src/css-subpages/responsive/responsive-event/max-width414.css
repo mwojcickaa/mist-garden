@@ -59,7 +59,8 @@
     }
 
     .menu a {
-        font-size: 10px;
+        font-size: 9px;
+        letter-spacing: 1px;
     }
 
     .name h1 {
@@ -75,12 +76,12 @@
     }
 
     .btn {
-        width: 110px;
-        height: 38px;
+        width: 100px;
+        height: 33px;
     }
 
     .btn span {
-        font-size: 10px;
+        font-size: 8px;
     }
 
     /* content */

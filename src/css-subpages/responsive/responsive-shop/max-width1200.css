@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width:1200px) {
 
     /* header */
     header {
@@ -52,61 +52,60 @@
     }
 
     /* content */
-    .events-content {
-        width: 100%;
-        max-width: 960px;
-    }
 
-    .first-row img {
-        width: 551px;
-        height: 369px;
-    }
-
-    .description-events h2 {
-        font-size: 33px;
-    }
-
-    .third-row img {
-        width: 551px;
-        height: 369px;
-    }
-
-    .description-events p {
-        font-size: 20px;
-        margin-top: 15px;
-    }
-
-    .description-events h5 {
-        font-size: 15px;
-    }
-
-    .second-row img {
-        width: 295px;
-        height: 200px;
-    }
-
-    .border-description {
-        width: 295px;
-        height: 235px;
-    }
-
-    .picture-description p {
-        font-size: 17px;
-        width: 93%;
-    }
-
-    .picture-description h5 {
-        font-size: 14px;
-    }
-
-    .description-events {
-        width: 345px;
-        height: 345px;
+    .shop-content {
+        margin-bottom: 70px;
+        margin-top: 60px;
     }
 
     .green-rectangle {
-        width: 345px;
-        height: 345px;
+        width: 350px;
+        height: 525px;
+    }
+
+    .decorative-photo img {
+        width: 350px;
+        height: 525px;
+    }
+
+    .second-decorative-photo img {
+        width: 350px;
+        height: 525px;
+    }
+
+    .flower img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .flowerpot img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .flower h3 {
+        font-size: 17px;
+    }
+
+    .flowerpot h3 {
+        font-size: 17px;
+    }
+
+    .flower h5 {
+        font-size: 13px;
+    }
+
+    .flowerpot h5 {
+        font-size: 13px;
+    }
+
+    .center-flowerpot {
+        display: flex;
+        justify-content: center;
+    }
+
+    .decorative-photo-second {
+        align-items: center;
     }
 
     /* footer */

@@ -1,4 +1,18 @@
 @media only screen and (max-width: 768px) {
+    /* header */
+
+    .menu a {
+        font-size: 13px;
+    }
+
+    .btn {
+        width: 150px;
+        height: 49px;
+    }
+
+    .btn span {
+        font-size: 12px;
+    }
 
     /* content */
 
