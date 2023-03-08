@@ -361,7 +361,7 @@
         font-size: 12px;
     }
 
-    /* .flower.first {
+    .flower.first {
         grid-column-start: 8;
         grid-column-end: 10;
         grid-row-start: 1;
@@ -474,5 +474,5 @@
 
     .second-image-and-rectangle {
         display: none;
-    } */
+    }
 }
