@@ -3,12 +3,12 @@ body {
 }
 
 .shop-content {
-    display: grid;
+    /* display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 350px 1fr 1fr 1fr 1fr;
     max-width: 1220px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 50px; */
 }
 
 .green-rectangle {
@@ -28,27 +28,26 @@ body {
 }
 
 .decorative-photo-second {
-    grid-column-start: 1;
+    /* grid-column-start: 1;
     grid-column-end: 12;
     grid-row-start: 3;
-    grid-row-end: 4;
+    grid-row-end: 4; */
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    align-items: flex-start;
 }
 
 .decorative-photo-second img {
     border-radius: 40px;
-    margin: 30px 0;
 }
 
 .image-and-rectangle {
     display: flex;
     position: relative;
-    grid-column-start: 1;
+    /* grid-column-start: 1;
     grid-column-end: 5;
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: 3; */
 }
 
 .flower-products {
@@ -84,31 +83,31 @@ body {
 }
 
 .flower.first {
-    grid-column-start: 6;
+    /* grid-column-start: 6;
     grid-column-end: 8;
     grid-row-start: 1;
-    grid-row-end: 2;
+    grid-row-end: 2; */
 }
 
 .flower.second {
-    grid-column-start: 9;
+    /* grid-column-start: 9;
     grid-column-end: 11;
     grid-row-start: 1;
-    grid-row-end: 2;
+    grid-row-end: 2; */
 }
 
 .flower.third {
-    grid-column-start: 6;
+    /* grid-column-start: 6;
     grid-column-end: 8;
     grid-row-start: 2;
-    grid-row-end: 3;
+    grid-row-end: 3; */
 }
 
 .flower.fourth {
-    grid-column-start: 9;
+    /* grid-column-start: 9;
     grid-column-end: 11;
     grid-row-start: 2;
-    grid-row-end: 3;
+    grid-row-end: 3; */
 }
 
 .flowerpot img {
@@ -121,47 +120,47 @@ body {
 }
 
 .flowerpot.first {
-    grid-column-start: 1;
+    /* grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 5;
-    grid-row-end: 4;
+    grid-row-end: 4; */
 }
 
 .flowerpot.second {
-    grid-column-start: 5;
+    /* grid-column-start: 5;
     grid-column-end: 7;
     grid-row-start: 5;
-    grid-row-end: 4;
+    grid-row-end: 4; */
 }
 
 .flowerpot.third {
-    grid-column-start: 9;
+    /* grid-column-start: 9;
     grid-column-end: 12;
     grid-row-start: 5;
-    grid-row-end: 4;
+    grid-row-end: 4; */
 }
 
 .flowerpot.fourth {
-    grid-column-start: 1;
+    /* grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 5;
-    grid-row-end: 6;
+    grid-row-end: 6; */
     margin-top: 20px;
 }
 
 .flowerpot.fifth {
-    grid-column-start: 5;
+    /* grid-column-start: 5;
     grid-column-end: 7;
     grid-row-start: 5;
-    grid-row-end: 6;
+    grid-row-end: 6; */
     margin-top: 20px;
 }
 
 .flowerpot.sixth {
-    grid-column-start: 9;
+    /* grid-column-start: 9;
     grid-column-end: 12;
     grid-row-start: 5;
-    grid-row-end: 6;
+    grid-row-end: 6; */
     margin-top: 20px;
 }
 
@@ -185,47 +184,47 @@ body {
 }
 
 .flower.fifth {
-    grid-column-start: 1;
+    /* grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 6;
-    grid-row-end: 7;
+    grid-row-end: 7; */
     margin-top: 35px;
 }
 
 .flower.sixth {
-    grid-column-start: 4;
+    /* grid-column-start: 4;
     grid-column-end: 6;
     grid-row-start: 6;
-    grid-row-end: 7;
+    grid-row-end: 7; */
     margin-top: 35px;
 }
 
 .flower.seventh {
-    grid-column-start: 1;
+    /* grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 7;
-    grid-row-end: 8;
+    grid-row-end: 8; */
 }
 
 .flower.eighth {
-    grid-column-start: 4;
+    /* grid-column-start: 4;
     grid-column-end: 6;
     grid-row-start: 7;
-    grid-row-end: 8;
+    grid-row-end: 8; */
 }
 
 .green-rectangle.second {
-    grid-column-start: 6;
+    /* grid-column-start: 6;
     grid-column-end: 12;
     grid-row-start: 6;
-    grid-row-end: 8;
+    grid-row-end: 8; */
 }
 
 .second-image-and-rectangle {
-    grid-column-start: 6;
+    /* grid-column-start: 6;
     grid-column-end: 12;
     grid-row-start: 6;
-    grid-row-end: 8;
+    grid-row-end: 8; */
     position: relative;
     display: flex;
     justify-content: flex-end;

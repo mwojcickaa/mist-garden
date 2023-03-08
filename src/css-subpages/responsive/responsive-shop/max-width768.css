@@ -13,4 +13,231 @@
     .btn span {
         font-size: 12px;
     }
+
+    /* content */
+
+    .shop-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        width: 90%;
+    }
+
+    .center-photo {
+        position: relative;
+    }
+
+    .flower img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .flowerpot h3 {
+        font-size: 16px;
+        width: 80%;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .flower.first {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .flower.second {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .flower.third {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        margin-bottom: 30px;
+    }
+
+    .flower.fourth {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        margin-bottom: 30px;
+    }
+
+    .image-and-rectangle {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 5;
+        display: flex;
+        justify-content: center;
+    }
+
+    .green-rectangle {
+        width: 340px;
+        height: 510px;
+    }
+
+    .decorative-photo img {
+        width: 340px;
+        height: 510px;
+    }
+
+    .flower.fifth {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+
+    .flower.sixth {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+
+    .flower.seventh {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 6;
+        grid-row-end: 7;
+        margin-top: 40px;
+    }
+
+    .flower.eighth {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 6;
+        grid-row-end: 7;
+        margin-top: 40px;
+    }
+
+    .decorative-photo-second {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 7;
+        grid-row-end: 8;
+    }
+
+    .flowerpot.first {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 8;
+        grid-row-end: 9;
+        margin-top: 30px;
+    }
+
+    .flowerpot.second {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 8;
+        grid-row-end: 9;
+        margin-top: 30px;
+    }
+
+    .flowerpot.third {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 9;
+        grid-row-end: 10;
+        margin-top: 30px;
+    }
+
+    .flowerpot.fourth {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 9;
+        grid-row-end: 10;
+        margin-top: 30px;
+    }
+
+    .flowerpot.fifth {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 10;
+        grid-row-end: 11;
+        margin-top: 30px;
+    }
+
+    .flowerpot.sixth {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 10;
+        grid-row-end: 11;
+        margin-top: 30px;
+    }
+
+    .second-image-and-rectangle {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 11;
+        grid-row-end: 13;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .second-decorative-photo img {
+        width: 340px;
+        height: 510px;
+    }
+
+    .decorative-photo-second img {
+        border-radius: 25px;
+    }
+
+    /* footer */
+
+    footer {
+        height: initial;
+    }
+
+    .top-content-footer {
+        display: block;
+    }
+
+    .footer-name-logo {
+        justify-content: center;
+    }
+
+    .footer-text p {
+        font-size: 16px;
+        width: 60%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .first-column {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .second-column {
+        width: 100%;
+        text-align: center;
+    }
+
+    .third-column {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .social-media {
+        margin: 20px 20px 0 20px;
+    }
+
+    .icons {
+        margin-bottom: 10px;
+    }
+
 }
