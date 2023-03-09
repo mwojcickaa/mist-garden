@@ -70,6 +70,14 @@
 
     /* content */
 
+    .price-list-item {
+        width: 100%;
+    }
+
+    .price-list-item p {
+        width: 100%;
+    }
+
     .price-list-image img {
         width: 150px;
         height: 225px;

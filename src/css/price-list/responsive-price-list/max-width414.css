@@ -90,18 +90,33 @@
 
     /* content */
 
+    .price-list-content {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
     .price h2 {
-        font-size: 20px;
+        font-size: 14px;
+    }
+
+    .price-list-item h2 {
+        font-size: 14px;
+    }
+
+    .price-list-item p {
+        font-size: 10px;
     }
 
     .price-list-image img {
         width: 200px;
         height: 300px;
+        border-radius: 25px;
     }
 
     .green-rectangle {
         width: 200px;
         height: 300px;
+        border-radius: 25px;
     }
 
     /* footer */
