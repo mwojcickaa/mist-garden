@@ -62,6 +62,15 @@
         font-size: 20px;
     }
 
+    .btn {
+        width: 153px;
+        height: 52px;
+    }
+
+    .btn span {
+        font-size: 12px;
+    }
+
     /* // second section */
 
     .second-container {

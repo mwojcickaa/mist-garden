@@ -66,9 +66,14 @@
     }
 
     .btn span {
-        font-size: 8px;
+        font-size: 7px;
+        top: -2px;
     }
 
+    .btn {
+        width: 86px;
+        height: 30px;
+    }
 
     .name h1 {
         font-size: 12px;
