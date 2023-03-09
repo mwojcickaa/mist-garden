@@ -64,8 +64,20 @@ body {
     height: 700px;
     border-radius: 40px;
     position: absolute;
-    margin-top: 25px;
-    margin-right: 25px;
+    animation: mymove 1.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes mymove {
+    0% {
+        top: 0px;
+        right: 0px;
+    }
+
+    100% {
+        top: 25px;
+        right: 25px;
+    }
 }
 
 .exhibition-branch img {

@@ -362,8 +362,16 @@
         margin-top: 50px;
     }
 
-    .exhibition-image img {
-        margin-right: 45px;
+    @keyframes mymove {
+        0% {
+            top: 0px;
+            right: 0px;
+        }
+
+        100% {
+            top: 25px;
+            margin-right: 50px;
+        }
     }
 
     /* footer */

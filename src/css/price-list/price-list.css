@@ -29,9 +29,21 @@ body {
 .price-list-image img {
     border-radius: 40px;
     position: absolute;
-    margin-top: 25px;
-    margin-left: 25px;
     width: 450px;
+    animation: mymove 1.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes mymove {
+    0% {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    100% {
+        margin-top: 25px;
+        margin-left: 25px;
+    }
 }
 
 .price-list {
