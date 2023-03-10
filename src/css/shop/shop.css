@@ -23,8 +23,21 @@ body {
     height: 675px;
     border-radius: 40px;
     position: absolute;
-    top: 30px;
-    left: 30px;
+    top: 0px;
+    animation: mymove 1.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes mymove {
+    0% {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    100% {
+        top: 30px;
+        left: 30px;
+    }
 }
 
 .decorative-photo-second {
@@ -236,6 +249,18 @@ body {
     height: 675px;
     border-radius: 40px;
     position: absolute;
-    right: 30px;
-    top: 30px;
+    animation: move 1.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move {
+    0% {
+        top: 0px;
+        right: 0px;
+    }
+
+    100% {
+        top: 30px;
+        right: 30px;
+    }
 }

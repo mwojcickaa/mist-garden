@@ -32,12 +32,25 @@ footer {
     width: 445px;
     height: 445px;
     border-radius: 40px;
-    margin-top: 20px;
-    margin-right: 20px;
     border: solid 2px #324E2F;
     background-color: #ffffff;
     z-index: 0;
     position: relative;
+    right: -36px;
+    animation: mymove 1.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes mymove {
+    0% {
+        top: 0px;
+        right: -36px;
+    }
+
+    100% {
+        top: 27px;
+        right: -6px;
+    }
 }
 
 .description-events h2 {
@@ -167,8 +180,23 @@ footer {
 }
 
 .description-events.second {
-    margin-left: 20px;
-    margin-right: 0;
+    margin-left: -6px;
+    margin-top: -26px;
+    animation: move 1.5s;
+    animation-fill-mode: forwards;
+    right: 0;
+}
+
+@keyframes move {
+    0% {
+        margin-top: -26px;
+        margin-left: -6px
+    }
+
+    100% {
+        margin-top: 22px;
+        margin-left: 26px;
+    }
 }
 
 .green-rectangle.second {
