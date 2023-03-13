@@ -3,6 +3,7 @@
     /* header */
     .name {
         padding-left: 5px;
+        margin: 0;
     }
 
     .name-logo {
@@ -14,15 +15,15 @@
     }
 
     .logo {
-        width: 35px;
-        height: 35px;
+        width: 30px;
+        height: 30px;
     }
 
     .logo img {
-        width: 100px;
-        height: 60px;
-        margin-left: -53px;
-        margin-top: 7px;
+        width: 70px;
+        height: 53px;
+        margin-left: -39px;
+        margin-top: 5px;
     }
 
     .menu-icon .hamburger-lines {
@@ -64,7 +65,8 @@
     }
 
     .name h1 {
-        font-size: 14px;
+        font-size: 15px;
+        letter-spacing: 1.5px;
     }
 
     .name p {
@@ -76,23 +78,27 @@
     }
 
     .btn {
-        width: 100px;
+        width: 95px;
         height: 33px;
     }
 
     .btn span {
         font-size: 8px;
+        letter-spacing: 0.5px;
     }
+
+    /* content */
 
     .price-list-item {
         width: 75%;
     }
 
-    /* content */
     .shop-content {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 150px 160px 130px 130px 170px 170px 90px 180px 180px 180px 130px 130px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .flower img {
@@ -101,8 +107,8 @@
     }
 
     .flowerpot img {
-        width: 80px;
-        height: 80px;
+        width: 60px;
+        height: 60px;
     }
 
     .flower h3 {
@@ -117,22 +123,6 @@
         margin: 0;
     }
 
-    .flower.fifth {
-        margin-top: 10px;
-    }
-
-    .flower.sixth {
-        margin-top: 10px;
-    }
-
-    .flower.seventh {
-        margin-top: 10px;
-    }
-
-    .flower.eighth {
-        margin-top: 10px;
-    }
-
     .decorative-photo-second img {
         border-radius: 15px;
     }
@@ -143,6 +133,8 @@
         border-radius: 20px;
         right: 15px;
         top: 15px;
+        animation: move 1.5s;
+        animation-fill-mode: forwards;
     }
 
     .decorative-photo img {
@@ -151,6 +143,8 @@
         border-radius: 20px;
         top: 15px;
         left: 15px;
+        animation: mymove 1.5s;
+        animation-fill-mode: forwards;
     }
 
     .green-rectangle {
@@ -189,11 +183,35 @@
     }
 
     .flower h5 {
-        font-size: 9px;
+        font-size: 8px;
     }
 
     .flowerpot h5 {
-        font-size: 9px;
+        font-size: 8px;
+    }
+
+    @keyframes mymove {
+        0% {
+            top: 0;
+            left: 0
+        }
+
+        100% {
+            top: 15px;
+            left: 15px;
+        }
+    }
+
+    @keyframes move {
+        0% {
+            top: 0;
+            right: 0
+        }
+
+        100% {
+            top: 15px;
+            right: 15px;
+        }
     }
 
     /* footer */

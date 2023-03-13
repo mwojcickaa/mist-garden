@@ -14,7 +14,49 @@
     }
 
     .menu a {
-        margin-right: 20px;
+        margin-right: 23px;
+        font-size: 12px;
+    }
+
+    .name h1 {
+        font-size: 21px;
+    }
+
+    .name p {
+        font-size: 12px;
+    }
+
+    .logo {
+        width: 55px;
+        height: 55px;
+    }
+
+    .btn {
+        width: 139px;
+        height: 47px;
+    }
+
+    .btn span {
+        font-size: 12px;
+    }
+
+    #hamburger-menu ul {
+        margin: 0;
+    }
+
+    .logo img {
+        width: 123px;
+        height: 91px;
+        margin-left: -66px;
+    }
+
+    .page-title h2 {
+        font-size: 19px;
+        width: 65%;
+    }
+
+    .btn-first-section {
+        margin-right: 30px;
     }
 
     .first-section-content {
@@ -27,6 +69,23 @@
 
     /* second section */
 
+    .second-section-title h3 {
+        font-size: 40px;
+    }
+
+    .second-section-text p {
+        font-size: 16px;
+    }
+
+    .button-hover span {
+        font-size: 13px;
+    }
+
+    .button-hover {
+        width: 159px;
+        height: 54px;
+    }
+
     .second-container {
         width: 80%;
         height: 93%;
@@ -37,11 +96,59 @@
         float: right;
     }
 
+    .dot {
+        width: 12px;
+        height: 12px;
+    }
+
     /* third section */
 
     #third-section {
         height: initial;
         margin: 50px 0;
+    }
+
+    .third-section-title h3 {
+        font-size: 40px;
+    }
+
+    .third-section-subtitle img.line {
+        width: 9%;
+    }
+
+    .view-posts a {
+        font-size: 12px;
+    }
+
+    .arrow {
+        margin-top: 9px;
+        margin-left: 5px;
+        width: 17px;
+    }
+
+    .third-section-left-bottom-content h3 {
+        font-size: 22px;
+    }
+
+    .third-section-left-bottom-content p {
+        font-size: 15px;
+    }
+
+    .third-section-left-bottom-content h5 {
+        font-size: 13px;
+    }
+
+    .row-text h3 {
+        font-size: 22px;
+    }
+
+    .row-text p {
+        font-size: 15px;
+    }
+
+    .row-text h5 {
+        font-size: 12px;
+        margin-top: 5px;
     }
 
     .third-section-content {
@@ -62,25 +169,8 @@
         width: 55%;
     }
 
-    .third-section-left-bottom-content h5 {
-        font-size: 18px;
-    }
-
     .row-text {
         margin-left: 10px;
-    }
-
-    .row-text h3 {
-        font-size: 24px;
-    }
-
-    .row-text p {
-        font-size: 17px;
-    }
-
-    .row-text h5 {
-        font-size: 15px;
-        margin-top: 10px;
     }
 
     .long-line img {

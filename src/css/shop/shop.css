@@ -40,6 +40,11 @@ body {
     }
 }
 
+.center-flowerpot {
+    display: flex;
+    justify-content: center;
+}
+
 .decorative-photo-second {
     grid-column-start: 1;
     grid-column-end: 12;

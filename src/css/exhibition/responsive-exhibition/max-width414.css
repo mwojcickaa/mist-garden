@@ -3,6 +3,7 @@
     /* header */
     .name {
         padding-left: 5px;
+        margin: 0;
     }
 
     .name-logo {
@@ -14,15 +15,15 @@
     }
 
     .logo {
-        width: 35px;
-        height: 35px;
+        width: 30px;
+        height: 30px;
     }
 
     .logo img {
-        width: 100px;
-        height: 60px;
-        margin-left: -53px;
-        margin-top: 7px;
+        width: 70px;
+        height: 53px;
+        margin-left: -39px;
+        margin-top: 5px;
     }
 
     .menu-icon .hamburger-lines {
@@ -64,7 +65,8 @@
     }
 
     .name h1 {
-        font-size: 14px;
+        font-size: 15px;
+        letter-spacing: 1.5px;
     }
 
     .name p {
@@ -76,12 +78,13 @@
     }
 
     .btn {
-        width: 100px;
+        width: 95px;
         height: 33px;
     }
 
     .btn span {
         font-size: 8px;
+        letter-spacing: 0.5px;
     }
 
     /* content */
@@ -91,12 +94,13 @@
     }
 
     .exhibition-description h4 {
-        font-size: 11px;
+        font-size: 10px;
     }
 
     .exhibition-description h3 {
         font-size: 13px;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
+        width: 80%;
     }
 
     .exhibition-description img {

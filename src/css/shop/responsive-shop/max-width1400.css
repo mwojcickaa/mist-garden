@@ -14,13 +14,47 @@
     }
 
     .menu a {
-        margin-right: 20px;
+        margin-right: 23px;
+        font-size: 12px;
+    }
+
+    .name h1 {
+        font-size: 21px;
+    }
+
+    .name p {
+        font-size: 12px;
+    }
+
+    .logo {
+        width: 55px;
+        height: 55px;
+    }
+
+    .btn {
+        width: 139px;
+        height: 47px;
+    }
+
+    .btn span {
+        font-size: 12px;
+    }
+
+    #hamburger-menu ul {
+        margin: 0;
+    }
+
+    .logo img {
+        width: 123px;
+        height: 91px;
+        margin-left: -66px;
     }
 
     /* content */
 
     .shop-content {
         width: 90%;
+        margin-bottom: 70px;
     }
 
     .decorative-photo-second img {
@@ -28,18 +62,22 @@
     }
 
     .green-rectangle {
-        width: 400px;
-        height: 600px;
+        width: 430px;
+        height: 645px;
     }
 
     .decorative-photo img {
-        width: 400px;
-        height: 600px;
+        width: 430px;
+        height: 645px;
     }
 
     .second-decorative-photo img {
-        width: 400px;
-        height: 600px;
+        width: 430px;
+        height: 645px;
+    }
+
+    .decorative-photo-second {
+        align-items: center;
     }
 
     .flower img {
@@ -48,12 +86,24 @@
     }
 
     .flower h3 {
-        font-size: 22px;
+        font-size: 20px;
+    }
+
+    .flower h5 {
+        font-size: 14px;
     }
 
     .flowerpot img {
-        width: 210px;
-        height: 210px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .flowerpot h3 {
+        font-size: 20px;
+    }
+
+    .flowerpot h5 {
+        font-size: 14px;
     }
 
     /* footer */

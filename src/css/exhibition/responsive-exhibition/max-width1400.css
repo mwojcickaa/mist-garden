@@ -10,12 +10,41 @@
         width: 28%;
     }
 
-    .menu {
-        width: 72%;
+    .menu a {
+        margin-right: 23px;
+        font-size: 12px;
     }
 
-    .menu a {
-        margin-right: 20px;
+    .name h1 {
+        font-size: 21px;
+    }
+
+    .name p {
+        font-size: 12px;
+    }
+
+    .logo {
+        width: 55px;
+        height: 55px;
+    }
+
+    .btn {
+        width: 139px;
+        height: 47px;
+    }
+
+    .btn span {
+        font-size: 12px;
+    }
+
+    #hamburger-menu ul {
+        margin: 0;
+    }
+
+    .logo img {
+        width: 123px;
+        height: 91px;
+        margin-left: -66px;
     }
 
     /* content */
@@ -25,11 +54,33 @@
     }
 
     .exhibition-description {
-        width: 57%;
+        width: 63%;
+    }
+
+    .exhibition-description h3 {
+        width: 60%;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .exhibition-description h4 {
+        width: 50%;
+        font-size: 15px;
+        margin-top: 0;
     }
 
     .exhibition-image {
-        width: 43%;
+        width: 37%;
+    }
+
+    .exhibition-image img {
+        width: 420px;
+        height: 630px;
+    }
+
+    .green-rectangle {
+        width: 420px;
+        height: 630px;
     }
 
     /* footer */

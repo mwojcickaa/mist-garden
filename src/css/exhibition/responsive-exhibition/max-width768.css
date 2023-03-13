@@ -30,14 +30,14 @@
     }
 
     .exhibition-description h3 {
-        font-size: 18px;
-        width: 90%;
+        font-size: 16px;
+        width: 70%;
     }
 
     .exhibition-description h4 {
-        margin-bottom: 60px;
-        font-size: 15px;
-        width: 80%;
+        margin-bottom: 10px;
+        font-size: 12px;
+        width: 65%;
     }
 
     .exhibition-description img {
@@ -47,6 +47,10 @@
     .exhibition-image img {
         width: 300px;
         height: 438px;
+    }
+
+    .exhibition-image {
+        margin-top: 30px;
     }
 
     .green-rectangle {
@@ -69,7 +73,7 @@
     }
 
     .footer-text p {
-        font-size: 16px;
+        font-size: 11px;
         width: 60%;
         margin: auto;
         margin-bottom: 30px;

@@ -49,19 +49,22 @@ button.view-posts {
     align-items: center;
     cursor: pointer;
     height: 16px;
+    position: relative;
+    top: 20px;
 }
 
-.view-posts h5 {
+.view-posts a {
     font-family: Roboto;
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 15%;
     color: #475F45;
-    margin-top: 75px;
+    margin-top: 10px;
+    text-decoration: none;
 }
 
 .arrow {
-    margin-top: 50px;
+    margin-top: 7px;
     margin-left: 12px;
 }
 

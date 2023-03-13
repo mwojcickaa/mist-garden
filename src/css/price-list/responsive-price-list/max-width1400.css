@@ -2,7 +2,7 @@
     /* header */
 
     header {
-        width: 95%;
+        width: 84%;
     }
 
     .name-logo {
@@ -14,21 +14,77 @@
     }
 
     .menu a {
-        margin-right: 20px;
+        margin-right: 23px;
+        font-size: 12px;
+    }
+
+    .name h1 {
+        font-size: 21px;
+    }
+
+    .name p {
+        font-size: 12px;
+    }
+
+    .logo {
+        width: 55px;
+        height: 55px;
+    }
+
+    .btn {
+        width: 139px;
+        height: 47px;
+    }
+
+    .btn span {
+        font-size: 12px;
+    }
+
+    #hamburger-menu ul {
+        margin: 0;
+    }
+
+    .logo img {
+        width: 123px;
+        height: 91px;
+        margin-left: -66px;
     }
 
     /* content */
 
     .price-list-content {
-        width: 90%;
+        width: 80%;
+    }
+
+    .price-list {
+        width: 55%;
+        margin: auto;
+    }
+
+    .price-list-image {
+        width: 45%;
     }
 
     .price-list-item h2 {
-        font-size: 27px;
+        font-size: 25px;
+    }
+
+    .price-list h2 {
+        font-size: 25px;
+    }
+
+    .price-list-image img {
+        width: 360px;
+        height: 540px;
+    }
+
+    .green-rectangle {
+        width: 360px;
+        height: 540px;
     }
 
     .price-list-item p {
-        font-size: 16px;
+        font-size: 14px;
         margin-top: 10px;
     }
 
@@ -39,6 +95,6 @@
     /* footer */
 
     .top-content-footer {
-        width: 90%;
+        width: 80%;
     }
 }

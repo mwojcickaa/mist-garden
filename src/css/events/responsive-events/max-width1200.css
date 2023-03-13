@@ -10,11 +10,12 @@
     }
 
     .name h1 {
-        font-size: 24px;
+        font-size: 20px;
+        letter-spacing: 1.5px;
     }
 
     .name p {
-        font-size: 13px;
+        font-size: 11px;
     }
 
     .menu {
@@ -22,96 +23,131 @@
     }
 
     .menu a {
-        margin-right: 22px;
-        letter-spacing: 1px;
-        font-size: 13px;
+        margin-right: 31px;
+        letter-spacing: 1.5px;
+        font-size: 11px;
     }
 
     .logo {
-        width: 55px;
-        height: 55px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .logo img {
+        width: 105px;
+        height: 86px;
+        margin-left: -57px;
+        margin-top: 10px;
     }
 
     .btn {
-        width: 162px;
-        height: 55px;
+        width: 141px;
+        height: 47px;
     }
 
-    .btn-text span {
-        font-size: 16px;
-    }
-
-    .button-header {
-        width: 150px;
-        height: 45px;
-    }
-
-    .button-header h5 {
-        margin: auto;
-        font-size: 13px;
+    .btn span {
+        font-size: 11px;
     }
 
     /* content */
     .events-content {
         width: 100%;
-        max-width: 960px;
+        max-width: 900px;
     }
 
     .first-row img {
-        width: 551px;
-        height: 369px;
+        width: 448px;
+        height: 300px;
     }
 
     .description-events h2 {
-        font-size: 33px;
-    }
-
-    .third-row img {
-        width: 551px;
-        height: 369px;
-    }
-
-    .description-events p {
-        font-size: 20px;
+        font-size: 22px;
+        width: 74%;
         margin-top: 15px;
     }
 
-    .description-events h5 {
+    .third-row img {
+        width: 448px;
+        height: 300px;
+    }
+
+    .description-events p {
         font-size: 15px;
+        margin-top: 15px;
+        width: 90%;
+    }
+
+    .description-events h5 {
+        font-size: 12px;
     }
 
     .second-row img {
-        width: 295px;
-        height: 200px;
+        width: 276px;
+        height: 180px;
     }
 
     .border-description {
-        width: 295px;
+        width: 276px;
         height: 235px;
     }
 
     .picture-description p {
-        font-size: 17px;
+        font-size: 14px;
         width: 93%;
     }
 
     .picture-description h5 {
-        font-size: 14px;
+        font-size: 11px;
+        bottom: -2px;
     }
 
     .description-events {
-        width: 345px;
-        height: 345px;
+        width: 270px;
+        height: 270px;
     }
 
     .green-rectangle {
-        width: 345px;
-        height: 345px;
+        width: 270px;
+        height: 270px;
     }
 
     /* footer */
 
     .top-content-footer {
         width: 85%;
+    }
+
+    .footer-name h4 {
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+
+    .footer-name h5 {
+        font-size: 12px;
+    }
+
+    .footer-name {
+        margin-left: 5px;
+    }
+
+    .circle-logo img {
+        width: 40px;
+    }
+
+    .footer-text p {
+        font-size: 12px;
+        width: 80%;
+    }
+
+    .footer-title h4 {
+        font-size: 18px;
+    }
+
+    .text-link a {
+        font-size: 12px;
+    }
+
+    .social-media img {
+        width: 17px;
     }
 }

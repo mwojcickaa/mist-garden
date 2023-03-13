@@ -28,12 +28,16 @@
     }
 
     .flower img {
-        width: 180px;
-        height: 180px;
+        width: 140px;
+        height: 140px;
+    }
+
+    .flower h3 {
+        font-size: 13px;
     }
 
     .flowerpot h3 {
-        font-size: 16px;
+        font-size: 13px;
         width: 80%;
         margin: auto;
         margin-top: 15px;
@@ -80,13 +84,13 @@
     }
 
     .green-rectangle {
-        width: 340px;
-        height: 510px;
+        width: 300px;
+        height: 450px;
     }
 
     .decorative-photo img {
-        width: 340px;
-        height: 510px;
+        width: 300px;
+        height: 450px;
     }
 
     .flower.fifth {
@@ -94,6 +98,7 @@
         grid-column-end: 2;
         grid-row-start: 5;
         grid-row-end: 6;
+        margin-top: 25px;
     }
 
     .flower.sixth {
@@ -101,6 +106,7 @@
         grid-column-end: 3;
         grid-row-start: 5;
         grid-row-end: 6;
+        margin-top: 25px;
     }
 
     .flower.seventh {
@@ -124,6 +130,10 @@
         grid-column-end: 3;
         grid-row-start: 7;
         grid-row-end: 8;
+    }
+
+    .flowerpot img {
+        width:
     }
 
     .flowerpot.first {
@@ -163,7 +173,6 @@
         grid-column-end: 2;
         grid-row-start: 10;
         grid-row-end: 11;
-        margin-top: 30px;
     }
 
     .flowerpot.sixth {
@@ -171,7 +180,6 @@
         grid-column-end: 3;
         grid-row-start: 10;
         grid-row-end: 11;
-        margin-top: 30px;
     }
 
     .second-image-and-rectangle {
@@ -185,8 +193,8 @@
     }
 
     .second-decorative-photo img {
-        width: 340px;
-        height: 510px;
+        width: 300px;
+        height: 450px;
     }
 
     .decorative-photo-second img {
@@ -208,11 +216,12 @@
     }
 
     .footer-text p {
-        font-size: 16px;
+        font-size: 11px;
         width: 60%;
         margin: auto;
         margin-bottom: 30px;
     }
+
 
     .first-column {
         width: 100%;

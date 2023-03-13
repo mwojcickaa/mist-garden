@@ -1,10 +1,15 @@
 @media only screen and (max-width: 330px) {
+    .page-title h1 {
+        font-size: 20px;
+        width: 95%;
+    }
+
     .background-color-second-section {
         padding: 30px 0 40px 0;
     }
 
     .second-section-text p {
-        height: 125px;
+        height: 102px;
     }
 
     .background-color-second-section {
@@ -37,5 +42,49 @@
         width: 6px;
         height: 6px;
         margin-top: 6px;
+    }
+
+    .second-section-title h3 {
+        font-size: 19px;
+        margin: 0px 0 7px 0;
+    }
+
+    .second-section-text p {
+        font-size: 10px;
+    }
+
+    .button-hover span {
+        font-size: 8px;
+        top: -1px;
+        position: relative;
+    }
+
+    .second-container {
+        margin-bottom: 0px;
+    }
+
+    .dot {
+        width: 8px;
+        height: 8px;
+    }
+
+    .third-section-title h3 {
+        font-size: 19px;
+    }
+
+    .view-posts a {
+        font-size: 8px;
+    }
+
+    .arrow {
+        width: 9px;
+    }
+
+    .third-section-left-bottom-content h3 {
+        font-size: 18px;
+    }
+
+    .row-text h3 {
+        font-size: 18px;
     }
 }

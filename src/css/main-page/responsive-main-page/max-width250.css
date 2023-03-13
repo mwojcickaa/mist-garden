@@ -6,4 +6,27 @@
     .second-section-text p {
         height: 105px;
     }
+
+    .second-section-text p {
+        height: 102px;
+        font-size: 10px;
+    }
+
+    .top-right-content {
+        margin-bottom: 14px;
+    }
+
+    .btn {
+        width: 79px;
+        height: 28px;
+    }
+
+    .btn {
+        width: 79px;
+        height: 28px;
+    }
+
+    .btn-first-section {
+        margin-right: 10px;
+    }
 }

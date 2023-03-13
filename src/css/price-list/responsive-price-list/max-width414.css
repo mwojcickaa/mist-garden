@@ -3,6 +3,38 @@
     /* header */
     .name {
         padding-left: 5px;
+        margin: 0;
+    }
+
+    .logo {
+        width: 30px;
+        height: 30px;
+    }
+
+    .logo img {
+        width: 70px;
+        height: 53px;
+        margin-left: -39px;
+        margin-top: 5px;
+    }
+
+    .name h1 {
+        font-size: 15px;
+        letter-spacing: 1.5px;
+    }
+
+    .btn {
+        width: 95px;
+        height: 33px;
+    }
+
+    .btn span {
+        font-size: 8px;
+        letter-spacing: 0.5px;
+    }
+
+    .name p {
+        font-size: 8px;
     }
 
     .name-logo {
@@ -11,18 +43,6 @@
 
     .menu-icon {
         width: 6%;
-    }
-
-    .logo {
-        width: 35px;
-        height: 35px;
-    }
-
-    .logo img {
-        width: 100px;
-        height: 60px;
-        margin-left: -53px;
-        margin-top: 7px;
     }
 
     .menu-icon .hamburger-lines {
@@ -64,7 +84,8 @@
     }
 
     .name h1 {
-        font-size: 14px;
+        font-size: 15px;
+        letter-spacing: 1.5px;
     }
 
     .name p {
@@ -73,15 +94,6 @@
 
     .menu-ikon img {
         width: 15px;
-    }
-
-    .btn {
-        width: 100px;
-        height: 33px;
-    }
-
-    .btn span {
-        font-size: 8px;
     }
 
     .price-list-item {
@@ -97,6 +109,7 @@
 
     .price h2 {
         font-size: 14px;
+        margin-left: 0;
     }
 
     .price-list-item h2 {
@@ -105,11 +118,12 @@
 
     .price-list-item p {
         font-size: 10px;
+        margin-top: 6px;
     }
 
     .price-list-image img {
-        width: 200px;
-        height: 300px;
+        width: 180px;
+        height: 270px;
         border-radius: 20px;
     }
 
@@ -126,8 +140,8 @@
     }
 
     .green-rectangle {
-        width: 200px;
-        height: 300px;
+        width: 180px;
+        height: 270px;
         border-radius: 20px;
     }
 
@@ -138,39 +152,35 @@
     /* footer */
 
     .footer-name h4 {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .footer-name h5 {
-        font-size: 10px;
+        font-size: 9px;
     }
 
     .footer-text p {
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .footer-title h4 {
-        font-size: 15px;
-    }
-
-
-    .text-link {
-        margin-bottom: 7px;
+        font-size: 14px;
     }
 
     .text-link a {
-        font-size: 12px;
+        font-size: 9px;
+        margin-bottom: 7px;
     }
 
     .social-media {
-        margin: 20px 10px 0 10px;
+        margin: 20px 5px 0 5px;
     }
 
     .social-media img {
-        width: 80%;
+        width: 55%;
     }
 
     .end-text-footer h5 {
-        font-size: 10px;
+        font-size: 9px;
     }
 }

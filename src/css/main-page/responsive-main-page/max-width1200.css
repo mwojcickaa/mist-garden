@@ -2,6 +2,10 @@
 
     /* first section */
 
+    #first-section {
+        height: initial;
+    }
+
     header {
         width: 97%;
     }
@@ -15,27 +19,39 @@
     }
 
     .menu a {
-        margin-right: 22px;
-        letter-spacing: 1px;
-        font-size: 13px;
+        margin-right: 31px;
+        letter-spacing: 1.5px;
+        font-size: 11px;
     }
 
     .logo {
-        width: 55px;
-        height: 55px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .logo img {
+        width: 105px;
+        height: 86px;
+        margin-left: -57px;
+        margin-top: 10px;
     }
 
     .name h1 {
-        font-size: 23px;
+        font-size: 20px;
+        letter-spacing: 1.5px;
     }
 
     .name p {
-        font-size: 13px;
+        font-size: 11px;
     }
 
     .btn {
-        width: 162px;
-        height: 55px;
+        width: 141px;
+        height: 47px;
+    }
+
+    .btn span {
+        font-size: 11px;
     }
 
     .btn-text span {
@@ -58,11 +74,31 @@
     }
 
     .first-section-content {
-        width: 90%;
+        width: 85%;
+        margin: 60px;
     }
 
     .page-title h1 {
-        font-size: 42px;
+        font-size: 32px;
+        width: 386px;
+    }
+
+    .page-title h2 {
+        font-size: 13px;
+        width: 62%;
+    }
+
+    .buttons {
+        margin-top: 30px;
+    }
+
+    .btn {
+        width: 123px;
+        height: 42px;
+    }
+
+    .btn-text span {
+        font-size: 11px;
     }
 
     .first-button {
@@ -92,12 +128,22 @@
     }
 
     .second-section-title h3 {
-        font-size: 40px;
+        font-size: 30px;
         margin-bottom: 15px;
     }
 
     .second-section-text p {
-        margin-bottom: 20px;
+        font-size: 13px;
+        width: 86%;
+    }
+
+    .button-hover {
+        width: 123px;
+        height: 42px;
+    }
+
+    .button-hover span {
+        font-size: 10px;
     }
 
     .top-right-content {
@@ -119,7 +165,24 @@
     /* third section */
 
     .third-section-conteiner {
-        padding-top: 25px;
+        padding-top: 20px;
+    }
+
+    .third-section-title h3 {
+        font-size: 30px;
+    }
+
+    button.view-posts {
+        top: 0;
+    }
+
+    .view-posts a {
+        margin-top: 0;
+        font-size: 10px;
+    }
+
+    .third-section-left-bottom-content h3 {
+        font-size: 21px;
     }
 
     .third-section-subtitle {
@@ -134,6 +197,7 @@
 
     .third-section-subtitle img.line {
         margin-top: 0;
+        margin-right: 10px;
     }
 
     .arrow {
@@ -150,7 +214,15 @@
     }
 
     .third-section-left-bottom-content h3 {
-        font-size: 30px;
+        font-size: 24px;
+    }
+
+    .third-section-left-bottom-content p {
+        font-size: 12px;
+    }
+
+    .third-section-left-bottom-content h5 {
+        font-size: 11px;
     }
 
     .photo {
@@ -158,12 +230,13 @@
     }
 
     .row-text h3 {
-        font-size: 21px;
+        font-size: 20px;
     }
 
     .row-text p {
-        font-size: 15px;
-        margin-top: 5px;
+        font-size: 12px;
+        margin-top: 7px;
+        line-height: 18px;
     }
 
     .photo img {
@@ -191,5 +264,41 @@
 
     .top-content-footer {
         width: 85%;
+    }
+
+    /* footer */
+
+    .footer-name h4 {
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+
+    .footer-name h5 {
+        font-size: 12px;
+    }
+
+    .footer-name {
+        margin-left: 5px;
+    }
+
+    .circle-logo img {
+        width: 40px;
+    }
+
+    .footer-text p {
+        font-size: 12px;
+        width: 80%;
+    }
+
+    .footer-title h4 {
+        font-size: 18px;
+    }
+
+    .text-link a {
+        font-size: 12px;
+    }
+
+    .social-media img {
+        width: 17px;
     }
 }

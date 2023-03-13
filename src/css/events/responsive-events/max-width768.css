@@ -18,18 +18,19 @@
     /* content */
 
     .events-content {
-        max-width: 414px;
+        max-width: 390px;
     }
 
     .first-row {
         display: block;
         max-width: 700px;
         margin: auto;
+        margin-bottom: 70px;
     }
 
     .first-row img {
-        width: 400px;
-        height: 268px;
+        width: 370px;
+        height: 248px;
     }
 
     .image {
@@ -38,42 +39,55 @@
     }
 
     .description-events {
-        width: 380px;
-        height: 380px;
-        border-radius: 40px;
+        width: 320px;
+        height: 320px;
         border: solid 2px #324E2F;
         background-color: #ffffff;
         z-index: 0;
-        left: 10px;
+        left: -11px;
         margin: auto;
-        margin-top: 55px;
+        margin-top: 39px;
+        border-radius: 25px;
     }
 
     .green-rectangle {
-        width: 380px;
-        height: 380px;
-        border-radius: 40px;
+        width: 320px;
+        height: 320px;
+        border-radius: 25px;
         background-color: #324E2F;
         position: absolute;
-        right: 28px;
+        right: 48px;
         top: 300px;
         z-index: -1;
     }
 
+    @keyframes mymove {
+        0% {
+            top: 0px;
+            right: -36px;
+        }
+
+        100% {
+            top: 30px;
+            margin-right: 10px;
+        }
+    }
+
     .description-events h2 {
-        font-size: 36px;
+        font-size: 25px;
         margin-top: 10px;
     }
 
     .description-events p {
-        font-size: 25px;
-        margin-top: 15px;
+        font-size: 20px;
+        margin-top: 20px;
         width: 88%;
+        line-height: 25px;
     }
 
     .description-events h5 {
-        font-size: 20px;
-        bottom: -5px;
+        font-size: 14px;
+        bottom: -2px;
     }
 
     .picture-description {
@@ -85,34 +99,34 @@
     }
 
     .second-row img {
-        width: 400px;
-        height: 268px;
-        border-radius: 30px;
+        width: 370px;
+        height: 248px;
+        border-radius: 25px;
     }
 
     .border-description {
-        width: 400px;
-        height: 300px;
+        width: 370px;
+        height: 270px;
     }
 
     .picture-description h3 {
-        font-size: 35px;
+        font-size: 28px;
     }
 
     .picture-description p {
-        font-size: 24px;
+        font-size: 20px;
         width: 91%;
     }
 
     .picture-description h5 {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .third-row img {
-        width: 400px;
-        height: 268px;
-        border-radius: 30px;
-        margin-top: 60px;
+        width: 370px;
+        height: 248px;
+        border-radius: 25px;
+        margin-top: 30px;
     }
 
     .third-row {
@@ -126,8 +140,20 @@
     }
 
     .green-rectangle.second {
-        top: 32px;
-        left: 4px;
+        top: -22px;
+        left: 43px;
+    }
+
+    @keyframes move {
+        0% {
+            margin-top: -26px;
+            margin-left: -6px;
+        }
+
+        100% {
+            margin-top: 14px;
+            margin-left: 25px;
+        }
     }
 
     /* footer */
@@ -145,7 +171,7 @@
     }
 
     .footer-text p {
-        font-size: 16px;
+        font-size: 11px;
         width: 60%;
         margin: auto;
         margin-bottom: 30px;
