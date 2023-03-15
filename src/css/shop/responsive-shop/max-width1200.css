@@ -52,6 +52,11 @@
     /* content */
 
     .shop-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 300px 1fr 1fr 1fr 1fr;
+        max-width: 1220px;
+        margin: auto;
         margin-bottom: 70px;
         margin-top: 60px;
         width: 85%;

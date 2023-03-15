@@ -23,7 +23,9 @@ body {
     height: 675px;
     border-radius: 40px;
     position: absolute;
-    top: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    top: 0;
     animation: mymove 1.5s;
     animation-fill-mode: forwards;
 }

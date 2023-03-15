@@ -19,8 +19,12 @@
     .shop-content {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 200px 1fr 1fr 1fr 1fr 1fr;
         width: 90%;
+    }
+
+    .decorative-photo-second {
+        align-items: center;
     }
 
     .center-photo {
@@ -132,9 +136,6 @@
         grid-row-end: 8;
     }
 
-    .flowerpot img {
-        width:
-    }
 
     .flowerpot.first {
         grid-column-start: 1;
