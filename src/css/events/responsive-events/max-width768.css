@@ -25,7 +25,7 @@
         display: block;
         max-width: 700px;
         margin: auto;
-        margin-bottom: 70px;
+        margin-bottom: 50px;
     }
 
     .first-row img {
@@ -39,38 +39,20 @@
     }
 
     .description-events {
-        width: 320px;
-        height: 320px;
+        width: 370px;
+        height: 260px;
         border: solid 2px #324E2F;
         background-color: #ffffff;
         z-index: 0;
-        left: -11px;
+        left: 0px;
         margin: auto;
-        margin-top: 39px;
+        margin-top: 15px;
         border-radius: 25px;
+        animation-name: none;
     }
 
     .green-rectangle {
-        width: 320px;
-        height: 320px;
-        border-radius: 25px;
-        background-color: #324E2F;
-        position: absolute;
-        right: 48px;
-        top: 300px;
-        z-index: -1;
-    }
-
-    @keyframes mymove {
-        0% {
-            top: 0px;
-            right: -36px;
-        }
-
-        100% {
-            top: 30px;
-            margin-right: 10px;
-        }
+        display: none;
     }
 
     .description-events h2 {
@@ -95,7 +77,15 @@
         width: 100%;
         justify-content: unset;
         justify-items: center;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
+    }
+
+    .picture-description img {
+        margin-bottom: 10px;
+    }
+
+    .second-row {
+        margin-bottom: 0;
     }
 
     .second-row img {
@@ -126,7 +116,7 @@
         width: 370px;
         height: 248px;
         border-radius: 25px;
-        margin-top: 30px;
+        margin-top: 15px;
     }
 
     .third-row {
@@ -137,23 +127,12 @@
 
     .description-events.second {
         margin: auto;
+        animation-name: none;
     }
 
     .green-rectangle.second {
         top: -22px;
         left: 43px;
-    }
-
-    @keyframes move {
-        0% {
-            margin-top: -26px;
-            margin-left: -6px;
-        }
-
-        100% {
-            margin-top: 14px;
-            margin-left: 25px;
-        }
     }
 
     /* footer */

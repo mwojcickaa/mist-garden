@@ -25,10 +25,11 @@
     }
 
     .description-events {
-        width: 160px;
-        height: 180px;
-        margin-top: 25px;
+        width: 180px;
+        height: 160px;
+        margin-top: 15px;
         border-radius: 20px;
+        border: solid 1.5px #324E2F;
     }
 
     .description-events h2 {
@@ -56,18 +57,6 @@
         border-radius: 20px;
     }
 
-    @keyframes mymove {
-        0% {
-            top: 0px;
-            right: -36px;
-        }
-
-        100% {
-            top: 12px;
-            margin-right: 18px;
-        }
-    }
-
     .second-row {
         margin-top: 30px;
     }
@@ -75,6 +64,10 @@
     .picture-description img {
         margin-bottom: 8px;
         border-radius: 20px;
+    }
+
+    .picture-description {
+        margin-bottom: 30px;
     }
 
     .second-row img {
@@ -85,19 +78,24 @@
 
     .border-description {
         width: 180px;
-        height: 178px;
+        height: 155px;
+        border: solid 1.5px #324E2F;
     }
 
     .picture-description h3 {
-        font-size: 16px;
+        font-size: 14px;
         margin-top: 10px;
     }
 
     .picture-description p {
-        line-height: 14px;
+        line-height: 15px;
         font-size: 11px;
         margin-top: 10px;
-        width: 91%;
+        width: 92%;
+    }
+
+    .picture-description h5 {
+        font-size: 9px;
     }
 
     .description-events h5 {
@@ -108,12 +106,12 @@
     .third-row img {
         width: 180px;
         height: 121px;
-        margin-top: 20px;
+        margin-top: 15px;
         border-radius: 20px;
     }
 
     .description-events.second {
-        left: 9px;
+        left: 0;
         top: 0;
     }
 
@@ -121,17 +119,5 @@
         top: -15px;
         left: 34px;
         border-radius: 20px;
-    }
-
-    @keyframes move {
-        0% {
-            margin-top: -26px;
-            margin-left: -6px;
-        }
-
-        100% {
-            margin-top: 8px;
-            margin-left: 3px;
-        }
     }
 }
