@@ -337,17 +337,22 @@
     .price-list-content {
         display: block;
         width: 90%;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 360px 525px;
     }
 
     .price-list-image {
         width: 100%;
         display: flex;
         justify-content: center;
+        grid-row-start: 2;
+        grid-row-end: 3;
     }
 
     .price-list {
         width: 65%;
-        margin-top: 80px;
+        margin-top: 0;
     }
 
     .price-list h2 {
@@ -376,7 +381,7 @@
 
     .price-list-branch img {
         width: 45%;
-        bottom: 22%;
+        bottom: 52%;
     }
 
     /* footer */

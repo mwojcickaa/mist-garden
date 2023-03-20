@@ -100,11 +100,15 @@
         width: 75%;
     }
 
+    .price-list-row {
+        margin-bottom: 25px;
+    }
+
     /* content */
 
     .price-list-content {
         margin-top: 30px;
-        margin-bottom: 30px;
+        grid-template-rows: 340px 310px;
     }
 
     .price h2 {
@@ -143,10 +147,6 @@
         width: 180px;
         height: 270px;
         border-radius: 20px;
-    }
-
-    .price-list {
-        margin-top: 50px;
     }
 
     /* footer */

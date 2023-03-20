@@ -39,7 +39,7 @@
 
     .price-list-branch img {
         width: 53%;
-        bottom: 38%;
+        bottom: 67%;
     }
 
     .price-list-image img {
@@ -66,8 +66,9 @@
 
     .price-list-content {
         margin: 0;
-        margin-top: 40px;
+        margin-top: 25px;
         width: 100%;
+        display: grid;
     }
 
     /* footer */
