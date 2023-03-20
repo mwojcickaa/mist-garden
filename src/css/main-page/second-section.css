@@ -34,6 +34,7 @@
     gap: 30px 0;
     max-width: 1200px;
     margin: auto;
+    margin-bottom: 20px;
 }
 
 .second-container img {
@@ -114,6 +115,10 @@
     z-index: 1;
 }
 
+.third-button button {
+    z-index: 2;
+}
+
 .button-hover {
     width: 180px;
     height: 60px;
@@ -145,12 +150,13 @@
     stroke-dashoffset: -480;
 }
 
-.button-hover span {
+.button-hover a {
     color: white;
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 2px;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .top-right-content {

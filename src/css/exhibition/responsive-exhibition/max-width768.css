@@ -44,6 +44,18 @@
         width: 69%;
     }
 
+    @keyframes mymove {
+        0% {
+            top: 0px;
+            right: 0px;
+        }
+
+        100% {
+            top: 25px;
+            right: 25px;
+        }
+    }
+
     .exhibition-image img {
         width: 300px;
         height: 438px;
