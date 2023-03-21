@@ -120,6 +120,7 @@
 }
 
 .button-hover {
+    display: block;
     width: 180px;
     height: 60px;
     cursor: pointer;
@@ -139,6 +140,17 @@
     stroke-dasharray: 150 480;
     stroke-dashoffset: 150;
     transition: 1s ease-in-out;
+}
+
+.button-hover span {
+    font-family: roboto;
+    color: white;
+    top: 20px;
+    left: 43px;
+    font-size: 16px;
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 2.5px;
 }
 
 .button-hover:hover {
