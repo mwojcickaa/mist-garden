@@ -2,6 +2,13 @@ body {
     margin: 0;
 }
 
+/* header */
+
+.btn-menu h4 {
+    margin: 0;
+    text-transform: uppercase;
+}
+
 .exhibition-content {
     display: flex;
     max-width: 1220px;

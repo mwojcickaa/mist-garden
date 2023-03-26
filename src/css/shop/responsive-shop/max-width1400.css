@@ -14,7 +14,6 @@
     }
 
     .menu a {
-        margin-right: 23px;
         font-size: 12px;
     }
 
@@ -36,8 +35,12 @@
         height: 47px;
     }
 
-    .btn span {
-        font-size: 12px;
+    .btn h4 {
+        font-size: 11px;
+    }
+
+    .menu li {
+        margin-right: 25px;
     }
 
     #hamburger-menu ul {

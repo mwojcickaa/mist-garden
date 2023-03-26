@@ -23,14 +23,13 @@
         letter-spacing: 1.5px;
     }
 
-    .btn {
-        width: 95px;
-        height: 33px;
+    .btn.btn-menu {
+        width: 107px;
+        height: 37px;
     }
 
-    .btn span {
-        font-size: 8px;
-        letter-spacing: 0.5px;
+    .btn.btn-menu h4 {
+        font-size: 9px;
     }
 
     .name p {

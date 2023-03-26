@@ -92,13 +92,21 @@
         justify-content: space-between;
     }
 
-    .btn span {
-        font-size: 11px;
+    .btn.btn-menu {
+        display: block;
+        margin: auto;
+        width: 150px;
+        height: 50px;
     }
 
-    .btn {
-        width: 155px;
-        height: 51px;
+    .btn-menu h4 {
+        font-size: 13px;
+        margin: 0;
+        text-transform: uppercase;
+    }
+
+    .menu li {
+        margin: 0;
     }
 
     .button {

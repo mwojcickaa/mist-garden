@@ -5,6 +5,14 @@
         width: 95%;
     }
 
+    .btn h4 {
+        font-size: 11px;
+    }
+
+    #hamburger-menu ul {
+        margin: 0;
+    }
+
     .name-logo {
         width: 28%;
     }
@@ -14,8 +22,11 @@
     }
 
     .menu a {
-        margin-right: 23px;
         font-size: 12px;
+    }
+
+    .menu li {
+        margin-right: 25px;
     }
 
     .name h1 {

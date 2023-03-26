@@ -2,7 +2,7 @@
     /* header */
 
     header {
-        width: 84%;
+        width: 95%;
     }
 
     .name-logo {
@@ -14,7 +14,6 @@
     }
 
     .menu a {
-        margin-right: 23px;
         font-size: 12px;
     }
 
@@ -36,12 +35,16 @@
         height: 47px;
     }
 
-    .btn span {
-        font-size: 12px;
+    .btn h4 {
+        font-size: 11px;
     }
 
     #hamburger-menu ul {
         margin: 0;
+    }
+
+    .menu li {
+        margin-right: 25px;
     }
 
     .logo img {

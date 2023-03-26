@@ -14,7 +14,6 @@
     }
 
     .menu a {
-        margin-right: 31px;
         letter-spacing: 1.5px;
         font-size: 11px;
     }
@@ -44,11 +43,6 @@
         width: 141px;
         height: 47px;
     }
-
-    .btn span {
-        font-size: 11px;
-    }
-
 
     /* content */
 

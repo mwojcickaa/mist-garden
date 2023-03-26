@@ -121,7 +121,6 @@ nav {
     font-weight: 700;
     color: #414840;
     margin: 0;
-    margin-right: 40px;
     text-decoration: none;
     font-size: 14px;
     letter-spacing: 1.5px;
@@ -164,18 +163,53 @@ svg {
     transition: 1s ease-in-out;
 }
 
-.btn span {
+.btn h4 {
     color: #475F45;
     font-size: 13px;
     font-weight: 700;
-    position: relative;
-    top: -1px;
+    margin-right: 0;
+    font-family: roboto;
+}
+
+.btn-menu h4 {
+    margin: 0;
+    margin-top: -19px;
+    -webkit-text-fill-color: unset;
+}
+
+.menu.menu-link a {
+    transition: none;
+}
+
+.menu a {
+    margin-right: 0;
+}
+
+.menu li {
+    margin-right: 40px;
+}
+
+.btn {
+    text-decoration: none;
 }
 
 .btn:hover {
     transition: 1s ease-in-out;
     background: transparent;
 }
+
+.btn-first-section a {
+    text-decoration: none;
+}
+
+.btn-first-section h4 {
+    position: unset;
+    color: white;
+    font-family: roboto;
+    margin: 0;
+    font-size: 13px;
+}
+
 
 .btn-first-section:hover {
     transition: 1s ease-in-out;
@@ -226,9 +260,25 @@ svg {
     margin-top: 15px;
 }
 
-.btn-text span {
-    font-size: 15px;
+.btn-text h4 {
     text-transform: uppercase;
+    text-decoration: none;
+    font-family: roboto;
+    margin: 0;
+    margin-top: 17px;
+    margin-left: 47px;
+    font-size: 17px;
+}
+
+.btn-menu h4 {
+    margin: 0;
+    margin-top: 20px;
+    -webkit-text-fill-color: unset;
+    margin-left: 31px;
+}
+
+.second-btn-first-section {
+    color: #475F45;
 }
 
 .btn-first-section {
@@ -236,13 +286,26 @@ svg {
     background-color: #475F45;
 }
 
-.btn-first-section span {
+.btn-first-section h4 {
+    margin-left: 57px;
+}
+
+.btn-first-section a {
     color: white;
 }
 
 .buttons {
     display: flex;
     margin-top: 32px;
+}
+
+.button-hover h4 {
+    font-family: roboto;
+    color: white;
+    top: 18px;
+    left: 50px;
+    font-size: 17px;
+    text-decoration: none;
 }
 
 .right-content {

@@ -3,6 +3,13 @@ body {
     position: relative;
 }
 
+/* header */
+
+.btn-menu h4 {
+    margin: 0;
+    text-transform: uppercase;
+}
+
 header,
 footer {
     z-index: 1;

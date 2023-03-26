@@ -73,9 +73,8 @@
         margin: 0 5px 0 5px;
     }
 
-    .btn span {
+    .btn h4 {
         font-size: 7px;
-        top: -2px;
     }
 
     .btn {
@@ -105,10 +104,33 @@
         height: 30px;
     }
 
-    .btn span {
+    .btn h4 {
         font-size: 7.5px;
         letter-spacing: 1px;
         font-weight: 600;
+    }
+
+    .btn-menu h4 {
+        font-size: 7px;
+    }
+
+    .btn-text h4 {
+        margin-left: 23px;
+        margin-top: 11px;
+    }
+
+    .btn.btn-menu {
+        width: 88px;
+        height: 21px;
+    }
+
+    .btn.btn-menu h4 {
+        font-size: 7.5px;
+        margin-top: -9px;
+    }
+
+    .btn-first-section h4 {
+        margin-left: 28px;
     }
 
     .img-in-border {
@@ -170,7 +192,7 @@
         height: 36px;
     }
 
-    .button-hover span {
+    .button-hover h4 {
         font-size: 8px;
     }
 

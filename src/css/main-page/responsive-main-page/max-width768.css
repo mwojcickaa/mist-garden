@@ -46,6 +46,23 @@
         right: 21px;
     }
 
+    .btn-menu {
+        width: 159px;
+        height: 54px;
+    }
+
+    .btn-menu h4 {
+        font-size: 11px;
+    }
+
+    .btn-menu span {
+        font-size: 14px;
+    }
+
+    .menu a {
+        font-size: 13px;
+    }
+
     /* second section */
 
     .background-color-second-section {
