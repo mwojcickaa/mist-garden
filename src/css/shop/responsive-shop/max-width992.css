@@ -403,6 +403,29 @@
         font-size: 11px;
     }
 
+    .back h2 {
+        width: 90%;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    .back h4 {
+        font-size: 9px;
+        margin-bottom: 11px;
+        margin-top: 5px;
+    }
+
+    .back p {
+        font-size: 10px;
+        line-height: 15px;
+        width: 85%;
+    }
+
+    .shop-line {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
     /* footer */
 
     footer {

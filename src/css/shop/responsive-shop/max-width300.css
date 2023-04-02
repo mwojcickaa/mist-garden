@@ -1,0 +1,64 @@
+@media only screen and (max-width: 300px) {
+    .shop-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 130px 130px 130px 130px 130px 130px 70px 130px 130px 130px 130px 130px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .decorative-photo-second img {
+        margin-top: 0;
+    }
+
+    .card {
+        height: 90%;
+        max-width: 100px;
+    }
+
+    .flower img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .flowerpot img {
+        width: 55px;
+        height: 55px;
+        margin: 0;
+    }
+
+    .flower h3 {
+        font-size: 9px;
+    }
+
+    .flower h5 {
+        font-size: 6px;
+    }
+
+    .back h2 {
+        font-size: 8px;
+        margin-top: 5px;
+    }
+
+    .back h4 {
+        font-size: 6px;
+        margin-bottom: 8px;
+        margin-top: 2px;
+    }
+
+    .back p {
+        font-size: 6px;
+        line-height: 10px;
+        width: 87%;
+    }
+
+    .shop-line {
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+
+    .flowerpot h3 {
+        width: 86%;
+        font-size: 9px;
+    }
+}

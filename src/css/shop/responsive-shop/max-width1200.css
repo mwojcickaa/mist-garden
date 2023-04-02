@@ -76,14 +76,31 @@
         animation-fill-mode: forwards;
     }
 
+    .back h2 {
+        width: 95%;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    .back h4 {
+        font-size: 11px;
+        margin-bottom: 15px;
+    }
+
+    .back p {
+        font-size: 12px;
+        line-height: 17px;
+        width: 85%;
+    }
+
     .flower img {
         width: 150px;
         height: 150px;
     }
 
     .flowerpot img {
-        width: 150px;
-        height: 150px;
+        width: 130px;
+        height: 130px;
     }
 
     .flower h3 {
@@ -109,6 +126,22 @@
 
     .decorative-photo-second {
         align-items: center;
+    }
+
+    .flower.fifth {
+        margin-top: 5px;
+    }
+
+    .flower.sixth {
+        margin-top: 5px;
+    }
+
+    .flower.seventh {
+        margin-top: 5px;
+    }
+
+    .flower.eighth {
+        margin-top: 5px;
     }
 
     @keyframes mymove {
