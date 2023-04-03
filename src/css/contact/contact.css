@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+}
+
+#contact-content {
+    position: relative;
+}
+
+.contact-content {
+    max-width: 1220px;
+    margin: auto;
+}
+
+.information {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.address {
+    width: 33%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.phone {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+}
+
+.mail {
+    width: 33%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact-content h1 {
+    font-family: Libre Baskervillec;
+    font-size: 48px;
+    width: 400px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #343D33;
+    margin-top: 60px;
+}
+
+.first-branch img {
+    position: absolute;
+    right: 0;
+    width: 20%;
+    top: 95px;
+    z-index: -2;
+    opacity: 0.4;
+}
+
+.second-branch img {
+    position: absolute;
+    transform: scaleX(-1);
+    bottom: -90px;
+    left: 0;
+    width: 27%;
+    z-index: -2;
+    opacity: 0.7;
+}
+
+.address-title,
+.phone-title,
+.mail-title {
+    display: flex;
+}
+
+.center {
+    display: inline-block;
+    margin: auto;
+}
+
+.contact-content h3 {
+    font-family: Libre Baskervillec;
+    font-size: 23px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+.address-information h4 {
+    font-family: Roboto;
+    font-size: 18px;
+    color: #324E2F;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.phone-information h4 {
+    font-family: Roboto;
+    font-size: 18px;
+    color: #324E2F;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.phone-information a {
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 18px;
+    color: #324E2F;
+}
+
+.mail-information h4 {
+    font-family: Roboto;
+    font-size: 18px;
+    color: #324E2F;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mail-information a {
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 18px;
+    color: #324E2F;
+}
+
+iframe {
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    left: 0;
+}
+
+.get-in-touch {
+    margin-top: 550px;
+    margin-bottom: 60px;
+}
+
+.in-touch-title h2 {
+    font-family: Libre Baskervillec;
+    font-size: 48px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.in-touch-title h4 {
+    font-family: Libre Baskervillec;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    width: 40%;
+    margin: auto;
+    color: #343D33;
+    text-align: center;
+    margin-top: 0;
+}
+
+.form-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.form-content input {
+    width: 550px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.form-content label {
+    border: none;
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
+::placeholder {
+    font-family: Libre Baskervillec;
+    color: #343D33;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+input[type=text] {
+    font-family: Libre Baskervillec;
+    font-size: 18px;
+    color: #000;
+}
+
+.button-send {
+    width: 140px;
+    height: 50px;
+    border: solid 2px #324E2F;
+    position: relative;
+    left: 61%;
+}
+
+.button-send a {
+    font-family: Roboto;
+    font-weight: 500;
+    color: #324E2F;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    letter-spacing: 1.5px;
+    top: 16px;
+    left: 37px;
+}

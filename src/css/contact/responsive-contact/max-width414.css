@@ -1,0 +1,260 @@
+@media only screen and (max-width: 414px) {
+
+    /* header */
+    .name {
+        padding-left: 5px;
+        margin: 0;
+    }
+
+    .logo {
+        width: 30px;
+        height: 30px;
+    }
+
+    .logo img {
+        width: 70px;
+        height: 53px;
+        margin-left: -39px;
+        margin-top: 5px;
+    }
+
+    .name h1 {
+        font-size: 15px;
+        letter-spacing: 1.5px;
+    }
+
+    .btn.btn-menu {
+        width: 107px;
+        height: 37px;
+    }
+
+    .btn.btn-menu h4 {
+        font-size: 9px;
+    }
+
+    .name p {
+        font-size: 8px;
+    }
+
+    .name-logo {
+        width: 94%;
+    }
+
+    .menu-icon {
+        width: 6%;
+    }
+
+    .menu-icon .hamburger-lines {
+        width: 17px;
+        height: 17px;
+    }
+
+    .menu-icon input {
+        width: 17px;
+        height: 17px;
+    }
+
+    .hamburger-lines .line {
+        height: 2px;
+    }
+
+    .sticky-menu-icon input[type="checkbox"]:checked~.hamburger-lines .line1 {
+        transform: rotate(45deg);
+        width: 21px;
+    }
+
+    .sticky-menu-icon input[type="checkbox"]:checked~.hamburger-lines .line3 {
+        transform: rotate(-45deg);
+        width: 21px;
+    }
+
+    #hamburger-menu {
+        margin-top: 45px;
+    }
+
+    .menu {
+        width: 55%;
+        line-height: 55px;
+    }
+
+    .menu a {
+        font-size: 9px;
+        letter-spacing: 1px;
+    }
+
+    .name h1 {
+        font-size: 15px;
+        letter-spacing: 1.5px;
+    }
+
+    .name p {
+        font-size: 8px;
+    }
+
+    .menu-ikon img {
+        width: 15px;
+    }
+
+    .price-list-item {
+        width: 75%;
+    }
+
+    .price-list-row {
+        margin-bottom: 25px;
+    }
+
+    /* content */
+
+    .contact-content h1 {
+        font-size: 20px;
+        width: 165px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .contact-content h3 {
+        font-size: 13px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+
+    .address-title img {
+        width: 14px;
+        margin-top: 7px;
+    }
+
+    .address-information h4 {
+        font-size: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .phone-title img {
+        width: 13px;
+        margin-top: 5px;
+    }
+
+    .phone-information h4 {
+        font-size: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .phone-information a {
+        font-size: 10px;
+        text-align: center;
+        margin-left: 7px;
+    }
+
+    .mail-title img {
+        width: 13px;
+        margin-top: 5px;
+    }
+
+    .mail-information h4 {
+        font-size: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .mail-information a {
+        font-size: 10px;
+    }
+
+    .information {
+        margin-bottom: 20px;
+    }
+
+    iframe {
+        height: 150px;
+    }
+
+    .get-in-touch {
+        margin-top: 185px;
+    }
+
+    .in-touch-title h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .in-touch-title h4 {
+        font-size: 8px;
+        width: 180px;
+    }
+
+    .form-content input {
+        width: 190px;
+        height: 20px;
+    }
+
+    .form-content {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    input[type=text] {
+        font-size: 10px;
+    }
+
+    ::placeholder {
+        font-size: 10px;
+    }
+
+    .button-send {
+        width: 67px;
+        height: 26px;
+        left: 58%;
+    }
+
+    .button-send a {
+        font-size: 8px;
+        top: 3px;
+        left: 18px;
+        letter-spacing: 1px;
+    }
+
+    .first-branch img {
+        top: 200px;
+        width: 45%;
+    }
+
+    .second-branch img {
+        width: 45%;
+    }
+
+    /* footer */
+
+    .footer-name h4 {
+        font-size: 16px;
+    }
+
+    .footer-name h5 {
+        font-size: 9px;
+    }
+
+    .footer-text p {
+        font-size: 11px;
+    }
+
+    .footer-title h4 {
+        font-size: 14px;
+    }
+
+    .text-link a {
+        font-size: 9px;
+        margin-bottom: 7px;
+    }
+
+    .social-media {
+        margin: 20px 5px 0 5px;
+    }
+
+    .social-media img {
+        width: 55%;
+    }
+
+    .end-text-footer h5 {
+        font-size: 9px;
+    }
+}

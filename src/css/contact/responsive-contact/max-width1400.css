@@ -1,0 +1,118 @@
+@media only screen and (max-width: 1400px) {
+    /* header */
+
+    header {
+        width: 95%;
+    }
+
+    .name-logo {
+        width: 28%;
+    }
+
+    .menu {
+        width: 72%;
+    }
+
+    .menu a {
+        font-size: 12px;
+    }
+
+    .name h1 {
+        font-size: 21px;
+    }
+
+    .name p {
+        font-size: 12px;
+    }
+
+    .logo {
+        width: 55px;
+        height: 55px;
+    }
+
+    .btn {
+        width: 139px;
+        height: 47px;
+    }
+
+    .btn h4 {
+        font-size: 11px;
+    }
+
+    .menu li {
+        margin-right: 25px;
+    }
+
+    #hamburger-menu ul {
+        margin: 0;
+    }
+
+    .logo img {
+        width: 123px;
+        height: 91px;
+        margin-left: -66px;
+    }
+
+    /* content */
+
+    .contact-content {
+        width: 90%;
+    }
+
+    .contact-content h1 {
+        font-size: 43px;
+        width: 365px;
+    }
+
+    .contact-content h3 {
+        font-size: 20px;
+    }
+
+    .address-title img {
+        width: 23px;
+    }
+
+    .address-information h4 {
+        font-size: 16px;
+    }
+
+    .phone-title img {
+        width: 23px;
+    }
+
+    .phone-information h4 {
+        font-size: 16px;
+    }
+
+    .mail-title img {
+        width: 23px;
+    }
+
+    .mail-information h4 {
+        font-size: 16px;
+    }
+
+    .in-touch-title h2 {
+        font-size: 43px;
+    }
+
+    .in-touch-title h4 {
+        font-size: 14px;
+    }
+
+    ::placeholder {
+        font-size: 16px;
+    }
+
+    .button-send a {
+        font-size: 15px;
+        top: 17px;
+        left: 41px;
+    }
+
+    /* footer */
+
+    .top-content-footer {
+        width: 90%;
+    }
+}
