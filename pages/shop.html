@@ -15,6 +15,7 @@
     <link rel="stylesheet" type="text/css" href="../src/css/shop/responsive-shop/max-width992.css" />
     <link rel="stylesheet" type="text/css" href="../src/css/shop/responsive-shop/max-width768.css" />
     <link rel="stylesheet" type="text/css" href="../src/css/shop/responsive-shop/max-width414.css" />
+    <link rel="stylesheet" type="text/css" href="../src/css/shop/responsive-shop/max-width300.css" />
 </head>
 
 <body>
@@ -49,13 +50,13 @@
                             </li>
                             <li><a class="menu-link" href="../pages/shop.html">SKLEP</a></li>
                         </ul>
-                        <button class="btn btn-menu">
+                        <a href="../pages/contact.html" class="btn btn-menu">
                             <svg viewBox="0 0 180 60" class="border-button">
                                 <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
                                 <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
                             </svg>
                             <h4>jak dojechać</h4>
-                        </button>
+                        </a>
                     </nav>
                 </div>
             </div>
@@ -71,32 +72,92 @@
             </div>
             <div class="flower-products">
                 <div class="flower first">
-                    <div class="center">
-                        <img src="../src/img/flower-shop-one.jpg">
+                    <div class="card">
+                        <div class="content">
+                            <div class="front">
+                                <div class="center">
+                                    <img src="../src/img/flower-shop-one.jpg">
+                                </div>
+                                <h3>Fikus Tępy</h3>
+                                <h5>79.99zł</h5>
+                            </div>
+                            <div class="back">
+                                <h2>Fikus Tępy</h2>
+                                <h4>wys. 40-45cm</h4>
+                                <p>Stanowisko słoneczne/półcieniste</p>
+                                <div class="shop-line"></div>
+                                <p>Podłoże i powietrze wilgotne</p>
+                                <div class="shop-line"></div>
+                                <p>Zgrubiałe korzenie/błyszczące liście</p>
+                            </div>
+                        </div>
                     </div>
-                    <h3>Ficus Ginseng</h3>
-                    <h5>79.99zł</h5>
                 </div>
                 <div class="flower second">
-                    <div class="center">
-                        <img src="../src/img/flower-shop-two.jpg">
+                    <div class="card">
+                        <div class="content">
+                            <div class="front">
+                                <div class="center">
+                                    <img src="../src/img/flower-shop-two.jpg">
+                                </div>
+                                <h3>Aloes Leczniczy</h3>
+                                <h5>169.99zł</h5>
+                            </div>
+                            <div class="back">
+                                <h2>Aloes Leczniczy</h2>
+                                <h4>wys. 60cm</h4>
+                                <p>Małe wymagania uprawowe</p>
+                                <div class="shop-line"></div>
+                                <p>Roślina lecznicza, posiada wiele witaminy, sole mineralnych itp</p>
+                                <div class="shop-line"></div>
+                                <p>Stanowisko jasne/słoneczne</p>
+                            </div>
+                        </div>
                     </div>
-                    <h3>Aloe Vera</h3>
-                    <h5>169.99zł</h5>
                 </div>
                 <div class="flower third">
-                    <div class="center">
-                        <img src="../src/img/flower-shop-three.jpg">
+                    <div class="card">
+                        <div class="content">
+                            <div class="front">
+                                <div class="center">
+                                    <img src="../src/img/flower-shop-three.jpg">
+                                </div>
+                                <h3>Palma Areka</h3>
+                                <h5>52.99zł</h5>
+                            </div>
+                            <div class="back">
+                                <h2>Palma Areka</h2>
+                                <h4>wys. 70cm</h4>
+                                <p>Stanowisko jasne z dużą ilością światła</p>
+                                <div class="shop-line"></div>
+                                <p>Zielone filtry</p>
+                                <div class="shop-line"></div>
+                                <p>Duże liście w kształcie wachlarza</p>
+                            </div>
+                        </div>
                     </div>
-                    <h3>Palm Dypsis</h3>
-                    <h5>52.99zł</h5>
                 </div>
                 <div class="flower fourth">
-                    <div class="center">
-                        <img src="../src/img/flower-shop-four.jpg">
+                    <div class="card">
+                        <div class="content">
+                            <div class="front">
+                                <div class="center">
+                                    <img src="../src/img/flower-shop-four.jpg">
+                                </div>
+                                <h3>Monstera dziurawa</h3>
+                                <h5>29.99zł</h5>
+                            </div>
+                            <div class="back">
+                                <h2>Palm Dypsis</h2>
+                                <h4>wys. 45-55 cm</h4>
+                                <p>Bardzo odporna i łatwa w utrzymaniu</p>
+                                <div class="shop-line"></div>
+                                <p>Stanowisko półcieniste</p>
+                                <div class="shop-line"></div>
+                                <p>Okazałe, dekoracyjne liście</p>
+                            </div>
+                        </div>
                     </div>
-                    <h3>Monstera dziurawa</h3>
-                    <h5>29.99zł</h5>
                 </div>
             </div>
             <div class="decorative-photo-second">
@@ -104,76 +165,226 @@
             </div>
             <div class="flowerpot-products">
                 <div class="flowerpot first">
-                    <div class="center-flowerpot">
-                        <img src="../src/img/flowerpot-shop-one.jpg">
+                    <div class="card">
+                        <div class="content">
+                            <div class="front">
+                                <div class="center-flowerpot">
+                                    <img src="../src/img/flowerpot-shop-one.jpg">
+                                </div>
+                                <h3>Osłonka Alma Granatowa</h3>
+                                <h5>32.99zł</h5>
+                            </div>
+                            <div class="back">
+                                <h2>Osłonka Alma</h2>
+                                <h4>śr. 16cm</h4>
+                                <p>Osłonka ceramiczna wysokiej jakości o prostej formie</p>
+                                <div class="shop-line"></div>
+                                <p>Nowoczesny wygląd i niestandardowy wzór</p>
+                                <div class="shop-line"></div>
+                                <p>Średnica 16 cm, wysokość 14,5 cm</p>
+                            </div>
+                        </div>
                     </div>
-                    <h3>Osłonka Alma Granatowa</h3>
-                    <h5>32.99zł</h5>
                 </div>
                 <div class="flowerpot second">
-                    <div class="center-flowerpot">
-                        <img src="../src/img/flowerpot-shop-two.jpg">
+                    <div class="card">
+                        <div class="content">
+                            <div class="front">
+                                <div class="center-flowerpot">
+                                    <img src="../src/img/flowerpot-shop-two.jpg">
+                                </div>
+                                <h3>Osłonka Magnolia Szara</h3>
+                                <h5>22.99zł</h5>
+                            </div>
+                            <div class="back">
+                                <h2>Osłonka Magnolia</h2>
+                                <h4>śr. 20cm</h4>
+                                <p>Klasyczna i elegancka forma</p>
+                                <div class="shop-line"></div>
+                                <p>Idealny dodatek dekoracyjny do wnętrz</p>
+                                <div class="shop-line"></div>
+                                <p>Średnica 26 cm, wysokość 21 cm</p>
+                            </div>
+                        </div>
                     </div>
-                    <h3>Osłonka Magnolia Szara</h3>
-                    <h5>22.99zł</h5>
                 </div>
                 <div class="flowerpot third">
-                    <div class="center-flowerpot">
-                        <img src="../src/img/flowerpot-shop-three.jpg">
+                    <div class="card">
+                        <div class="content">
+                            <div class="front">
+                                <div class="center-flowerpot">
+                                    <img src="../src/img/flowerpot-shop-three.jpg">
+                                </div>
+                                <h3>Osłonka Roccia Piaskowa</h3>
+                                <h5>36.99zł</h5>
+                            </div>
+                            <div class="back">
+                                <h2>Osłonka Roccia</h2>
+                                <h4>śr. 15cm</h4>
+                                <p>Minimalizm i elegancja w jednym</p>
+                                <div class="shop-line"></div>
+                                <p>Matowa powierzchnia, kolor piaskowy</p>
+                                <div class="shop-line"></div>
+                                <p>Średnica 15 cm, wysokość 13.5 cm</p>
+                            </div>
+                        </div>
                     </div>
-                    <h3>Osłonka Roccia Piaskowa</h3>
-                    <h5>36.99zł</h5>
                 </div>
                 <div class="flowerpot fourth">
-                    <div class="center-flowerpot">
-                        <img src="../src/img/flowerpot-shop-four.jpg">
+                    <div class="card">
+                        <div class="content">
+                            <div class="front">
+                                <div class="center-flowerpot">
+                                    <img src="../src/img/flowerpot-shop-four.jpg">
+                                </div>
+                                <h3>Osłonka Diament Czarna</h3>
+                                <h5>8.99zł</h5>
+                            </div>
+                            <div class="back">
+                                <h2>Osłonka Diament</h2>
+                                <h4>śr. 17cm</h4>
+                                <p>Elegancka, połyskująca powierzchnia</p>
+                                <div class="shop-line"></div>
+                                <p>Wysokiej jakości tworzywo</p>
+                                <div class="shop-line"></div>
+                                <p>Średnica 15 cm, wysokość 15 cm</p>
+                            </div>
+                        </div>
                     </div>
-                    <h3>Osłonka Diament Czarna</h3>
-                    <h5>19.99zł</h5>
                 </div>
                 <div class="flowerpot fifth">
-                    <div class="center-flowerpot">
-                        <img src="../src/img/flowerpot-shop-five.jpg">
+                    <div class="card">
+                        <div class="content">
+                            <div class="front">
+                                <div class="center-flowerpot">
+                                    <img src="../src/img/flowerpot-shop-five.jpg">
+                                </div>
+                                <h3>Osłonka Irys Zielona</h3>
+                                <h5>26.99zł</h5>
+                            </div>
+                            <div class="back">
+                                <h2>Osłonka Irys</h2>
+                                <h4>śr. 15cm</h4>
+                                <p>Elegancka osłonka o prostym kształcie</p>
+                                <div class="shop-line"></div>
+                                <p>Ciekawa kolorystyka i wysoka jakość wykonania</p>
+                                <div class="shop-line"></div>
+                                <p>Średnica 15 cm, wysokość 13,5 cm</p>
+                            </div>
+                        </div>
                     </div>
-                    <h3>Osłonka Irys Zielona</h3>
-                    <h5>16.99zł</h5>
                 </div>
                 <div class="flowerpot sixth">
-                    <div class="center-flowerpot">
-                        <img src="../src/img/flowerpot-shop-six.jpg">
+                    <div class="card">
+                        <div class="content">
+                            <div class="front">
+                                <div class="center-flowerpot">
+                                    <img src="../src/img/flowerpot-shop-six.jpg">
+                                </div>
+                                <h3>Osłonka Leaf Zielona</h3>
+                                <h5>17.99zł</h5>
+                            </div>
+                            <div class="back">
+                                <h2>Osłonka Leaf</h2>
+                                <h4>śr. 9cm</h4>
+                                <p>Wykonana ze szkliwionej ceramiki</p>
+                                <div class="shop-line"></div>
+                                <p>Zielona niejednolita kolorystyka</p>
+                                <div class="shop-line"></div>
+                                <p>Średnica 8.2 cm, wysokość 9 cm</p>
+                            </div>
+                        </div>
                     </div>
-                    <h3>Osłonka Leaf Zielona</h3>
-                    <h5>29.99zł</h5>
                 </div>
             </div>
             <div class="flower-products">
                 <div class="flower fifth">
-                    <div class="center">
-                        <img src="../src/img/flower-shop-five.jpg">
+                    <div class="card">
+                        <div class="content">
+                            <div class="front">
+                                <div class="center">
+                                    <img src="../src/img/flower-shop-five.jpg">
+                                </div>
+                                <h3>Dracena Fragrans</h3>
+                                <h5>15.99zł</h5>
+                            </div>
+                            <div class="back">
+                                <h2>Dracena Wonna</h2>
+                                <h4>wys. 30cm</h4>
+                                <p>Stanowisko słoneczne</p>
+                                <div class="shop-line"></div>
+                                <p>Właściwości oczyszczające powietrze</p>
+                                <div class="shop-line"></div>
+                                <p>Długie, szerokie, łukowate liście</p>
+                            </div>
+                        </div>
                     </div>
-                    <h3>Dracena Fragrans</h3>
-                    <h5>15.99zł</h5>
                 </div>
                 <div class="flower sixth">
-                    <div class="center">
-                        <img src="../src/img/flower-shop-six.jpg">
+                    <div class="card">
+                        <div class="content">
+                            <div class="front">
+                                <div class="center">
+                                    <img src="../src/img/flower-shop-six.jpg">
+                                </div>
+                                <h3>Filodendron</h3>
+                                <h5>139.99zł</h5>
+                            </div>
+                            <div class="back">
+                                <h2>Filodendron</h2>
+                                <h4>wys. 40cm</h4>
+                                <p>Niskie wymagania uprawne</p>
+                                <div class="shop-line"></div>
+                                <p>Podłoże żyzne, zdrenowane</p>
+                                <div class="shop-line"></div>
+                                <p>Stanowisko jasne/półcieniste</p>
+                            </div>
+                        </div>
                     </div>
-                    <h3>Filodendron</h3>
-                    <h5>139.99zł</h5>
                 </div>
                 <div class="flower seventh">
-                    <div class="center">
-                        <img src="../src/img/flower-shop-seven.jpg">
+                    <div class="card">
+                        <div class="content">
+                            <div class="front">
+                                <div class="center">
+                                    <img src="../src/img/flower-shop-seven.jpg">
+                                </div>
+                                <h3>Juka</h3>
+                                <h5>72.99zł</h5>
+                            </div>
+                            <div class="back">
+                                <h2>Juka</h2>
+                                <h4>wys. 80cm</h4>
+                                <p>Łatwa w uprawie i mało wymagająca</p>
+                                <div class="shop-line"></div>
+                                <p>Pochodzenie Ameryka Południowa</p>
+                                <div class="shop-line"></div>
+                                <p>Stanowisko jasne/słoneczne</p>
+                            </div>
+                        </div>
                     </div>
-                    <h3>Juka</h3>
-                    <h5>72.99zł</h5>
                 </div>
                 <div class="flower eighth">
-                    <div class="center">
-                        <img src="../src/img/flower-shop-eight.jpg">
+                    <div class="card">
+                        <div class="content">
+                            <div class="front">
+                                <div class="center">
+                                    <img src="../src/img/flower-shop-eight.jpg">
+                                </div>
+                                <h3>Figowiec</h3>
+                                <h5>24.99zł</h5>
+                            </div>
+                            <div class="back">
+                                <h2>Figowiec benjamiński</h2>
+                                <h4>wys. 20-30cm</h4>
+                                <p>Stanowisko widne, ciepłe</p>
+                                <div class="shop-line"></div>
+                                <p>Jedno z najstarszych drzew owocowych</p>
+                                <div class="shop-line"></div>
+                                <p>Błyszczące, zielone liście</p>
+                            </div>
+                        </div>
                     </div>
-                    <h3>Figowiec</h3>
-                    <h5>24.99zł</h5>
                 </div>
             </div>
             <div class="second-image-and-rectangle">
