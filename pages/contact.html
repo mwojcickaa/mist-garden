@@ -15,19 +15,20 @@
     <link rel="stylesheet" type="text/css" href="../src/css/contact/responsive-contact/max-width992.css" />
     <link rel="stylesheet" type="text/css" href="../src/css/contact/responsive-contact/max-width768.css" />
     <link rel="stylesheet" type="text/css" href="../src/css/contact/responsive-contact/max-width414.css" />
+    <link rel="stylesheet" type="text/css" href="../src/css/contact/responsive-contact/max-width300.css" />
 </head>
 
 <body>
     <div id="contact-content">
         <header>
             <div class="name-logo">
-                <div class="logo">
+                <a href="../index.html" class="logo">
                     <img src="../src/img/Group.svg">
-                </div>
-                <div class="name">
+                </a>
+                <a href="../index.html"class="name">
                     <h1>MIST GARDEN</h1>
                     <p>Muzeum & Ogród Botaniczny</p>
-                </div>
+                </a>
             </div>
             <div id="hamburger-icon" class="menu-icon">
                 <input id="checkbox" type="checkbox" name="" id="">
@@ -49,13 +50,14 @@
                             </li>
                             <li><a class="menu-link" href="../pages/shop.html">SKLEP</a></li>
                         </ul>
-                        <a href="../pages/contact.html" btn btn-menu>
+                        <a href="../pages/contact.html" class="btn btn-menu">
                             <svg viewBox="0 0 180 60" class="border-button">
                                 <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
                                 <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
                             </svg>
                             <h4>jak dojechać</h4>
                         </a>
+                        <a class="menu-link btn-slide-menu contact-link" href="..pages/contact.html">JAK DOJECHAĆ</a>
                     </nav>
                 </div>
             </div>
@@ -113,33 +115,41 @@
                     <h2>Bądźmy w kontakcie</h2>
                     <h4>wypełnij puste pola,
                         a następnie kliknij przycisk “Wyślij” aby się z nami
-                        skontaktowac</h4>
+                        skontaktować</h4>
                 </div>
-                <div class="form">
+                <form id="form" method="POST">
+                    <input type="hidden" name="access_key" value="290b1cba-c87b-4c7d-accf-ffa276d02887">
+                    <input type="hidden" name="from_name" value="Nowe powiadomienie">
                     <div class="form-content">
                         <label>
-                            <input type="text" name="Imie" placeholder="Imię">
+                            <input id="name" type="text" name="subject" placeholder="Imię">
                         </label>
                     </div>
                     <div class="form-content">
                         <label>
-                            <input type="text" name="Imie" placeholder="Nazwisko">
+                            <input id="last-name" type="text" name="Nazwisko" placeholder="Nazwisko">
                         </label>
                     </div>
                     <div class="form-content">
                         <label>
-                            <input type="text" name="Imie" placeholder="Adres email">
+                            <input id="email" type="text" name="Email" placeholder="Adres email">
                         </label>
                     </div>
                     <div id="message" class="form-content">
                         <label>
-                            <input type="text" name="Imie" placeholder="Wiadomość" maxlength="120">
+                            <input id="message" type="text" name="Wiadomość" placeholder="W czym możemy pomóc?"
+                                maxlength="120">
                         </label>
                     </div>
-                </div>
-                <div class="button-send">
-                    <a>Wyślij</a>
-                </div>
+                    <button class="btn-send btn">
+                        <svg viewBox="0 0 180 60" class="border-button">
+                            <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                            <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                        </svg>
+                        <h4>wyślij</h4></button>
+                        <div id="result"></div>
+                        <div class="h-captcha" data-size = "compact" data-captcha="true"></div>
+                </form>
                 <div class="second-branch"><img src="../src/img/Group 2.svg"></div>
             </div>
         </div>
@@ -213,12 +223,16 @@
         </div>
         <div class="bottom-content-footer">
             <div class="end-text-footer">
-                <h5>© <span id="year"></span> Mist Gardens. All rights reserved.</h5>
+                <h5>© <span id="year"></span> Template by Carlos Rangel. Created by Martyna Wójcicka.</h5>
             </div>
         </div>
     </footer>
     <script src="../src/js/menu.js"></script>
     <script src="../src/js/date.js"></script>
+    <script src="https://web3forms.com/client/script.js" async defer></script>
+    <script src="../src/js/form.js"></script>
+    <script src="https://web3forms.com/client/script.js" async defer></script>
+    <script src="../src/js/recaptcha.js"></script>
 </body>
 
 </html>

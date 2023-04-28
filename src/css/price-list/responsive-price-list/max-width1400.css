@@ -2,7 +2,7 @@
     /* header */
 
     header {
-        width: 95%;
+        width: 84%;
     }
 
     .name-logo {
@@ -37,6 +37,11 @@
 
     .btn h4 {
         font-size: 11px;
+    }
+
+    .btn h4 {
+        font-size: 11px;
+        margin-top: 18px;
     }
 
     #hamburger-menu ul {

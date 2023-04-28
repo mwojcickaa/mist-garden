@@ -1,6 +1,11 @@
 @media only screen and (max-width: 414px) {
 
     /* header */
+
+    nav {
+        line-height: 55px;
+    }
+    
     .name {
         padding-left: 5px;
         margin: 0;
@@ -80,6 +85,10 @@
     .menu a {
         font-size: 9px;
         letter-spacing: 1px;
+    }
+
+    a.contact-link {
+        border-bottom: 2px solid #475F45;
     }
 
     .name h1 {
@@ -171,6 +180,7 @@
 
     .get-in-touch {
         margin-top: 185px;
+        margin-bottom: 30px;
     }
 
     .in-touch-title h2 {
@@ -183,8 +193,11 @@
         width: 180px;
     }
 
+    form {
+        width: 85%;
+    }
+
     .form-content input {
-        width: 190px;
         height: 20px;
     }
 
@@ -222,6 +235,30 @@
     .second-branch img {
         width: 45%;
     }
+
+    .btn-send {
+        float: right;
+        background: transparent;
+        border: 1px solid #475F45;
+        width: 81px;
+    height: 28px;
+    }
+
+    .btn-send h4 {
+        margin-top: 8px;
+        font-size: 8px;
+    }
+
+    .h-captcha {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        margin-left:2px;
+    }
+
+    #result {
+        font-size: 9px;
+     }
 
     /* footer */
 

@@ -49,11 +49,6 @@
         font-size: 12px;
     }
 
-    .btn-text h4 {
-        margin-left: 30px;
-        margin-top: 12px;
-    }
-
     .btn-menu {
         width: 115px;
         height: 43px;
@@ -67,10 +62,6 @@
     .btn.btn-menu {
         width: 136px;
         height: 33px;
-    }
-
-    .btn-first-section {
-        margin-right: 15px;
     }
 
     .button-header h5 {
@@ -89,10 +80,6 @@
 
     .btn h4 {
         font-size: 10px;
-    }
-
-    .btn-first-section h4 {
-        margin-left: 37px;
     }
 
     .img-in-border {
@@ -134,9 +121,7 @@
     }
 
     .button-hover h4 {
-        font-size: 9px;
-        left: 33px;
-        top: 4px;
+        top: 1px;
     }
 
     #arrow-right {

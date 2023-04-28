@@ -6,6 +6,7 @@
 
     nav {
         display: block;
+        line-height: 70px;
     }
 
     header {
@@ -130,18 +131,9 @@
         margin-top: -20px;
     }
 
-    .btn.btn-menu span {
-        position: unset;
-        font-size: 11px;
-        color: #475F45;
-        bottom: 19px;
-    }
 
     .btn.btn-menu {
-        display: block;
-        margin: auto;
-        width: 150px;
-        height: 40px;
+        display: none;
     }
 
     .border-button span {
@@ -297,13 +289,6 @@
     }
 
     .menu a {
-        letter-spacing: 2px;
-        margin: 0;
-        cursor: pointer;
-        display: inline;
-    }
-
-    .menu a {
         font-size: 14px;
         background-image: linear-gradient(to right,
                 #475F45,
@@ -315,8 +300,11 @@
         padding: 5px 0;
         position: relative;
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
         transition: all 0.3s ease-in-out;
+        letter-spacing: 2px;
+        margin: 0;
+        cursor: pointer;
+        display: inline;
     }
 
     .menu a:before {
@@ -331,6 +319,10 @@
         transition: all 0.3s ease-in-out;
     }
 
+    a.home-link {
+        border-bottom: 3px solid #475F45;
+    }
+
     .menu a:hover {
         background-position: 0;
     }
@@ -338,7 +330,6 @@
     .menu a:hover::before {
         width: 100%;
     }
-
 
     .button-header h5 {
         background-image: linear-gradient(to right,
@@ -400,6 +391,8 @@
     .name-logo {
         width: 96.5%;
     }
+
+    /* content */
 
     .first-section-content {
         display: grid;
@@ -490,6 +483,12 @@
     .second-section-text p {
         font-size: 14px;
         height: 145px;
+    }
+
+    .button-hover h4 {
+        left: 0;
+        text-align: center;
+        top: 2px;
     }
 
     /* third section */

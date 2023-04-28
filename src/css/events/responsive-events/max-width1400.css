@@ -2,11 +2,12 @@
     /* header */
 
     header {
-        width: 95%;
+        width: 84%;
     }
 
     .btn h4 {
         font-size: 11px;
+        margin-top: 18px;
     }
 
     #hamburger-menu ul {
@@ -154,6 +155,6 @@
     /* footer */
 
     .top-content-footer {
-        width: 90%;
+        width: 80%;
     }
 }

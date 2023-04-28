@@ -11,6 +11,10 @@ header {
     margin: auto;
 }
 
+.name-logo a {
+    text-decoration: none;
+}
+
 nav {
     display: flex;
 }
@@ -90,7 +94,6 @@ nav {
 }
 
 .menu-icon input {
-    /* position: absolute; */
     height: 22px;
     width: 28px;
     margin: 0;
@@ -194,11 +197,18 @@ svg {
     text-decoration: none;
 }
 
+.btn-slide-menu {
+    display: none;
+}
+
 .btn:hover {
     transition: 1s ease-in-out;
     background: transparent;
 }
 
+.btn:hover svg {
+    stroke-dashoffset: -480;
+}
 .btn-first-section a {
     text-decoration: none;
 }
@@ -217,9 +227,6 @@ svg {
     background: #475F45;
 }
 
-.btn:hover svg {
-    stroke-dashoffset: -480;
-}
 
 .btn-first-section svg {
     position: absolute;
@@ -275,7 +282,7 @@ svg {
     margin: 0;
     margin-top: 20px;
     -webkit-text-fill-color: unset;
-    margin-left: 31px;
+    text-align: center;
 }
 
 .second-btn-first-section {
@@ -298,15 +305,6 @@ svg {
 .buttons {
     display: flex;
     margin-top: 32px;
-}
-
-.button-hover h4 {
-    font-family: roboto;
-    color: white;
-    top: 18px;
-    left: 50px;
-    font-size: 17px;
-    text-decoration: none;
 }
 
 .right-content {

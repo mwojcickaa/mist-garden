@@ -4,10 +4,23 @@ body {
 }
 
 /* header */
+header {
+    display: flex;
+    max-width: 1220px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.name-logo a {
+    text-decoration: none;
+}
 
 .btn-menu h4 {
-    margin: 0;
     text-transform: uppercase;
+}
+
+.btn-slide-menu {
+    display: none;
 }
 
 header,

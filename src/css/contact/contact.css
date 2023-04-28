@@ -6,6 +6,199 @@ body {
     position: relative;
 }
 
+header {
+    display: flex;
+    max-width: 1220px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.name-logo a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    background-color: #343D33;
+    border-radius: 60px;
+}
+
+.logo img {
+    width: 130px;
+    height: 95px;
+    transform: scaleX(-1);
+    margin-left: -70px;
+    margin-top: 12px;
+}
+
+.name-logo {
+    margin-top: 15px;
+    width: 25%;
+    display: flex;
+}
+
+.name {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.name h1 {
+    font-family: roboto;
+    font-weight: 500;
+    font-size: 25px;
+    color: #343D33;
+    margin: 0;
+    letter-spacing: 1.5px;
+    margin-bottom: 1px;
+    text-transform: uppercase;
+}
+
+.name p {
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+    margin: 0;
+    font-style: italic;
+}
+
+#hamburger-menu {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+#hamburger-menu ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+
+#menu {
+    display: block;
+}
+
+.menu {
+    display: flex;
+    height: 45px;
+    width: 75%;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: flex-end;
+    z-index: 100;
+
+}
+
+.menu-icon input {
+    height: 22px;
+    width: 28px;
+    margin: 0;
+    opacity: 0;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.menu-open {
+    display: flex;
+}
+
+.menu-open ul {
+    padding: 0;
+    margin-top: 20px;
+    display: flex;
+}
+
+.menu-open li {
+    list-style: none;
+}
+
+
+.menu a {
+    font-family: roboto;
+    font-weight: 700;
+    color: #414840;
+    margin: 0;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.menu-button {
+    margin-top: 5px;
+}
+
+.menu h5 {
+    font-family: roboto;
+    font-weight: 700;
+    color: #414840;
+    margin: 0;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.btn {
+    position: relative;
+    width: 173px;
+    height: 57px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #475F45;
+    outline: none;
+    transition: 1s ease-in-out;
+}
+
+.btn h4 {
+    color: #475F45;
+    font-size: 13px;
+    font-weight: 700;
+    margin-right: 0;
+    font-family: roboto;
+}
+
+.btn-menu h4 {
+    -webkit-text-fill-color: unset;
+}
+
+.menu.menu-link a {
+    transition: none;
+}
+
+.menu a {
+    margin-right: 0;
+}
+
+.menu li {
+    margin-right: 40px;
+}
+
+.btn {
+    text-decoration: none;
+}
+
+.btn-slide-menu {
+    display: none;
+}
+
+.btn:hover {
+    transition: 1s ease-in-out;
+    background: transparent;
+}
+
+.btn:hover svg {
+    stroke-dashoffset: -480;
+}
+
 .contact-content {
     max-width: 1220px;
     margin: auto;
@@ -135,7 +328,7 @@ iframe {
 
 .get-in-touch {
     margin-top: 550px;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 
 .in-touch-title h2 {
@@ -159,6 +352,11 @@ iframe {
     margin-top: 0;
 }
 
+form {
+    width: 60%;
+    margin:auto;
+}
+
 .form-content {
     display: flex;
     justify-content: center;
@@ -167,7 +365,7 @@ iframe {
 }
 
 .form-content input {
-    width: 550px;
+    width: 100%;
     height: 30px;
     border: none;
     border-bottom: 1px solid black;
@@ -175,6 +373,7 @@ iframe {
 
 .form-content label {
     border: none;
+    width:100%;
 }
 
 textarea:focus,
@@ -199,23 +398,32 @@ input[type=text] {
     color: #000;
 }
 
-.button-send {
-    width: 140px;
-    height: 50px;
-    border: solid 2px #324E2F;
-    position: relative;
-    left: 61%;
+.btn-send {
+    float: right;
+    background: transparent;
+    border: 1px solid #475F45;
 }
 
-.button-send a {
-    font-family: Roboto;
-    font-weight: 500;
-    color: #324E2F;
-    font-size: 17px;
+.btn-send h4 {
+    color: #475F45;
+    font-size: 13px;
+    font-weight: 700;
+    margin-right: 0;
+    font-family: roboto;
     text-transform: uppercase;
-    text-align: center;
+}
+
+#result {
+    font-family: Roboto;
+    font-size: 14px;
+    color: #343D33;
+}
+
+.map iframe {
+    position: abosolute;
+}
+
+.h-captcha iframe {
     position: relative;
-    letter-spacing: 1.5px;
-    top: 16px;
-    left: 37px;
+    margin-top: 20px;
 }

@@ -1,6 +1,11 @@
 @media only screen and (max-width:414px) {
 
     /* header */
+
+    nav {
+        line-height: 55px;
+    }
+    
     .name {
         padding-left: 5px;
         margin: 0;
@@ -62,6 +67,10 @@
     .menu a {
         font-size: 9px;
         letter-spacing: 1px;
+    }
+
+    a.event-link {
+        border-bottom: 2px solid #475F45;
     }
 
     .name h1 {

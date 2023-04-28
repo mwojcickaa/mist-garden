@@ -56,14 +56,13 @@
     .button-hover h4 {
         font-size: 8px;
         top: -1px;
-        left: 20px;
         font-weight: 400;
         position: relative;
     }
 
     .button-hover {
         width: 85px;
-        height: 30px;
+        height: 29px;
     }
 
     .second-container {

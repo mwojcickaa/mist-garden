@@ -13,6 +13,7 @@
 
     nav {
         display: block;
+        line-height: 70px;
     }
 
     #hamburger-menu {
@@ -94,10 +95,7 @@
     }
 
     .btn.btn-menu {
-        display: block;
-        margin: auto;
-        width: 150px;
-        height: 50px;
+        display: none;
     }
 
     .btn-menu h4 {
@@ -233,6 +231,7 @@
     }
 
     .menu a {
+        font-size: 14px;
         background-image: linear-gradient(to right,
                 #475F45,
                 #475F45 50%,
@@ -243,13 +242,15 @@
         padding: 5px 0;
         position: relative;
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
         transition: all 0.3s ease-in-out;
         letter-spacing: 2px;
-        font-size: 16px;
         margin: 0;
         cursor: pointer;
         display: inline;
+    }
+
+    a.contact-link {
+        border-bottom: 3px solid #475F45;
     }
 
     .menu a:before {
@@ -392,6 +393,10 @@
 
     .in-touch-title h2 {
         font-size: 34px;
+    }
+
+    form {
+        width: 65%;
     }
 
     /* footer */
