@@ -5,16 +5,12 @@
         width: 85%;
     }
 
-    .menu {
-        width: 74%;
-    }
-
     .name-logo {
         width: 24%;
     }
 
-    .menu-ikon {
-        display: none;
+    .menu {
+        width: 76%;
     }
 
     /* content */

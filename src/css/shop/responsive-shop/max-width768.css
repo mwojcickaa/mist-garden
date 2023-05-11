@@ -1,17 +1,16 @@
 @media only screen and (max-width: 768px) {
     /* header */
 
+    .name-logo {
+        width: 95%;
+    }
+
+    .menu-icon {
+        width: 5%;
+    }
+
     .menu a {
         font-size: 13px;
-    }
-
-    .btn {
-        width: 150px;
-        height: 49px;
-    }
-
-    .btn-menu h4 {
-        font-size: 11px;
     }
 
     /* content */
@@ -54,6 +53,18 @@
         margin: auto;
         margin-top: 10px;
         margin-bottom: 8px;
+    }
+
+    .flowerpot.fourth img {
+        margin-top: 15px;
+    }
+    
+    .flowerpot.fifth img {
+        margin-top: 15px;
+    }
+
+    .flowerpot.sixth img {
+        margin-top: 15px;
     }
 
     .flower.first {

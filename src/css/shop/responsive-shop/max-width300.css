@@ -1,4 +1,78 @@
 @media only screen and (max-width: 300px) {
+       /* header */
+
+       .menu-icon {
+        width: 8%;
+    }
+
+    .name-logo {
+        width: 92%;
+    }
+
+    .name-log {
+        margin-top: 10px;
+    }
+
+    .name {
+        padding: 0;
+        margin-left: 5px;
+    }
+
+    .menu-icon .hamburger-lines {
+        width: 12px;
+        height: 12px;
+    }
+
+    .menu-icon input {
+        width: 12px;
+        height: 12px;
+        right: 10px;
+    }
+
+    .hamburger-lines .line {
+        height: 1px;
+    }
+
+    .sticky-menu-icon input[type="checkbox"]:checked~.hamburger-lines .line1 {
+        transform: rotate(45deg);
+        width: 16px;
+    }
+
+    .sticky-menu-icon input[type="checkbox"]:checked~.hamburger-lines .line3 {
+        transform: rotate(-45deg);
+        width: 16px;
+    }
+
+    #hamburger-menu {
+        margin-top: 40px;
+    }
+
+    .menu {
+        width: 60%;
+        line-height: 40px;
+    }
+
+    .menu a {
+        font-size: 8px;
+    }
+
+    .second-button h5 {
+        font-size: 8px;
+    }
+
+    .button {
+        margin: 0 5px 0 5px;
+    }
+
+    .btn.btn-menu {
+        width: 88px;
+        height: 31px;
+    }
+
+    .btn.btn-menu h4 {
+        font-size: 7.5px;
+    }
+    
     .shop-content {
         display: grid;
         grid-template-columns: 1fr 1fr;

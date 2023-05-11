@@ -9,34 +9,19 @@
         width: 28%;
     }
 
-    .menu {
-        width: 72%;
-    }
-
-    .menu a {
-        font-size: 12px;
-    }
-
-    .name h1 {
-        font-size: 21px;
-    }
-
-    .name p {
-        font-size: 12px;
-    }
-
     .logo {
         width: 55px;
         height: 55px;
     }
 
-    .btn {
-        width: 139px;
-        height: 47px;
+    .logo img {
+        width: 123px;
+        height: 91px;
+        margin-left: -66px;
     }
 
-    .btn h4 {
-        font-size: 11px;
+    .name h1 {
+        font-size: 21px;
     }
 
     .btn h4 {
@@ -52,10 +37,21 @@
         margin: 0;
     }
 
-    .logo img {
-        width: 123px;
-        height: 91px;
-        margin-left: -66px;
+    .menu li {
+        margin-right: 25px;
+    }
+
+    .menu a {
+        font-size: 12px;
+    }
+
+    .btn {
+        width: 142px;
+        height: 49px;
+    }
+
+    .btn h4 {
+        font-size: 11px;
     }
 
     /* content */
@@ -102,15 +98,32 @@
     }
 
     .flowerpot img {
-        width: 200px;
-        height: 200px;
+        width: 180px;
+        height: 180px;
     }
 
     .flowerpot h3 {
-        font-size: 20px;
+        font-size: 19px;
+        width: 90%;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 7px;
     }
 
     .flowerpot h5 {
+        font-size: 14px;
+    }
+
+    .back h2 {
+        font-size: 17px;
+        margin-top: 20px;
+    }
+
+    .back h4 {
+        margin-bottom: 20px;
+    }
+
+    .back p {
         font-size: 14px;
     }
 

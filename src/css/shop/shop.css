@@ -9,17 +9,209 @@ header {
     justify-content: space-between;
 }
 
-.name-logo a {
-    text-decoration: none;
-}
+/* header */
 
 .btn-menu h4 {
     text-transform: uppercase;
+    font-size: 13px;
 }
 
 .btn-slide-menu {
     display: none;
 }
+
+header {
+    display: flex;
+    max-width: 1220px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.name-logo a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    max-width: 1220px;
+    margin: auto;
+}
+
+.name-logo {
+    margin-top: 15px;
+    width: 25%;
+    display: flex;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    background-color: #343D33;
+    border-radius: 60px;
+}
+
+.logo img {
+    width: 130px;
+    height: 95px;
+    transform: scaleX(-1);
+    margin-left: -70px;
+    margin-top: 12px;
+}
+
+.name {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.name h1 {
+    font-family: roboto;
+    font-weight: 500;
+    font-size: 25px;
+    color: #343D33;
+    margin: 0;
+    letter-spacing: 1.5px;
+    margin-bottom: 1px;
+    text-transform: uppercase;
+}
+
+.name p {
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+    margin: 0;
+    font-style: italic;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.menu-icon input {
+    position: absolute;
+    height: 22px;
+    width: 28px;
+    margin: 0;
+    opacity: 0;
+}
+
+#menu {
+    display: block;
+}
+
+.menu {
+    display: flex;
+    height: 45px;
+    width: 75%;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: flex-end;
+    z-index: 100;
+}
+
+#hamburger-menu {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+nav {
+    display: flex;
+}
+
+#hamburger-menu ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu-open ul {
+    padding: 0;
+    margin-top: 20px;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 40px;
+}
+
+.menu-open li {
+    list-style: none;
+}
+
+.menu a {
+    font-family: roboto;
+    font-weight: 700;
+    color: #414840;
+    margin: 0;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    position: relative;
+    margin-right: 0;
+}
+
+.btn {
+    position: relative;
+    width: 165px;
+    height: 55px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #475F45;
+    outline: none;
+    transition: 1s ease-in-out;
+    text-decoration: none;
+}
+
+svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #475F45;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+}
+
+.btn-menu h4 {
+    margin: 0;
+    margin-top: 19px;
+    -webkit-text-fill-color: unset;
+}
+
+.menu-slide-a {
+    display: none;
+}
+
+.btn:hover {
+    transition: 1s ease-in-out;
+    background: transparent;
+}
+
+.btn-first-section:hover {
+    transition: 1s ease-in-out;
+    background: #475F45;
+}
+
+.btn:hover svg {
+    stroke-dashoffset: -480;
+}
+
+.btn-first-section svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #FFF;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+}
+
+/* content */
+
 
 .shop-content {
     display: grid;
@@ -50,7 +242,7 @@ header {
     animation-fill-mode: forwards;
 }
 
-@keyframes mymove {
+@-webkit-keyframes mymove {
     0% {
         margin-top: 0;
         margin-left: 0;
@@ -98,7 +290,7 @@ header {
 .card {
     perspective: 500px;
     width: 100%;
-    height: 90%;
+    height: 85%;
 }
 
 .content {
@@ -134,7 +326,7 @@ header {
     animation: gradient 15s ease infinite;
 }
 
-@keyframes gradient {
+@-webkit-keyframes gradient {
     0% {
         background-position: 0% 50%;
     }
@@ -340,7 +532,6 @@ header {
     grid-column-end: 3;
     grid-row-start: 7;
     grid-row-end: 8;
-    margin-top: 40px;
 }
 
 .flower.eighth {
@@ -348,7 +539,6 @@ header {
     grid-column-end: 6;
     grid-row-start: 7;
     grid-row-end: 8;
-    margin-top: 40px;
 }
 
 .green-rectangle.second {
@@ -378,7 +568,7 @@ header {
     animation-fill-mode: forwards;
 }
 
-@keyframes move {
+@-webkit-keyframes move {
     0% {
         top: 0px;
         right: 0px;
