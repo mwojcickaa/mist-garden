@@ -23,30 +23,27 @@
         margin-top: 5px;
     }
 
+    .name {
+        padding-left: 5px;
+        margin: 0;
+    }
+
     .name h1 {
         font-size: 15px;
         letter-spacing: 1.5px;
-    }
-
-    .btn.btn-menu {
-        width: 107px;
-        height: 37px;
-    }
-
-    .btn.btn-menu h4 {
-        font-size: 9px;
     }
 
     .name p {
         font-size: 8px;
     }
 
-    .name-logo {
-        width: 94%;
-    }
-
     .menu-icon {
         width: 6%;
+    }
+
+    .menu-icon input {
+        width: 17px;
+        height: 17px;
     }
 
     .menu-icon .hamburger-lines {
@@ -54,9 +51,31 @@
         height: 17px;
     }
 
-    .menu-icon input {
-        width: 17px;
-        height: 17px;
+    .hamburger-lines .line {
+        height: 2px;
+    }
+
+    .menu {
+        width: 55%;
+        line-height: 55px;
+    }
+
+    #hamburger-menu {
+        margin-top: 45px;
+    }
+
+    .menu a {
+        font-size: 9px;
+    }
+
+    .btn {
+        width: 95px;
+        height: 33px;
+    }
+
+    .btn h4 {
+        font-size: 8px;
+        letter-spacing: 0.5px;
     }
 
     .hamburger-lines .line {
@@ -111,8 +130,6 @@
     .price-list-row {
         margin-bottom: 25px;
     }
-
-    /* content */
 
     .contact-content h1 {
         font-size: 20px;
@@ -171,6 +188,7 @@
     }
 
     .information {
+        display: block;
         margin-bottom: 20px;
     }
 
@@ -252,13 +270,18 @@
     .h-captcha {
         display: flex;
         justify-content: center;
-        margin-top: 50px;
-        margin-left:2px;
+        margin-top: 20px;
+    }
+
+    .button {
+        top: 160px;
     }
 
     #result {
         font-size: 9px;
-     }
+    }
+
+    
 
     /* footer */
 

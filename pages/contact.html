@@ -25,7 +25,7 @@
                 <a href="../index.html" class="logo">
                     <img src="../src/img/Group.svg">
                 </a>
-                <a href="../index.html"class="name">
+                <a href="../index.html" class="name">
                     <h1>MIST GARDEN</h1>
                     <p>Muzeum & Ogród Botaniczny</p>
                 </a>
@@ -43,28 +43,28 @@
                 <div id="hamburger-menu">
                     <nav>
                         <ul>
-                            <li><a class="menu-link" href="../index.html">STRONA GŁÓWNA</a></li>
-                            <li><a class="menu-link" href="../pages/pricelist.html">CENNIK</a></li>
-                            <li><a class="menu-link" href="../pages/exhibitions.html">WYSTAWY</a></li>
-                            <li class="programs-events"><a class="menu-link" href="../pages/events.html">WYDARZENIA</a>
+                            <li><a class="menu-link" href="../index.html">Strona główna</a></li>
+                            <li><a class="menu-link" href="../pages/pricelist.html">Cennik</a></li>
+                            <li><a class="menu-link" href="../pages/exhibitions.html">Wystawy</a></li>
+                            <li class="programs-events"><a class="menu-link" href="../pages/events.html">Wydarzenia</a>
                             </li>
-                            <li><a class="menu-link" href="../pages/shop.html">SKLEP</a></li>
+                            <li><a class="menu-link" href="../pages/shop.html">Sklep</a></li>
                         </ul>
                         <a href="../pages/contact.html" class="btn btn-menu">
                             <svg viewBox="0 0 180 60" class="border-button">
                                 <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
                                 <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
                             </svg>
-                            <h4>jak dojechać</h4>
+                            <h4>Jak dojechać</h4>
                         </a>
-                        <a class="menu-link btn-slide-menu contact-link" href="..pages/contact.html">JAK DOJECHAĆ</a>
+                        <a class="menu-link btn-slide-menu contact-link" href="..pages/contact.html">Jak dojechać</a>
                     </nav>
                 </div>
             </div>
         </header>
         <div class="contact-content">
             <div class="title">
-                <h1>Skonaktuj się z nami</h1>
+                <h1>Skontaktuj się z nami</h1>
             </div>
             <div class="first-branch"><img src="../src/img/Group 2.svg"></div>
             <div class="information">
@@ -135,20 +135,25 @@
                             <input id="email" type="text" name="Email" placeholder="Adres email">
                         </label>
                     </div>
-                    <div id="message" class="form-content">
+                    <div class="form-content">
                         <label>
                             <input id="message" type="text" name="Wiadomość" placeholder="W czym możemy pomóc?"
                                 maxlength="120">
                         </label>
                     </div>
-                    <button class="btn-send btn">
-                        <svg viewBox="0 0 180 60" class="border-button">
-                            <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
-                            <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
-                        </svg>
-                        <h4>wyślij</h4></button>
-                        <div id="result"></div>
-                        <div class="h-captcha" data-size = "compact" data-captcha="true"></div>
+                    <div class="button">
+                        <button class="btn-send btn">
+                            <svg viewBox="0 0 180 60" class="border-button">
+                                <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                                <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                            </svg>
+                            <h4>wyślij</h4>
+                        </button>
+                    </div>
+                    <div id="result"></div>
+                    <div id="captcha-container">
+                        <div class="h-captcha" data-captcha="true"></div>
+                    </div>
                 </form>
                 <div class="second-branch"><img src="../src/img/Group 2.svg"></div>
             </div>
@@ -232,7 +237,7 @@
     <script src="https://web3forms.com/client/script.js" async defer></script>
     <script src="../src/js/form.js"></script>
     <script src="https://web3forms.com/client/script.js" async defer></script>
-    <script src="../src/js/recaptcha.js"></script>
+    <script src="../src/js/captcha.js"></script>
 </body>
 
 </html>
