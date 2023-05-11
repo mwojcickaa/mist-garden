@@ -1,6 +1,6 @@
 @media only screen and (max-width: 1400px) {
-    /* header */
 
+    /* header */
     header {
         width: 84%;
     }
@@ -18,48 +18,44 @@
         width: 28%;
     }
 
-    .menu {
-        width: 72%;
-    }
-
-    .menu a {
-        font-size: 12px;
-    }
-
-    .menu li {
-        margin-right: 25px;
-    }
-
-    .name h1 {
-        font-size: 21px;
-    }
-
-    .name p {
-        font-size: 12px;
-    }
-
     .logo {
         width: 55px;
         height: 55px;
-    }
-
-    .btn {
-        width: 139px;
-        height: 47px;
-    }
-
-    .btn span {
-        font-size: 12px;
-    }
-
-    #hamburger-menu ul {
-        margin: 0;
     }
 
     .logo img {
         width: 123px;
         height: 91px;
         margin-left: -66px;
+    }
+
+    .name h1 {
+        font-size: 21px;
+    }
+
+    .menu {
+        width: 72%;
+    }
+
+    #hamburger-menu ul {
+        margin: 0;
+    }
+
+    .menu li {
+        margin-right: 25px;
+    }
+
+    .menu a {
+        font-size: 12px;
+    }
+
+    .btn {
+        width: 142px;
+        height: 49px;
+    }
+
+    .btn h4 {
+        font-size: 11px;
     }
 
     /* content */
@@ -77,6 +73,7 @@
     .description-events {
         width: 335px;
         height: 335px;
+        left: 89px;
     }
 
     .green-rectangle {
@@ -128,27 +125,30 @@
         height: 208px;
     }
 
-    @keyframes mymove {
+    @-webkit-keyframes mymove {
         0% {
             top: 0px;
-            right: -36px;
+            left:89px;
         }
 
         100% {
             top: 15px;
-            right: -64px;
+            left: 60px;
         }
     }
 
-    @keyframes move {
+    .description-events.second {
+        margin-left: -90px;
+    }
+
+    @-webkit-keyframes move {
         0% {
-            margin-top: -26px;
-            margin-left: -6px;
+            margin-left: -90px;
         }
 
         100% {
             margin-top: 15px;
-            margin-left: 19px;
+            margin-left: -60px;
         }
     }
 

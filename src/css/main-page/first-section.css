@@ -19,6 +19,39 @@ nav {
     display: flex;
 }
 
+/* header */
+
+.btn-menu h4 {
+    text-transform: uppercase;
+}
+
+.btn-slide-menu {
+    display: none;
+}
+
+header {
+    display: flex;
+    max-width: 1220px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.name-logo a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    max-width: 1220px;
+    margin: auto;
+}
+
+.name-logo {
+    margin-top: 15px;
+    width: 25%;
+    display: flex;
+}
+
 .logo {
     width: 60px;
     height: 60px;
@@ -32,12 +65,6 @@ nav {
     transform: scaleX(-1);
     margin-left: -70px;
     margin-top: 12px;
-}
-
-.name-logo {
-    margin-top: 15px;
-    width: 25%;
-    display: flex;
 }
 
 .name {
@@ -65,18 +92,17 @@ nav {
     font-style: italic;
 }
 
-#hamburger-menu {
-    display: flex;
-    width: 100%;
-    justify-content: flex-end;
+.menu-icon {
+    display: none;
 }
 
-#hamburger-menu ul {
-    display: flex;
-    list-style: none;
-    align-items: center;
+.menu-icon input {
+    position: absolute;
+    height: 22px;
+    width: 28px;
+    margin: 0;
+    opacity: 0;
 }
-
 
 #menu {
     display: block;
@@ -90,22 +116,22 @@ nav {
     align-items: center;
     justify-content: flex-end;
     z-index: 100;
-
 }
 
-.menu-icon input {
-    height: 22px;
-    width: 28px;
-    margin: 0;
-    opacity: 0;
-}
-
-.menu-icon {
-    display: none;
-}
-
-.menu-open {
+#hamburger-menu {
     display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+nav {
+    display: flex;
+}
+
+#hamburger-menu ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
 }
 
 .menu-open ul {
@@ -114,10 +140,13 @@ nav {
     display: flex;
 }
 
+.menu li {
+    margin-right: 40px;
+}
+
 .menu-open li {
     list-style: none;
 }
-
 
 .menu a {
     font-family: roboto;
@@ -129,31 +158,19 @@ nav {
     letter-spacing: 1.5px;
     text-transform: uppercase;
     position: relative;
-}
-
-.menu-button {
-    margin-top: 5px;
-}
-
-.menu h5 {
-    font-family: roboto;
-    font-weight: 700;
-    color: #414840;
-    margin: 0;
-    font-size: 14px;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
+    margin-right: 0;
 }
 
 .btn {
     position: relative;
-    width: 173px;
-    height: 57px;
+    width: 165px;
+    height: 54px;
     cursor: pointer;
     background: transparent;
-    border: 1.5px solid #475F45;
+    border: 1px solid #475F45;
     outline: none;
     transition: 1s ease-in-out;
+    text-decoration: none;
 }
 
 svg {
@@ -167,37 +184,13 @@ svg {
     transition: 1s ease-in-out;
 }
 
-.btn h4 {
-    color: #475F45;
-    font-size: 13px;
-    font-weight: 700;
-    margin-right: 0;
-    font-family: roboto;
-}
-
 .btn-menu h4 {
     margin: 0;
-    margin-top: -19px;
+    margin-top: 19px;
     -webkit-text-fill-color: unset;
 }
 
-.menu.menu-link a {
-    transition: none;
-}
-
-.menu a {
-    margin-right: 0;
-}
-
-.menu li {
-    margin-right: 40px;
-}
-
-.btn {
-    text-decoration: none;
-}
-
-.btn-slide-menu {
+.menu-slide-a {
     display: none;
 }
 
@@ -206,9 +199,27 @@ svg {
     background: transparent;
 }
 
+.btn-first-section:hover {
+    transition: 1s ease-in-out;
+    background: #475F45;
+}
+
 .btn:hover svg {
     stroke-dashoffset: -480;
 }
+
+.btn-first-section svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #FFF;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+}
+
+/* content */
 .btn-first-section a {
     text-decoration: none;
 }
@@ -273,16 +284,17 @@ svg {
     text-decoration: none;
     font-family: roboto;
     margin: 0;
-    margin-top: 17px;
-    margin-left: 47px;
     font-size: 17px;
+    color: #414840;
+    ;
 }
 
 .btn-menu h4 {
     margin: 0;
-    margin-top: 20px;
     -webkit-text-fill-color: unset;
     text-align: center;
+    margin-top: 19px;
+    font-size: 13px;
 }
 
 .second-btn-first-section {
@@ -292,14 +304,40 @@ svg {
 .btn-first-section {
     margin-right: 40px;
     background-color: #475F45;
+    height: 56px;
+}
+
+.btn-text-check {
+    height: 56px;
 }
 
 .btn-first-section h4 {
-    margin-left: 57px;
+    color: white;
 }
 
-.btn-first-section a {
-    color: white;
+.btn:hover {
+    transition: 1s ease-in-out;
+    background: transparent;
+}
+
+.btn-first-section:hover {
+    transition: 1s ease-in-out;
+    background: #475F45;
+}
+
+.btn:hover svg {
+    stroke-dashoffset: -480;
+}
+
+.btn-first-section svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #FFF;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
 }
 
 .buttons {

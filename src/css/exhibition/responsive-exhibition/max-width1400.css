@@ -18,6 +18,29 @@
         width: 28%;
     }
 
+    .logo {
+        width: 55px;
+        height: 55px;
+    }
+
+    .logo img {
+        width: 123px;
+        height: 91px;
+        margin-left: -66px;
+    }
+
+    .name h1 {
+        font-size: 21px;
+    }
+
+    .menu {
+        width: 72%;
+    }
+
+    #hamburger-menu ul {
+        margin: 0;
+    }
+
     .menu li {
         margin-right: 25px;
     }
@@ -26,22 +49,9 @@
         font-size: 12px;
     }
 
-    .name h1 {
-        font-size: 21px;
-    }
-
-    .name p {
-        font-size: 12px;
-    }
-
-    .logo {
-        width: 55px;
-        height: 55px;
-    }
-
     .btn {
-        width: 139px;
-        height: 47px;
+        width: 142px;
+        height: 49px;
     }
 
     .btn h4 {

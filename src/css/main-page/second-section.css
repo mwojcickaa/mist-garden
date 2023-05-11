@@ -9,7 +9,7 @@
     animation-duration: 1s;
 }
 
-@keyframes slide {
+@-webkit-keyframes slide {
     0% {
         transform: translateX(0%);
     }
@@ -129,6 +129,7 @@
     outline: none;
     transition: 1s ease-in-out;
     position: relative;
+    text-decoration: none;
 }
 
 .button-hover svg {

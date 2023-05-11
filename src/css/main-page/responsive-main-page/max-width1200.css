@@ -14,15 +14,6 @@
         width: 27%;
     }
 
-    .menu {
-        width: 80%;
-    }
-
-    .menu a {
-        letter-spacing: 1.5px;
-        font-size: 11px;
-    }
-
     .logo {
         width: 50px;
         height: 50px;
@@ -44,6 +35,15 @@
         font-size: 11px;
     }
 
+    .menu {
+        width: 80%;
+    }
+
+    .menu a {
+        letter-spacing: 1.5px;
+        font-size: 11px;
+    }
+
     .btn {
         width: 141px;
         height: 47px;
@@ -52,28 +52,6 @@
 
     .btn h4 {
         font-size: 10.5px;
-        margin-right: 0;
-        top: 15px;
-        left: 16px;
-    }
-
-    .btn-text h4 {
-        font-size: 13px;
-    }
-
-    .button-header {
-        width: 150px;
-        height: 45px;
-    }
-
-    .button-header h5 {
-        margin: auto;
-        font-size: 13px;
-    }
-
-    .button-header.second-button {
-        width: 150px;
-        height: 47px;
     }
 
     .first-section-content {
@@ -102,7 +80,7 @@
 
     .btn-text h4 {
         font-size: 12px;
-        margin-top: 14px;
+        margin-top: 2px;
     }
 
     .first-button {
@@ -144,6 +122,7 @@
     .button-hover {
         width: 123px;
         height: 41px;
+        border: solid 1px white;
     }
 
     .button-hover h4 {
