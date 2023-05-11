@@ -15,10 +15,6 @@
         width: 94%;
     }
 
-    .menu-icon {
-        width: 6%;
-    }
-
     .logo {
         width: 30px;
         height: 30px;
@@ -31,14 +27,54 @@
         margin-top: 5px;
     }
 
-    .menu-icon .hamburger-lines {
-        width: 17px;
-        height: 17px;
+    .name {
+        padding-left: 5px;
+        margin: 0;
+    }
+
+    .name h1 {
+        font-size: 15px;
+        letter-spacing: 1.5px;
+    }
+
+    .name p {
+        font-size: 8px;
+    }
+
+    .menu-icon {
+        width: 6%;
     }
 
     .menu-icon input {
         width: 17px;
         height: 17px;
+    }
+
+    .menu-icon .hamburger-lines {
+        width: 17px;
+        height: 17px;
+    }
+
+    .hamburger-lines .line {
+        height: 2px;
+    }
+
+    .menu {
+        width: 55%;
+        line-height: 55px;
+    }
+
+    #hamburger-menu {
+        margin-top: 45px;
+    }
+
+    .menu a {
+        font-size: 9px;
+    }
+
+    .btn h4 {
+        font-size: 8px;
+        letter-spacing: 0.5px;
     }
 
     .hamburger-lines .line {
@@ -93,13 +129,13 @@
         font-size: 11px;
     }
 
+    .btn-first-section {
+        margin-right: 20px;
+    }
+
     .btn {
         width: 95px;
         height: 33px;
-    }
-
-    .btn-text h4 {
-        margin-top: 12px;
     }
 
     .btn.btn-menu {
@@ -117,25 +153,9 @@
         letter-spacing: 0.5px;
     }
 
-    .first-section-content {
+    */ .first-section-content {
         display: block;
         width: 100%;
-    }
-
-    .first-button {
-        width: 100px;
-        height: 35px;
-    }
-
-    .first-button h5 {
-        font-size: 10px;
-        font-weight: 500;
-    }
-
-    .second-button {
-        width: 100px;
-        height: 35px;
-        border-width: 1px;
     }
 
     .button {

@@ -52,7 +52,7 @@
         height: 450px;
     }
 
-    @keyframes mymove {
+    @-webkit-keyframes mymove {
         0% {
             margin-top: 0;
             margin-left: 0

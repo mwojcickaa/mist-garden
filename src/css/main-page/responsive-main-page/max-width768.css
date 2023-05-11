@@ -2,16 +2,16 @@
 
     /* first section */
 
-    .menu {
-        display: none;
-    }
-
     .name-logo {
         width: 95%;
     }
 
     .menu-icon {
-        width: 5%
+        width: 5%;
+    }
+
+    .menu a {
+        font-size: 13px;
     }
 
     .page-title h1 {
@@ -40,27 +40,6 @@
 
     .img-in-border {
         width: 340px;
-    }
-
-    .sticky-menu-icon input {
-        right: 21px;
-    }
-
-    .btn-menu {
-        width: 159px;
-        height: 54px;
-    }
-
-    .btn-menu h4 {
-        font-size: 11px;
-    }
-
-    .btn-menu span {
-        font-size: 14px;
-    }
-
-    .menu a {
-        font-size: 13px;
     }
 
     /* second section */

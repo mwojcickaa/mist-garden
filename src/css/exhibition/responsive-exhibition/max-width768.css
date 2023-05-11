@@ -1,17 +1,16 @@
 @media only screen and (max-width: 768px) {
     /* header */
 
+    .name-logo {
+        width: 95%;
+    }
+
+    .menu-icon {
+        width: 5%;
+    }
+
     .menu a {
         font-size: 13px;
-    }
-
-    .btn {
-        width: 150px;
-        height: 49px;
-    }
-
-    .btn-menu h4 {
-        font-size: 11px;
     }
 
     /* content */
@@ -44,7 +43,7 @@
         width: 69%;
     }
 
-    @keyframes mymove {
+    @-webkit-keyframes mymove {
         0% {
             top: 0px;
             right: 0px;
