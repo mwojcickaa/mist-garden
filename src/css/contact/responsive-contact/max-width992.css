@@ -1,10 +1,25 @@
 @media only screen and (max-width: 992px) {
 
     /* header */
-
     header {
         width: 95%;
         justify-content: space-between;
+    }
+
+    .name-logo {
+        width: 96.5%;
+    }
+
+    .logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    .logo img {
+        width: 80px;
+        height: 86px;
+        margin-left: -44px;
+        margin-top: 0px;
     }
 
     .name {
@@ -58,15 +73,6 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-    }
-
-    .sticky-menu-icon {
-        animation-name: slide-in;
-        display: block;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
     }
 
     .menu-icon input {
@@ -178,25 +184,6 @@
         justify-content: space-between;
     }
 
-    .line {
-        display: block;
-        height: 3px;
-        width: 100%;
-        border-radius: 10px;
-        background: #0e2431;
-    }
-
-    .navbar-container input[type="checkbox"] {
-        position: absolute;
-        display: block;
-        height: 32px;
-        width: 30px;
-        top: 20px;
-        left: 20px;
-        z-index: 5;
-        opacity: 0;
-    }
-
     .menu-icon .hamburger-lines .line {
         transform-origin: 0% 0%;
         transition: transform 0.4s ease-in-out;
@@ -230,6 +217,65 @@
         justify-content: center;
     }
 
+    .line {
+        display: block;
+        height: 3px;
+        width: 100%;
+        border-radius: 10px;
+        background: #0e2431;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #hamburger-menu {
+        display: block;
+        float: none;
+        margin-top: 60px;
+    }
+
+    nav {
+        display: block;
+    }
+
+    #hamburger-menu ul {
+        display: block;
+    }
+
+    .menu-open li {
+        list-style: none;
+    }
+
+    .menu li {
+        margin-right: 0;
+    }
+
+    .menu-open {
+        display: block;
+        text-align: center;
+        animation-name: slide-out;
+    }
+
+    .menu {
+        position: fixed;
+        width: 45%;
+        height: 100vh;
+        background-color: rgb(250, 250, 250);
+        opacity: 0.95;
+        right: 0;
+        margin: 0;
+        display: block;
+        line-height: 80px;
+        display: none;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        transform: translateX(0%);
+        transition: transform .3s;
+        will-change: transform;
+        contain: paint;
+        animation-duration: .7s;
+    }
+
     .menu a {
         font-size: 14px;
         background-image: linear-gradient(to right,
@@ -246,7 +292,23 @@
         letter-spacing: 2px;
         margin: 0;
         cursor: pointer;
-        display: inline;
+    }
+
+    .btn-menu {
+        display: none;
+    }
+
+    .menu-open {
+        text-align: center;
+    }
+
+    .menu-open ul a:hover {
+        color: #475F45;
+        transition: color 0.3s ease-in-out;
+    }
+
+    .menu a:hover {
+        background-position: 0;
     }
 
     a.contact-link {
@@ -265,89 +327,44 @@
         transition: all 0.3s ease-in-out;
     }
 
-    .menu a:hover {
-        background-position: 0;
-    }
-
     .menu a:hover::before {
         width: 100%;
     }
 
+    @keyframes slide-out {
+        0% {
+            transform: translate(100%);
+        }
 
-    .button-header h5 {
-        background-image: linear-gradient(to right,
-                #475F45,
-                #475F45 50%,
-                #000 50%);
-        background-size: 200% 100%;
-        background-position: -100%;
-        display: inline;
-        padding: 5px 0;
-        position: relative;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        transition: all 0.3s ease-in-out;
+        100% {
+            transform: translate(0%);
+        }
     }
 
-    .button-header h5:before {
-        content: '';
-        background: #475F45;
+    .menu-close {
+        animation-name: slide-in;
         display: block;
-        position: absolute;
-        bottom: -3px;
-        left: 0;
-        width: 0;
-        height: 3px;
-        transition: all 0.3s ease-in-out;
-    }
-
-    .button-header h5:hover {
-        background-position: 0;
-    }
-
-    .button-header:hover {
-        box-shadow: none;
-    }
-
-    .button-header h5:hover::before {
-        width: 100%;
-    }
-
-    .menu-button {
+        text-align: center;
         display: flex;
         justify-content: center;
+        flex-direction: column;
     }
 
-    .button-header h5 {
-        margin: auto;
-        font-size: 16px;
+    @keyframes slide-in {
+        0% {
+            transform: translateX(0%)
+        }
+
+        100% {
+            transform: translateX(100%)
+        }
     }
 
-    .menu-icon img {
-        width: 24px;
-    }
-
-    .name-logo {
-        width: 96.5%;
-    }
-
-    .logo {
-        width: 40px;
-        height: 40px;
-    }
-
-    .logo img {
-        width: 80px;
-        height: 86px;
-        margin-left: -44px;
-        margin-top: 0px;
+    .menu-close li {
+        list-style: none;
     }
 
     /* content */
-
-    .contact-content {
-        width: 95%;
-    }
 
     .contact-content h1 {
         font-size: 35px;
@@ -396,7 +413,7 @@
     }
 
     form {
-        width: 65%;
+        width: 70%;
     }
 
     /* footer */

@@ -125,7 +125,7 @@
         animation-name: slide-out;
     }
 
-    @keyframes slide-out {
+    @-webkit-keyframes slide-out {
         0% {
             transform: translate(100%);
         }
@@ -144,7 +144,7 @@
         flex-direction: column;
     }
 
-    @keyframes slide-in {
+    @-webkit-keyframes slide-in {
         0% {
             transform: translateX(0%)
         }
@@ -376,7 +376,7 @@
         font-size: 11px;
     }
 
-    @keyframes mymove {
+    @-webkit-keyframes mymove {
         0% {
             margin-top: 0;
             margin-left: 0;
