@@ -1,3 +1,5 @@
+![Logo](https://scontent-waw1-1.xx.fbcdn.net/v/t1.15752-9/340488979_6297572766930420_7158631696126590731_n.png?_nc_cat=107&ccb=1-7&_nc_sid=ae9488&_nc_ohc=lQt3NpOQW74AX9FyrWJ&_nc_ht=scontent-waw1-1.xx&oh=03_AdSE2SPjpBJxdUrXFG0Z7328-yUuikFUK0-ZE4V93eE6Uw&oe=646DBA86)
+
 # Mist Garden
 
 The site is dedicated to the botanical garden and museum. The website consists of a main page and five subpages.
@@ -5,7 +7,7 @@ The site is dedicated to the botanical garden and museum. The website consists o
 The home page is based on a template created by
 Carlos Rangel, and the rest of the pages designed by me.
 ### [Website link](https://mist-garden.netlify.app/ "Website link")
-![Logo](https://scontent-waw1-1.xx.fbcdn.net/v/t1.15752-9/340488979_6297572766930420_7158631696126590731_n.png?_nc_cat=107&ccb=1-7&_nc_sid=ae9488&_nc_ohc=lQt3NpOQW74AX9FyrWJ&_nc_ht=scontent-waw1-1.xx&oh=03_AdSE2SPjpBJxdUrXFG0Z7328-yUuikFUK0-ZE4V93eE6Uw&oe=646DBA86)
+
 ## Tech Stack
 
 * CSS
@@ -13,7 +15,7 @@ Carlos Rangel, and the rest of the pages designed by me.
 * JavaScript
 ## Screenshots
 
-![App Screenshot](https://scontent-waw1-1.xx.fbcdn.net/v/t1.15752-9/340074230_1634234093758288_8347345391288869961_n.png?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_ohc=WbXpnsozmdgAX94IIq4&_nc_ht=scontent-waw1-1.xx&oh=03_AdTkhrmi3pS8cnVJfwEgt7WaAXJdHGv600gKzEjultt0vw&oe=646DD9FC)
+![App Screenshot](https://scontent-waw1-1.xx.fbcdn.net/v/t1.15752-9/343605376_2068452786693016_2969333962323846829_n.png?_nc_cat=107&ccb=1-7&_nc_sid=ae9488&_nc_ohc=zIEERigGU_IAX_wKvTk&_nc_ht=scontent-waw1-1.xx&oh=03_AdTVjwVqyMrCl3afELjoWAjFpPC1Wq_DNNN8OeJgbij88w&oe=6485CBCC)
 
 ![App Screenshot](https://scontent-waw1-1.xx.fbcdn.net/v/t1.15752-9/340037578_622535689351558_1232374436919803727_n.png?_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_ohc=mgcLtIeFVFcAX_978vj&_nc_ht=scontent-waw1-1.xx&oh=03_AdRiq7ft-Tge3zxVXmxThiDCGABgnYkpIcHq8Q94TQOxrQ&oe=646E114E)
 
