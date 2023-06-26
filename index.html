@@ -9,6 +9,7 @@
     odwiedzenia ogródu botanicznego Mist Garden! Połącz przyjemność z nauką i weź udział także w warsztatach.">
     <meta name="keywords" content="ogród, ogród botaniczny, natura, florystyka">
     <title>Mist Garden</title>
+    <link rel="preload" type="text/css" href="src/css/style.css"/>
     <link rel="stylesheet" type="text/css" href="src/css/main-page/first-section.css" />
     <link rel="stylesheet" type="text/css" href="src/css/main-page/second-section.css" />
     <link rel="stylesheet" type="text/css" href="src/css/main-page/third-section.css" />
@@ -39,10 +40,10 @@
     <div id="first-section">
         <header>
             <div class="name-logo">
-                <a href="index.html" class="logo">
+                <a href="index.html" aria-label="Kliknij w logo strony, aby zobaczyć stronę główną." class="logo">
                     <img alt="logo" src="../src/img/Group.webp">
                 </a>
-                <a href="index.html"class="name">
+                <a href="index.html" aria-label="Kliknij w nazwę strony, aby zobaczyć stronę główną." class="name">
                     <h1>MIST GARDEN</h1>
                     <p>Muzeum & Ogród Botaniczny</p>
                 </a>
@@ -60,21 +61,21 @@
                 <div id="hamburger-menu">
                     <nav>
                         <ul>
-                            <li><a class="menu-link home-link" href="index.html">STRONA GŁÓWNA</a></li>
-                            <li><a class="menu-link" href="pages/pricelist.html">CENNIK</a></li>
-                            <li><a class="menu-link" href="pages/exhibitions.html">WYSTAWY</a></li>
-                            <li class="programs-events"><a class="menu-link" href="pages/events.html">WYDARZENIA</a>
+                            <li><a class="menu-link home-link" accesskey="M" "Kliknij aby przejść do strony głównej." href="index.html">STRONA GŁÓWNA</a></li>
+                            <li><a class="menu-link" accesskey="P" aria-label="Kliknij aby przejść do podstrony cennik." href="pages/pricelist.html">CENNIK</a></li>
+                            <li><a class="menu-link" accesskey="E" aria-label="Kliknij aby przejść do podstrony wystawy." href="pages/exhibitions.html">WYSTAWY</a></li>
+                            <li class="programs-events"><a class="menu-link" accesskey="H" aria-label="Kliknij aby przejść do podstrony wydarzenia." href="pages/events.html">WYDARZENIA</a>
                             </li>
-                            <li><a class="menu-link" href="pages/shop.html">SKLEP</a></li>
+                            <li><a class="menu-link" accesskey="S" aria-label="Kliknij aby przejść do podstrony sklep." href="pages/shop.html">SKLEP</a></li>
                         </ul>
-                        <a href="pages/contact.html" class="btn btn-menu">
+                        <a href="pages/contact.html" accesskey="C" aria-label="Kliknij aby przejść do podstrony jak dojechać." class="btn btn-menu">
                             <svg viewBox="0 0 180 60" class="border-button">
                                 <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
                                 <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
                             </svg>
                             <h4>jak dojechać</h4>
                         </a>
-                        <a class="menu-link btn-slide-menu" href="pages/contact.html">JAK DOJECHAĆ</a>
+                        <a class="menu-link btn-slide-menu" accesskey="" aria-label="Kliknij aby przejść do podstrony jak dojechać." href="pages/contact.html">JAK DOJECHAĆ</a>
                     </nav>
                 </div>
             </div>
@@ -152,7 +153,7 @@
                         </p>
                     </div>
                     <div class="third-button">
-                        <a href="pages/events.html" class="button-hover btn">
+                        <a href="pages/events.html" accesskey="H" aria-label="Kliknij aby sprawdzić szczegóły." class="button-hover btn">
                             <svg viewBox="0 0 180 60" class="border-button">
                                 <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
                                 <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
@@ -189,7 +190,7 @@
                         </p>
                     </div>
                     <div class="third-button">
-                        <a href="pages/events.html" class="button-hover btn">
+                        <a href="pages/events.html" accesskey="H" aria-label="Kliknij aby sprawdzić szczegóły." class="button-hover btn">
                             <svg viewBox="0 0 180 60" class="border-button">
                                 <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
                                 <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
@@ -225,7 +226,7 @@
                         </p>
                     </div>
                     <div class="third-button">
-                        <a href="pages/events.html" class="button-hover btn">
+                        <a href="pages/events.html" accesskey="H" aria-label="Kliknij aby sprawdzić szczegóły." class="button-hover btn">
                             <svg viewBox="0 0 180 60" class="border-button">
                                 <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
                                 <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
@@ -261,8 +262,8 @@
                 </div>
                 <div class="third-section-subtitle">
                     <img alt="line" class="line" src="src/img/long-gray-line.png">
-                    <button class="view-posts" href="pages/events.html">
-                        <a href="pages/events.html">ZOBACZ WSZYSTKIE POSTY</a>
+                    <button class="view-posts" accesskey="H" aria-label="Kliknij aby przejść do podstrony wydarzenia." href="pages/events.html">
+                        <a href="pages/events.html" accesskey="H" aria-label="Kliknij aby przejść do podstrony wydarzenia.">ZOBACZ WSZYSTKIE POSTY</a>
                         <img alt="arrow" class="arrow" src="src/img/arrow-right.webp">
                     </button>
                 </div>
@@ -363,22 +364,22 @@
                     </div>
                     <div class="container-text-link">
                         <div class="text-link">
-                            <a href="index.html">Strona główna</a>
+                            <a href="index.html" accesskey="M" aria-label="Kliknij aby przejść do srony głównej.">Strona główna</a>
                         </div>
                         <div class="text-link">
-                            <a href="pages/pricelist.html">Cennik</a>
+                            <a href="pages/pricelist.html" accesskey="P" aria-label="Kliknij aby przejść do podstrony cennik.">Cennik</a>
                         </div>
                         <div class="text-link">
-                            <a href="pages/exhibitions.html">Wystawy</a>
+                            <a href="pages/exhibitions.html" accesskey="E" aria-label="Kliknij aby przejść do podstrony wystawy.">Wystawy</a>
                         </div>
                         <div class="text-link">
-                            <a href="pages/events.html">Wydarzenia</a>
+                            <a href="pages/events.html" accesskey="H" aria-label="Kliknij aby przejść do podstrony wydarzenia.">Wydarzenia</a>
                         </div>
                         <div class="text-link">
-                            <a href="pages/shop.html">Sklep</a>
+                            <a href="pages/shop.html" accesskey="S" aria-label="Kliknij aby przejść do podstrony sklep.">Sklep</a>
                         </div>
                         <div class="text-link">
-                            <a href="pages/contact.html">Jak dojechać</a>
+                            <a href="pages/contact.html" accesskey="C" aria-label="Kliknij aby przejść do podstrony jak dojechać.">Jak dojechać</a>
                         </div>
                     </div>
                 </div>
@@ -390,16 +391,16 @@
                     </div>
                     <div class="icons">
                         <div class="social-media">
-                            <a href="https://twitter.com/" target="_blank"><img alt="twitter icon" src="src/img/twitter.webp"></a>
+                            <a href="https://twitter.com/" accesskey="T" aria-label="Kliknij aby przejść do profilu na platformie twitter." target="_blank"><img alt="twitter icon" src="src/img/twitter.webp"></a>
                         </div>
                         <div class="social-media">
-                            <a href="https://www.facebook.com/" target="_blank"><img alt="facebook icon" src="src/img/facebook.webp"></a>
+                            <a href="https://www.facebook.com/" accesskey="F" aria-label="Kliknij aby przejść do profilu na platformie facebook." target="_blank"><img alt="facebook icon" src="src/img/facebook.webp"></a>
                         </div>
                         <div class="social-media">
-                            <a href="https://www.linkedin.com/" target="_blank"><img alt="linkedin icon" src="src/img/linkedin.webp"></a>
+                            <a href="https://www.linkedin.com/" accesskey="L" aria-label="Kliknij aby przejść do profilu na platformie linkedin." target="_blank"><img alt="linkedin icon" src="src/img/linkedin.webp"></a>
                         </div>
                         <div class="social-media">
-                            <a href="https://mail.google.com/" target="_blank"><img alt="mail icon" src="src/img/mail.webp"></a>
+                            <a href="https://mail.google.com/" accesskey="G" aria-label="Kliknij aby przejść do profilu na platformie gmail." target="_blank"><img alt="mail icon" src="src/img/mail.webp"></a>
                         </div>
                     </div>
                 </div>
