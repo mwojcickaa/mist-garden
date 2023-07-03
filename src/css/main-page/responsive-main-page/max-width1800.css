@@ -1,17 +1,4 @@
 @media only screen and (max-width: 1800px) {
-
-    header {
-        width: 85%;
-    }
-
-    .name-logo {
-        width: 24%;
-    }
-
-    .menu {
-        width: 76%;
-    }
-
     .first-section-content {
         width: 80%;
     }
@@ -75,12 +62,5 @@
     .row-text p {
         font-size: 18px;
         width: 100%;
-    }
-
-    /* footer */
-
-    .top-content-footer {
-        width: 80%;
-        padding-top: 40px;
     }
 }

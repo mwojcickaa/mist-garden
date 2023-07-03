@@ -6,54 +6,6 @@
         height: initial;
     }
 
-    header {
-        width: 97%;
-    }
-
-    .name-logo {
-        width: 27%;
-    }
-
-    .logo {
-        width: 50px;
-        height: 50px;
-    }
-
-    .logo img {
-        width: 105px;
-        height: 86px;
-        margin-left: -57px;
-        margin-top: 10px;
-    }
-
-    .name h1 {
-        font-size: 20px;
-        letter-spacing: 1.5px;
-    }
-
-    .name p {
-        font-size: 11px;
-    }
-
-    .menu {
-        width: 80%;
-    }
-
-    .menu a {
-        letter-spacing: 1.5px;
-        font-size: 11px;
-    }
-
-    .btn {
-        width: 141px;
-        height: 47px;
-        border: 1px solid #475F45;
-    }
-
-    .btn h4 {
-        font-size: 10.5px;
-    }
-
     .first-section-content {
         width: 85%;
         margin: 60px;
