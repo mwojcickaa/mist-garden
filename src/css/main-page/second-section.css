@@ -143,16 +143,15 @@
     transition: 1s ease-in-out;
 }
 
-.button-hover h4 {
+.button-hover span {
     font-family: roboto;
     color: white;
-    top: 0;
-    left: 0;
     text-align: center;
-    font-size: 16px;
-    text-decoration: none;
-    position: relative;
     letter-spacing: 2.5px;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 20px;
+    font-weight: 600;
 }
 
 .button-hover:hover {

@@ -28,7 +28,7 @@
         width: 72%;
     }
 
-    .btn h4 {
+    .btn span {
         font-size: 11px;
         margin-top: 18px;
     }
@@ -47,7 +47,7 @@
 
     .btn {
         width: 142px;
-        height: 49px;
+        height: 47px;
     }
 
     .btn h4 {

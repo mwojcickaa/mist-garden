@@ -35,7 +35,7 @@ footer {
     margin: 0;
 }
 
-.footer-name h5 {
+.footer-name p {
     font-family: Roboto;
     font-style: italic;
     font-weight: 400;
@@ -43,6 +43,8 @@ footer {
     letter-spacing: 0.1px;
     color: #FFFFFF;
     margin: 0;
+    margin-top: 5px;
+    text-align: start;
 }
 
 .footer-text {

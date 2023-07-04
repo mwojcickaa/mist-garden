@@ -143,17 +143,18 @@
         height: 27px;
     }
 
-    .btn.btn-menu h4 {
+    .btn.btn-menu span {
         font-size: 9px;
         margin-top: -14px;
     }
 
-    .btn h4 {
-        font-size: 8px;
+    .btn span {
+        font-size: 8px !important;
         letter-spacing: 0.5px;
+        margin-top: 12px !important;
     }
 
-    */ .first-section-content {
+    .first-section-content {
         display: block;
         width: 100%;
     }
@@ -317,7 +318,7 @@
         line-height: 22px;
     }
 
-    .third-section-left-bottom-content h5 {
+    .third-section-left-bottom-content span {
         font-size: 10px;
         margin-top: 10px;
     }
@@ -334,7 +335,7 @@
         font-size: 12px;
     }
 
-    .row-text h5 {
+    .row-text span {
         font-size: 10px;
         margin-top: 5px;
     }
@@ -345,7 +346,7 @@
         font-size: 16px;
     }
 
-    .footer-name h5 {
+    .footer-name p {
         font-size: 9px;
     }
 

@@ -21,7 +21,7 @@ nav {
 
 /* header */
 
-.btn-menu h4 {
+.btn-menu span {
     text-transform: uppercase;
 }
 
@@ -184,10 +184,11 @@ svg {
     transition: 1s ease-in-out;
 }
 
-.btn-menu h4 {
-    margin: 0;
+.btn-menu span {
     margin-top: 19px;
-    -webkit-text-fill-color: unset;
+    display: block;
+    font-size: 13px;
+    text-align: center;
 }
 
 .menu-slide-a {
@@ -224,7 +225,7 @@ svg {
     text-decoration: none;
 }
 
-.btn-first-section h4 {
+.btn-first-section span {
     position: unset;
     color: white;
     font-family: roboto;
@@ -279,17 +280,17 @@ svg {
     margin-top: 15px;
 }
 
-.btn-text h4 {
+.btn-text span {
     text-transform: uppercase;
     text-decoration: none;
     font-family: roboto;
     margin: 0;
     font-size: 17px;
     color: #414840;
-    ;
+    font-weight: 600;
 }
 
-.btn-menu h4 {
+.btn-menu span {
     margin: 0;
     -webkit-text-fill-color: unset;
     text-align: center;
@@ -311,7 +312,7 @@ svg {
     height: 56px;
 }
 
-.btn-first-section h4 {
+.btn-first-section span {
     color: white;
 }
 

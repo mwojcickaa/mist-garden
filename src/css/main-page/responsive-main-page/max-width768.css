@@ -161,9 +161,10 @@
         margin: auto;
     }
 
-    .third-section-left-bottom-content h5 {
-        font-size: 10px;
-        text-align: center;
+    .third-section-left-bottom-content span {
+        font-size: 12px;
+        display:flex;
+        justify-content: center;
     }
 
     .third-section-left-bottom-content p {
@@ -171,6 +172,7 @@
         text-align: center;
         margin: auto;
         margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     .photo-garden {
@@ -229,6 +231,10 @@
 
     .footer-name-logo {
         justify-content: center;
+    }
+
+    .footer-name p {
+        font-size: 9px;
     }
 
     .footer-text p {

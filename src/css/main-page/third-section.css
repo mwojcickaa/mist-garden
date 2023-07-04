@@ -87,16 +87,15 @@ button.view-posts {
     margin: 0;
     margin-top: 15px;
     line-height: 24px;
+    margin-bottom: 10px;
 }
 
-.third-section-left-bottom-content h5 {
+.third-section-left-bottom-content span {
     font-family: Roboto;
     font-style: italic;
     font-size: 16px;
     font-weight: 400;
     color: #343D33;
-    margin: 0;
-    margin-top: 15px;
 }
 
 .row {
@@ -124,9 +123,10 @@ button.view-posts {
     width: 354px;
     margin: 0;
     margin-top: 12px;
+    margin-bottom: 10px;
 }
 
-.row-text h5 {
+.row-text span {
     font-family: Roboto;
     font-weight: 400;
     font-style: italic;
