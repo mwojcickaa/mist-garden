@@ -1,4 +1,6 @@
 @media only screen and (max-width:1200px) {
+
+    /* header */
     header {
         width: 97%;
     }
@@ -37,19 +39,56 @@
         font-size: 11px;
     }
 
-    .btn-menu h4 {
-        margin-top: 17px;
-    }
-
     .btn {
         width: 141px;
         height: 47px;
     }
 
-    .btn span {
-        font-size: 10px;
-        margin-top: 18px;
+    .btn h4 {
+        font-size: 10.5px;
     }
+
+    /* content */
+
+    .contact-conent {
+        width: 85%;
+    }
+
+    .contact-content h1 {
+        font-size: 32px;
+        width: 260px;
+    }
+
+    iframe {
+        height: 400px;
+    }
+
+    .get-in-touch {
+        margin-top: 500px;
+    }
+
+    .in-touch-title h2 {
+        font-size: 32px;
+    }
+
+    .in-touch-title p {
+        font-size: 12px;
+    }
+
+    .button-send {
+        width: 130px;
+        height: 45px;
+        left: 66%;
+    }
+
+    .button-send a {
+        font-size: 14px;
+        top: 14px;
+        left: 37px;
+    }
+
+    /* footer */
+
     .top-content-footer {
         width: 85%;
     }

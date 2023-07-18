@@ -23,6 +23,10 @@
         font-size: 13px;
     }
 
+    .btn span {
+        margin-top: 18px;
+    }
+
     /* second section */
 
     .second-section-title h3 {

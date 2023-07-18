@@ -361,43 +361,4 @@
     .menu-close li {
         list-style: none;
     }
-
-
-
-    .footer-name h4 {
-        font-size: 14px;
-    }
-
-    .footer-name p {
-        font-size: 10px;
-    }
-
-    .circle-logo img {
-        width: 33px;
-    }
-
-    .footer-text p {
-        font-size: 11px;
-    }
-
-    .footer-title h4 {
-        font-size: 13px;
-    }
-
-    .text-link a {
-        font-size: 10px;
-    }
-
-    .social-media img {
-        width: 14px;
-    }
-
-    .top-content-footer {
-        width: 95%;
-    }
-
-    .end-text-footer h5 {
-        font-size: 11px;
-        padding-top: 17px;
-    }
 }
