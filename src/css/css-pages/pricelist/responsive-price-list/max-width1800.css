@@ -1,29 +1,7 @@
 @media only screen and (max-width: 1800px) {
-
-    /* header */
-
-    header {
-        width: 85%;
-    }
-
-    .name-logo {
-        width: 24%;
-    }
-
-    .menu {
-        width: 76%;
-    }
-
     /* content */
 
     .price-list-content {
         width: 80%;
-    }
-
-    /* footer */
-
-    .top-content-footer {
-        width: 80%;
-        padding-top: 40px;
     }
 }

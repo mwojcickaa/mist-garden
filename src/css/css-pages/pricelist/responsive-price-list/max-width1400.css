@@ -1,59 +1,4 @@
 @media only screen and (max-width: 1400px) {
-    /* header */
-
-    header {
-        width: 84%;
-    }
-
-    .name-logo {
-        width: 28%;
-    }
-
-    .logo {
-        width: 55px;
-        height: 55px;
-    }
-
-    .logo img {
-        width: 123px;
-        height: 91px;
-        margin-left: -66px;
-    }
-
-    .name h1 {
-        font-size: 21px;
-    }
-
-    .menu {
-        width: 72%;
-    }
-
-    .btn span {
-        font-size: 11px;
-        margin-top: 18px;
-    }
-
-    #hamburger-menu ul {
-        margin: 0;
-    }
-
-    .menu li {
-        margin-right: 25px;
-    }
-
-    .menu a {
-        font-size: 12px;
-    }
-
-    .btn {
-        width: 142px;
-        height: 47px;
-    }
-
-    .btn h4 {
-        font-size: 11px;
-    }
-
     /* content */
 
     .price-list-content {
@@ -94,11 +39,5 @@
 
     .price-list-branch img {
         width: 40%;
-    }
-
-    /* footer */
-
-    .top-content-footer {
-        width: 80%;
     }
 }

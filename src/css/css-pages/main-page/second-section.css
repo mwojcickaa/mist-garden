@@ -55,13 +55,11 @@
 
 .bottom-content {
     width: 100%;
-    justify-content: center;
     z-index: 1;
     position: relative;
     grid-row-start: 2;
     grid-row-end: 3;
     grid-column-start: 1;
-    grid-column-end: 3;
     justify-self: center;
     align-self: start;
     height: 100%;
@@ -70,14 +68,10 @@
 
 .top-left-content {
     grid-column-start: 1;
-    grid-column-end: 2;
-    justify-self: end;
     grid-row-start: 1;
     grid-row-end: 2;
-    justify-content: flex-start;
     align-self: start;
     justify-self: center;
-    display: inherit;
     height: 100%;
     width: 100%;
 }
@@ -321,12 +315,10 @@
 }
 
 .bottom-content img {
-    height: 100%;
     object-fit: cover;
     max-height: 100%;
     min-height: 100%;
     min-width: 100%;
     object-position: bottom;
     max-width: 100%;
-    width: 100vw;
 }

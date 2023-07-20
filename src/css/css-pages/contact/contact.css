@@ -622,10 +622,6 @@ input[type=text] {
     color: #343D33;
 }
 
-.map iframe {
-    position: abosolute;
-}
-
 .h-captcha iframe {
     position: relative;
 }

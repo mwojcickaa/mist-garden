@@ -204,36 +204,4 @@
     .top-content-footer {
         width: 85%;
     }
-
-    /* footer */
-
-    .footer-name h4 {
-        font-size: 18px;
-        letter-spacing: 2px;
-    }
-
-    .footer-name {
-        margin-left: 5px;
-    }
-
-    .circle-logo img {
-        width: 40px;
-    }
-
-    .footer-text p {
-        font-size: 12px;
-        width: 80%;
-    }
-
-    .footer-title h4 {
-        font-size: 18px;
-    }
-
-    .text-link a {
-        font-size: 12px;
-    }
-
-    .social-media img {
-        width: 17px;
-    }
 }

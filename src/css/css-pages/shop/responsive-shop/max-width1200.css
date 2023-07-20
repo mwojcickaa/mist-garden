@@ -1,53 +1,4 @@
 @media only screen and (max-width:1200px) {
-
-    /* header */
-    header {
-        width: 97%;
-    }
-
-    .name-logo {
-        width: 27%;
-    }
-
-    .logo {
-        width: 50px;
-        height: 50px;
-    }
-
-    .logo img {
-        width: 105px;
-        height: 86px;
-        margin-left: -57px;
-        margin-top: 10px;
-    }
-
-    .name h1 {
-        font-size: 20px;
-        letter-spacing: 1.5px;
-    }
-
-    .name p {
-        font-size: 11px;
-    }
-
-    .menu {
-        width: 80%;
-    }
-
-    .menu a {
-        letter-spacing: 1.5px;
-        font-size: 11px;
-    }
-
-    .btn {
-        width: 141px;
-        height: 47px;
-    }
-
-    .btn h4 {
-        font-size: 10.5px;
-    }
-
     /* content */
 
     .shop-content {
@@ -170,45 +121,5 @@
             top: 25px;
             right: 25px;
         }
-    }
-
-    /* footer */
-
-    .top-content-footer {
-        width: 85%;
-    }
-
-    .footer-name h4 {
-        font-size: 18px;
-        letter-spacing: 2px;
-    }
-
-    .footer-name h5 {
-        font-size: 12px;
-    }
-
-    .footer-name {
-        margin-left: 5px;
-    }
-
-    .circle-logo img {
-        width: 40px;
-    }
-
-    .footer-text p {
-        font-size: 12px;
-        width: 80%;
-    }
-
-    .footer-title h4 {
-        font-size: 18px;
-    }
-
-    .text-link a {
-        font-size: 12px;
-    }
-
-    .social-media img {
-        width: 17px;
     }
 }

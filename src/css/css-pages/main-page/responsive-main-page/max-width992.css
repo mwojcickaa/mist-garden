@@ -1,7 +1,6 @@
 @media only screen and (max-width: 992px) {
     #first-section {
         position: relative;
-        height: initial;
     }
 
     .page-title h1 {
@@ -20,11 +19,6 @@
         width: 375px;
     }
 
-    .left-content {
-        width: 80%;
-        margin: auto;
-    }
-
     .page-title h2 {
         width: 40%;
     }
@@ -35,10 +29,6 @@
         display: grid;
         width: 95%;
         margin: auto;
-    }
-
-    .left-content {
-        width: 100%;
     }
 
     .title-first-section {
@@ -91,7 +81,6 @@
     .page-title h2 {
         width: 40%;
     }
-
 
     /* second section */
 
@@ -220,7 +209,6 @@
     }
 
     .row {
-        display: flex;
         justify-content: space-between;
     }
 
@@ -242,45 +230,5 @@
     .row-text h5 {
         font-size: 11px;
         margin-top: 10px;
-    }
-
-    /* footer  */
-
-    footer {
-        height: initial;
-    }
-
-    .footer-name h4 {
-        font-size: 14px;
-    }
-
-    .circle-logo img {
-        width: 33px;
-    }
-
-    .footer-text p {
-        font-size: 11px;
-    }
-
-    .footer-title h4 {
-        font-size: 13px;
-    }
-
-    .text-link a {
-        font-size: 10px;
-        padding: 20px;
-    }
-
-    .social-media img {
-        width: 14px;
-    }
-
-    .top-content-footer {
-        width: 95%;
-    }
-
-    .end-text-footer h5 {
-        font-size: 11px;
-        padding-top: 17px;
     }
 }

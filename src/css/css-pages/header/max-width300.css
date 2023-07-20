@@ -35,6 +35,16 @@
         margin-top: 40px;
     }
 
+    .sticky-menu-icon input[type="checkbox"]:checked~.hamburger-lines .line1 {
+        transform: rotate(45deg);
+        width: 16px;
+    }
+
+    .sticky-menu-icon input[type="checkbox"]:checked~.hamburger-lines .line3 {
+        transform: rotate(-45deg);
+        width: 16px;
+    }
+    
     .menu {
         width: 60%;
         line-height: 40px;

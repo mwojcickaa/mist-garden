@@ -50,7 +50,6 @@ button.view-posts {
     cursor: pointer;
     height: 16px;
     position: relative;
-    top: 20px;
 }
 
 .view-posts a {

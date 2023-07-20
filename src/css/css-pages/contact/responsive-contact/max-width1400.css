@@ -1,60 +1,5 @@
 @media only screen and (max-width: 1400px) {
-    /* header */
-
-    header {
-        width: 84%;
-    }
-
-    .name-logo {
-        width: 28%;
-    }
-
-    .logo {
-        width: 55px;
-        height: 55px;
-    }
-
-    .logo img {
-        width: 123px;
-        height: 91px;
-        margin-left: -66px;
-    }
-
-    .btn h4 {
-        font-size: 11px;
-        margin-top: 17px;
-    }
-
-    .menu {
-        width: 72%;
-    }
-
-    #hamburger-menu ul {
-        margin: 0;
-    }
-
-    .menu li {
-        margin-right: 25px;
-    }
-
-    .menu a {
-        font-size: 12px;
-    }
-
-    .btn {
-        width: 142px;
-        height: 49px;
-    }
-
-    .btn h4 {
-        font-size: 11px;
-    }
-
     /* content */
-
-    .contact-content {
-        width: 85%;
-    }
 
     .contact-content h1 {
         font-size: 43px;
@@ -105,11 +50,5 @@
         font-size: 15px;
         top: 17px;
         left: 41px;
-    }
-
-    /* footer */
-
-    .top-content-footer {
-        width: 80%;
     }
 }

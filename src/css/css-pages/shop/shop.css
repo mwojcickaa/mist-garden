@@ -543,9 +543,6 @@ svg {
 
 .green-rectangle.second {
     grid-column-start: 6;
-    grid-column-end: 12;
-    grid-row-start: 6;
-    grid-row-end: 8;
 }
 
 .second-image-and-rectangle {

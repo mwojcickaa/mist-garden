@@ -11,10 +11,6 @@ header {
     margin: auto;
 }
 
-.name-logo a {
-    text-decoration: none;
-}
-
 nav {
     display: flex;
 }
@@ -34,10 +30,6 @@ header {
     max-width: 1220px;
     margin: auto;
     justify-content: space-between;
-}
-
-.name-logo a {
-    text-decoration: none;
 }
 
 header {
