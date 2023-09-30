@@ -4,10 +4,14 @@
     }
 
     .second-section-text p {
-        height: 125px;
+        height: 105px;
     }
 
     .second-container {
         margin-bottom: 25px;
+    }
+
+    .top-right-content {
+        margin-bottom: 65px;
     }
 }
