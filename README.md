@@ -1,4 +1,4 @@
-![Logo](https://scontent-waw1-1.xx.fbcdn.net/v/t1.15752-9/340488979_6297572766930420_7158631696126590731_n.png?_nc_cat=107&ccb=1-7&_nc_sid=ae9488&_nc_ohc=lQt3NpOQW74AX9FyrWJ&_nc_ht=scontent-waw1-1.xx&oh=03_AdSE2SPjpBJxdUrXFG0Z7328-yUuikFUK0-ZE4V93eE6Uw&oe=646DBA86)
+![Logo](https://scontent-waw1-1.xx.fbcdn.net/v/t1.15752-9/363495605_185781284496227_6907791768945726318_n.png?_nc_cat=107&ccb=1-7&_nc_sid=ae9488&_nc_ohc=Dv0jCBBam6oAX-x-nNd&_nc_ht=scontent-waw1-1.xx&oh=03_AdTWWUkcRSIwY65j0NieNQQoIQnlhRhT2u7zacqNj214wQ&oe=64EB4460)
 
 # Mist Garden
 
@@ -6,7 +6,7 @@ The site is dedicated to the botanical garden and museum. The website consists o
 
 The home page is based on a template created by
 Carlos Rangel, and the rest of the pages designed by me.
-### [Website link](https://mist-garden.netlify.app/ "Website link")
+### [Website link](https://mist-garden-mwojcickaa.netlify.app "Website link")
 
 ## Tech Stack
 
@@ -15,25 +15,24 @@ Carlos Rangel, and the rest of the pages designed by me.
 * JavaScript
 ## Screenshots
 
-![App Screenshot](https://scontent-waw1-1.xx.fbcdn.net/v/t1.15752-9/343605376_2068452786693016_2969333962323846829_n.png?_nc_cat=107&ccb=1-7&_nc_sid=ae9488&_nc_ohc=zIEERigGU_IAX_wKvTk&_nc_ht=scontent-waw1-1.xx&oh=03_AdTVjwVqyMrCl3afELjoWAjFpPC1Wq_DNNN8OeJgbij88w&oe=6485CBCC)
+![App Screenshot](https://scontent-waw1-1.xx.fbcdn.net/v/t1.15752-9/363647931_1268665033833846_5243748431361974054_n.png?_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_ohc=J3SM2Uc47ygAX9s1frW&_nc_ht=scontent-waw1-1.xx&oh=03_AdR7fPS0jIto17UqwBrTB0wYkCgUl2AQy-v5vYyQ9PA2Hw&oe=64EB56EB)
 
-![App Screenshot](https://scontent-waw1-1.xx.fbcdn.net/v/t1.15752-9/340037578_622535689351558_1232374436919803727_n.png?_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_ohc=mgcLtIeFVFcAX_978vj&_nc_ht=scontent-waw1-1.xx&oh=03_AdRiq7ft-Tge3zxVXmxThiDCGABgnYkpIcHq8Q94TQOxrQ&oe=646E114E)
 
-![App Screenshot](https://scontent-waw1-1.xx.fbcdn.net/v/t1.15752-9/340209553_754117083167988_2542449875504309629_n.png?_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_ohc=O5LvTRhVKlcAX89CB-B&_nc_ht=scontent-waw1-1.xx&oh=03_AdSuWLP-NIcIrKFNY6h0HO0SQ433IopdqwbVwsdBRGdYDg&oe=646DE52B)
+![App Screenshot](https://scontent-waw1-1.xx.fbcdn.net/v/t1.15752-9/363578100_754943026432323_3615062201967610681_n.png?_nc_cat=101&ccb=1-7&_nc_sid=ae9488&_nc_ohc=W-bOL8-ZtfQAX9SfMXM&_nc_ht=scontent-waw1-1.xx&oh=03_AdSVOa8_oUn5epCin9s8U8CMum7kxVhPsF2aZGvuuVb7cQ&oe=64EB50CC)
 
-![App Screenshot](https://scontent-waw1-1.xx.fbcdn.net/v/t1.15752-9/339809756_619457323048284_642895379837860529_n.png?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_ohc=CS7Phr2guPUAX8Fheg0&_nc_ht=scontent-waw1-1.xx&oh=03_AdTgdHSKGEi5Vrdj88xtE6b91KeZWopFK2wexBRArnHabg&oe=646DE564)
+![App Screenshot](https://scontent-waw1-1.xx.fbcdn.net/v/t1.15752-9/363571791_2330787380451814_3426706517773099445_n.png?_nc_cat=111&ccb=1-7&_nc_sid=ae9488&_nc_ohc=vpHOX4jBtrUAX-i5qlH&_nc_ht=scontent-waw1-1.xx&oh=03_AdSrZmJjB9fKC6f9ssBfD5FE3hhKSRuFvQQ7wTCdurRl7w&oe=64EB4607)
 
-![App Screenshot](https://scontent-waw1-1.xx.fbcdn.net/v/t1.15752-9/340346991_581038037140941_3386966414038193840_n.png?_nc_cat=108&ccb=1-7&_nc_sid=ae9488&_nc_ohc=lcOOr0MUagYAX9tA6tL&_nc_ht=scontent-waw1-1.xx&oh=03_AdQFaeVwV0I5wosneqFNgPHIDfc6_ocb38lzZruszoCLgw&oe=646DDD36)
+![App Screenshot](https://scontent-waw1-1.xx.fbcdn.net/v/t1.15752-9/363828929_1004716043901434_5171940349183882286_n.png?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_ohc=eoERYUQ4xUEAX-h6r56&_nc_ht=scontent-waw1-1.xx&oh=03_AdQvAIR_uhAW15tSIXlm2ZKLZi7CoTpi56CxsKNnMUXr2g&oe=64EB6A05)
 
-![App Screenshot](https://scontent-waw1-1.xx.fbcdn.net/v/t1.15752-9/340199460_3561220577432500_1612656343400369264_n.png?_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_ohc=ixPdU488DzEAX_20rBj&_nc_ht=scontent-waw1-1.xx&oh=03_AdSe_nZmFyJzUeTZYu5YHAjI548JQPK3jQ8eWtlkFKd0sA&oe=646E0E79)
+![App Screenshot](https://scontent-waw1-1.xx.fbcdn.net/v/t1.15752-9/363505921_6284192921678138_2355923177917310287_n.png?_nc_cat=110&ccb=1-7&_nc_sid=ae9488&_nc_ohc=s-rfJiXXuq4AX8pnSHC&_nc_ht=scontent-waw1-1.xx&oh=03_AdQgBaphtRakmNKL7XJcQ7lm2oQcCKdHsLst1K5glgzExQ&oe=64EB6272)
 
-![App Screenshot](https://scontent-waw1-1.xx.fbcdn.net/v/t1.15752-9/340740180_187919124080267_1886951655873387689_n.png?_nc_cat=110&ccb=1-7&_nc_sid=ae9488&_nc_ohc=NZOPzlTmZR0AX912H-y&_nc_ht=scontent-waw1-1.xx&oh=03_AdQi-CInTW5CDvpnoIGfc1wq1Dw26i6VMhCSPlYFyNMF2Q&oe=646E11C3)
+![App Screenshot](https://scontent-waw1-1.xx.fbcdn.net/v/t1.15752-9/363500977_306643781860887_6853078136326517440_n.png?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_ohc=zBB-r9x8brgAX-dlKvs&_nc_ht=scontent-waw1-1.xx&oh=03_AdQCSWdB3mRmGB7_sahazLluWv7nD175qcc0U75y2uuxpg&oe=64EB72FD)
 
-![App Screenshot](https://scontent-waw1-1.xx.fbcdn.net/v/t1.15752-9/340527836_130275050027774_8440888461090045023_n.png?_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_ohc=jL7neneWbWUAX9jshSn&_nc_ht=scontent-waw1-1.xx&oh=03_AdTpo-gou3p42xdrHZvpPodL897s2-gYCctGAFH-77M2dQ&oe=646DF009)
+![App Screenshot](https://scontent-waw1-1.xx.fbcdn.net/v/t1.15752-9/363683751_769252688291268_6241299698308627070_n.png?_nc_cat=108&ccb=1-7&_nc_sid=ae9488&_nc_ohc=qhNUG5eVL9IAX97BFPA&_nc_ht=scontent-waw1-1.xx&oh=03_AdTk3Jyjr8Vsb9Lkh9Ipfn82uVjQ8a8D6k1AdbnVqOK74A&oe=64EB6432)
 
-![App Screenshot](https://scontent-waw1-1.xx.fbcdn.net/v/t1.15752-9/340351371_257216833433294_6143948106734474402_n.png?_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_ohc=qUaNN20Ul3UAX-YHzFk&_nc_ht=scontent-waw1-1.xx&oh=03_AdSiKQ55aBQTVepyFYyTcRgbGkmX6v2l3PHrG1I1EDyvtA&oe=646DEFE2)
+![App Screenshot](https://scontent-waw1-1.xx.fbcdn.net/v/t1.15752-9/363500977_997533345032716_8053284389642317394_n.png?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_ohc=GFSNA_XNWEsAX8uDrVD&_nc_ht=scontent-waw1-1.xx&oh=03_AdTsOYJzuG3fEs2aS1VKNNLXxM83zZoTo76h-aX6KPjqqw&oe=64EB5B11)
 ## Template
 
-Template by Carlos Rangel.
+Template by Jenelle Miller.
 
 #### [Template link](https://www.figma.com/community/file/1055618288526017668/Botanical-Garden-(Community) "Website link")
